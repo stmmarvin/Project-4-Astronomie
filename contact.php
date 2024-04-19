@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
     <nav>
         <div id="navbar">
             <h1 id="banner_text">MBO Utrecht</h1>

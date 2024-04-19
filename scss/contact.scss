@@ -1,0 +1,98 @@
+body {
+    main {
+        #arrow_container {
+            .arrow {
+                position: absolute;
+                justify-content: center;
+                width: 50px;
+                height: 50px;
+                background-color: #000;
+            }
+            .arrow_img {
+                width: 100%;
+                height: auto;
+                &.hidden {
+                    display: none;
+                }
+            }
+            #arrow_left {
+                left: 0;
+            }
+            #arrow_right {
+                right: 0;
+            }
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #000;
+        }
+
+        .pricing_container {
+            .pricing_box {
+                h4 {
+                    font-size: 1.5em;
+                    money_box {
+                        h4 {
+                            font-size: 1em;
+                            color: #000;
+                        }
+                    }
+                    p {
+                        font-size: 1em;
+                        color: #000;
+                    }
+                    .inschrijven {
+                        padding: 10px 20px;
+                        background-color: #000;
+                        color: #fff;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .contacts_container {
+            .contact {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                .contact_info_box {
+                    p {
+                        font-size: 1em;
+                        color: #000;
+                    }
+                }
+                .contact_button {
+                    padding: 10px 20px;
+                    background-color: #000;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+
+        #contact_form {
+            input[type="email"] {
+                padding: 10px;
+                border: 1px solid #000;
+            }
+            textarea {
+                padding: 10px;
+                border: 1px solid #000;
+            }
+            input[type="button"] {
+                padding: 10px 20px;
+                background-color: #000;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+
+    footer {
+        height: 50px;
+        background-color: #000;
+    }
+}

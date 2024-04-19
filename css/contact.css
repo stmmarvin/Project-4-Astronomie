@@ -1,0 +1,75 @@
+body main #arrow_container .arrow {
+  position: absolute;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
+body main #arrow_container .arrow_img {
+  width: 100%;
+  height: auto;
+}
+body main #arrow_container .arrow_img.hidden {
+  display: none;
+}
+body main #arrow_container #arrow_left {
+  left: 0;
+}
+body main #arrow_container #arrow_right {
+  right: 0;
+}
+body main .divider {
+  height: 1px;
+  background-color: #000;
+}
+body main .pricing_container .pricing_box h4 {
+  font-size: 1.5em;
+}
+body main .pricing_container .pricing_box h4 money_box h4 {
+  font-size: 1em;
+  color: #000;
+}
+body main .pricing_container .pricing_box h4 p {
+  font-size: 1em;
+  color: #000;
+}
+body main .pricing_container .pricing_box h4 .inschrijven {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+body main .contacts_container .contact img {
+  width: 100%;
+  height: auto;
+}
+body main .contacts_container .contact .contact_info_box p {
+  font-size: 1em;
+  color: #000;
+}
+body main .contacts_container .contact .contact_button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+body main #contact_form input[type=email] {
+  padding: 10px;
+  border: 1px solid #000;
+}
+body main #contact_form textarea {
+  padding: 10px;
+  border: 1px solid #000;
+}
+body main #contact_form input[type=button] {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+body footer {
+  height: 50px;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=contact.css.map */
