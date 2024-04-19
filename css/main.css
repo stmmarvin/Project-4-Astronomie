@@ -1,0 +1,44 @@
+#banner {
+  width: 100%;
+  min-height: 10rem;
+  min-height: 15rem;
+  max-height: 20rem;
+  position: relative;
+  background-image: url(../media/img/placeholder.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0;
+}
+
+nav {
+  overflow: hidden;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #544D7D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 101px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #741D7D;
+}
+
+/*# sourceMappingURL=main.css.map */

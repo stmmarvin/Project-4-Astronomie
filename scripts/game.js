@@ -15,28 +15,32 @@ class Ship {
         this.hull = hull;
     }
 
-    create_cargo() {
-        this.name = Math.floor(Math.random() * months.length);
-        this.speed = Math.floor(Math.random() * 301);
-        this.cargo_space = Math.floor((Math.random() * 501) + 500);
-        this.crew_space = Math.floor((Math.random() * 101) + 50);
-        this.slots = Math.floor((Math.random() * 2) + 1);
-        this.u_slots = Math.floor((Math.random() * 2) + 1);
-        this.w_slots = Math.floor(Math.random() * 2);
-        this.a_slots = Math.floor(Math.random() * 2);
-        this.component_use = Math.round((math.random * 5) + Number.EPSILON);
-        this.component_use = Math.round((math.random * 5) + Number.EPSILON);
-        this.armor = math.floor(math.random() * 100);
-        this.shields = math.floor(math.random() * 50);
-        this.hull = math.floor((math.random() * 100) + 100)
+    static create_cargo() {
+        return new Ship(cargo_names_default[Math.floor(Math.random() * cargo_names_default.length)]
+                        ,Math.floor(Math.random() * 301)
+                        ,Math.floor((Math.random() * 501) + 500)
+                        ,Math.floor((Math.random() * 101) + 100)
+                        ,Math.floor((Math.random() * 2) + 1)
+                        ,Math.floor((Math.random() * 2) + 1)
+                        ,Math.floor(Math.random() * 2)
+                        ,Math.floor(Math.random() * 2)
+                        ,Math.round((Math.random() * 5) + 0.1 + Number.EPSILON)
+                        ,Math.round((Math.random() * 5) + 0.1 + Number.EPSILON)
+                        ,Math.floor(Math.random() * 100)
+                        ,Math.floor(Math.random() * 50)
+                        ,Math.floor((Math.random() * 100) + 100))
 
     }
 }
 
-cargo_names_default = ["Space Whale","Earth or Bust!","Bucket","Century Hawk","Rusty","Primrose"] 
+cargo_names_default = ["Space Whale","Earth or Bust!","Bucket","Century Hawk","Rusty","Primrose","Old Man","Gold Digger","Walter",""];
+cargo_names_pirate = ["Haula","Money printer","Iron Giant","Last Train Home","Going Merry"];
+
+war_names_default = ["Blitzer","Brittannia","Dreadnought","Samurai","TT Far From Home","Paragon","Grute Pier"];
+war_names_pirate = ["Dreadwell","Brittannia","Hound","Ronin","Hunter","Dirty Dog","Genghis","MF"];
 
 dingus = new Ship("aa",12,500,500,5,3,1,2,0.5,0.5,100,100,100);
-bingus = new Ship.create_cargo();
+bingus = Ship.create_cargo();
 
 console.log(bingus)
 
