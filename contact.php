@@ -74,6 +74,39 @@
                 </h4>
             </div>
         </div>
+
+        <div class="divider"></div>
+
+        <div class="contacts_container">
+            <div class="contact">
+                <img src="" alt="">
+                <div class="contact_info_box">
+                    <p></p>
+                </div>
+                <button class="contact_button"></button>
+            </div>
+            <div class="contact">
+                <img src="" alt="">
+                <div class="contact_info_box">
+                    <p></p>
+                </div>
+                <button class="contact_button"></button>
+            </div>
+            <div class="contact">
+                <img src="" alt="">
+                <div class="contact_info_box">
+                    <p></p>
+                </div>
+                <button class="contact_button"></button>
+            </div>
+        </div>
+
+        <form action="post" id="contact_form">
+            <input type="email" name="" id="">
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea><input type="button" name="" id="">
+        </form>
     </main>
     <footer>
 
