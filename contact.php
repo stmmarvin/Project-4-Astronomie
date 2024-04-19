@@ -8,19 +8,22 @@
 </head>
 <body>
     <!--navbar-->
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Artikelen</a></li>
-            <li><a href="">Info</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="">FAQ</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Artikelen</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </nav>
 
-    <div id="banner">
-        <h1 id="banner_text">MBO Utrecht</h1>
-    </div>
+        <div id="banner">
+            <h1 id="banner_text">MBO Utrecht</h1>
+        </div>
+    </header>
+
     <main>
         <div id="arrow_container">
             <div class="arrow" id="arrow_left"></div>
@@ -28,6 +31,48 @@
             <img src="" alt="" class="arrow_img hidden">
             <img src="" alt="" class="arrow_img hidden">
             <img src="" alt="" class="arrow_img hidden">
+            <div class="arrow" id="arrow_right"></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="pricing_container">
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
         </div>
     </main>
     <footer>
