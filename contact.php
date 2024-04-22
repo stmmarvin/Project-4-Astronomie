@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Artikelen</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <h1 id="banner_text">MBO Utrecht</h1>
+        </div>
+    </header>
     <main>
         <div id="arrow_container">
             <div class="arrow" id="arrow_left"></div>
@@ -95,7 +109,6 @@
     <footer>
         <div class="contact-info">
             <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
-            <p class="tel">+44-11-7325-7425</p>
             <p class="email">astronomie@utrecht.nl</p>
         </div>
         <div class="social-media-links">
