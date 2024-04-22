@@ -37,14 +37,20 @@
     </div>
   </header>
 
-  
-  <main>
+  <main class ="row container">
         <section class="opleiding_info">
-            <h2>Welkom bij de Opleiding Astronomie</h2>
+          <div class="col-12">
+            <h2>Wat is Astronomie</h2>
             <p>
-                Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer. In onze opleiding Astronomie leer je alles over de mysteries van het universum en ontwikkel je vaardigheden om de kosmos te verkennen.
+                Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer. 
+                Astronomen bestuderen de oorsprong, evolutie, en de toekomst van het universum.
+
             </p>
-            <h3>Wat kun je verwachten?</h3>
+          </div>
+        </section>
+
+        <section class="opleiding_vakken">
+            <h3>Wat kun je verwachten van deze opleiding?</h3>
             <p>
                 Tijdens de opleiding Astronomie kun je verwachten:
                 <ul>
@@ -52,16 +58,33 @@
                     <li>Praktische ervaring met observaties en onderzoek</li>
                     <li>Samenwerking met professionals in het veld</li>
                     <li>Mogelijkheden voor stages en internationale uitwisselingsprogramma's</li>
+                    <li>Je krijgt ook algemene vakken zoals: Nederlands, Rekenen, Engels en Burgerschap</li>
                 </ul>
             </p>
+
         </section>
 
         <section class="opleiding_details">
             <h2>Opleidingsdetails</h2>
             <ul>
-                <li><strong>Kosten:</strong> Neem contact op met onze administratie voor informatie over collegegeld en eventuele studiefinanciering.</li>
+                <li><strong>Kosten:</strong> Voor de kosten van de opleiding betaal je lesgeld als je op 1 Augustus ouder bent dan 18 jaar.
+                                             Verder zijn er nog kosten voor boeken en andere leermiddelen.
+                                            Ook moet je rekening houden met de kosten voor de computer. </li>
+                                             
+              </li>
                 <li><strong>Duur:</strong> De opleiding Astronomie duurt normaal gesproken vier jaar bij een voltijdse studie.</li>
-                <li><strong>Laptop eisen:</strong> Voor de opleiding Astronomie moet je een laptop hebben, omdat we de lessen volgen van uit een onlineonderwijsysteem</li>
+                <li><strong>Laptop eisen:
+
+                </strong> Voor de opleiding Astronomie moet je een laptop hebben, omdat we de lessen volgen van uit een onlineonderwijsysteem.
+                         Dit zijn de eisen voor de laptop:
+                            <ul>
+                                <li>Minimaal 8GB RAM</li>
+                                <li>Minimaal 256GB opslag</li>
+                                <li>Intel Core i5 of AMD Ryzen 5 processor of hoger</li>
+                                <li>Windows 10 of 11 of MacOS versie 11 0f hoger</li>
+            
+            
+            </li>
                 <li><strong>BBL/BOL:</strong> Deze opleiding wordt aangeboden als voltijdse BOL (BeroepsOpleidende Leerweg).</li>
                 <li><strong>Open dagen:</strong> Bekijk onze website voor de data van de eerstvolgende open dagen.</li>
             </ul>
