@@ -33,7 +33,17 @@
         </div>
     </header>
     <main>
-
+        <div class="divider"></div>
+        <section class="content">
+            <h3 class="title"></h3>
+            <p></p>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
+            <p></p>
+            <img src="" alt="" class="top">
+            <img src="" alt="" class="bottom">
+        </section>
     </main>
     <footer>
         <div class="contact-info">
