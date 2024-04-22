@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-    
-
     <main>
         <div id="arrow_container">
             <div class="arrow" id="arrow_left"></div>
