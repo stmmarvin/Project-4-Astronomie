@@ -1,0 +1,47 @@
+img/products/case.jpg
+Antec AX20 midi tower zwart
+29,99
+
+img/products/cpu.webp
+AMD Ryzen 9 7950X3D
+568,00
+
+img/products/cpu2.webp
+AMD Ryzen 5 7600X
+219,00
+
+img/products/gpu.webp
+XFX Radeon RX 7800 XT
+548,00
+
+img/products/gpu2.webp
+Gigabyte GeForce RTX 4070
+629,00
+
+img/products/monitor1.webp
+Gigabyte M28U 28" 4K UHD gaming monitor Zwart
+449
+
+img/products/monitor2.webp
+LG 34GN850P-B 34" Curved UltraWide
+629,00
+
+img/products/ram.webp
+G.Skill 32 GB DDR5-6000 Kit
+117,90
+
+img/products/ssd.webp
+Samsung 970 EVO Plus 2TB
+99,90
+
+img/products/xbox.webp
+Microsoft Xbox Series X
+449,00
+
+img/products/motherboard.jpg
+Gigabyte AM4 B550 GAMING X V2
+94,00
+
+img/products/keyboard.webp
+Corsair K70 PRO White
+99,90
