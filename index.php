@@ -23,6 +23,7 @@
     </header>
     <main>
         <div class="divider"></div>
+        
         <section class="content">
             <h3 class="title"></h3>
             <p></p>
@@ -32,6 +33,16 @@
             <p></p>
             <img src="" alt="" class="top">
             <img src="" alt="" class="bottom">
+        </section>
+
+        <section class="content">
+            <img src="" alt="" class="rounded-large">
+            <h1></h1>
+            <strong></strong>
+            <p></p>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
+            <a href="" class="social-media-mini"><img src="" alt=""></a>
         </section>
     </main>
     <footer>
