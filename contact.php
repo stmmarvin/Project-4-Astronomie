@@ -95,7 +95,14 @@
         </form>
     </main>
     <footer>
+        <div class="contact-info">
+            <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
+            <p class="tel">+44-11-7325-7425</p>
+            <p class="email">astronomie@utrecht.nl</p>
+        </div>
+        <div class="social-media-links">
 
+        </div>
     </footer>
 </body>
 </html>
