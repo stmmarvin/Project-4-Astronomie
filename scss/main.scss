@@ -1,0 +1,58 @@
+@use "base";
+@use "text-options";
+
+@use "navbar";
+@use "banner";
+@use "conf";
+
+@use "flex-grid";
+@use "flex-options";
+
+/*
+ * @TODO: Add flex-grid and flex-options files. 
+ */
+
+img.round {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border: 1px solid #aaa8;
+  box-shadow: 0 0.5rem 0.3rem #0001;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product {
+  .product-img,
+  .product-info {
+    display: flex;
+  }
+
+  .product-img {
+    justify-content: czenter;
+    align-items: center;
+    box-shadow: 0 0.5rem 0.5rem #0000000e;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .product-info {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .price {
+    padding: 0 0 0.5rem 1rem;
+    font-family: conf.get("title-font");
+    font-size: 1.8em;
+    color: conf.get("red");
+    text-align: right;
+  }
+}

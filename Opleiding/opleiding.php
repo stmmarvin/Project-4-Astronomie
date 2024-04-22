@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astronomie</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Artikelen</a></li>
-                <li><a href="">Info</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="">FAQ</a></li>
-            </ul>
-        </nav>
-        <div id="banner">
-            <h1 id="banner_text">MBO Utrecht</h1>
-        </div>
-    </header>
-    <main>
+  <header>
+  <nav>
+    <div class="container row jc-center">
+    <div class="main-menu">
+        <ul>
+        <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
+        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+        <li><a href="../ContactP/contact.php">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="banner">
+      <img src="../img/Home page/Screenshot 2024-04-22 083310.png" alt="height-50">
+      <div class="content text-center">
+        <h1>
+          Opleiding
+        </h1>
+        <p>MBO Utrecht</p>
+      </div>
+      </img>
+    </div>
+  </header>
+
+  
+  <main>
         <section class="opleiding_info">
             <h2>Welkom bij de Opleiding Astronomie</h2>
             <p>
@@ -69,4 +86,5 @@
         </div>
     </footer>
 </body>
+
 </html>
