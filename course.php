@@ -22,77 +22,35 @@
         </div>
     </header>
     <main>
-
-        <div class="divider"></div>
-
-        <section class="content">
-            <img src="" alt="" class="top">
-            <img src="" alt="" class="bottom">
-            <h3 class="title"></h3>
-            <p></p>
-            <a href="" class="social-media-mini"><img src="" alt=""></a>
-            <a href="" class="social-media-mini"><img src="" alt=""></a>
-            <a href="" class="social-media-mini"><img src="" alt=""></a>
-            <p></p>
+        <section class="opleiding_info">
+            <h2>Welkom bij de Opleiding Astronomie</h2>
+            <p>
+                Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer. In onze opleiding Astronomie leer je alles over de mysteries van het universum en ontwikkel je vaardigheden om de kosmos te verkennen.
+            </p>
+            <h3>Wat kun je verwachten?</h3>
+            <p>
+                Tijdens de opleiding Astronomie kun je verwachten:
+                <ul>
+                    <li>Diepgaande kennis van astronomische concepten</li>
+                    <li>Praktische ervaring met observaties en onderzoek</li>
+                    <li>Samenwerking met professionals in het veld</li>
+                    <li>Mogelijkheden voor stages en internationale uitwisselingsprogramma's</li>
+                </ul>
+            </p>
         </section>
 
-        <div class="divider"></div>
-
-        <video src="" class="vid-small"></video>
-        <video src="" class="vid-small"></video>
-
-        <div class="divider"></div>
-
-        <div class="img-row-container">
-            <img src="" alt="" class="tall-img">
-            <img src="" alt="" class="tall-img">
-            <img src="" alt="" class="tall-img">
-            <img src="" alt="" class="tall-img">
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="pricing_container">
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-        </div>
-
-
+        <section class="opleiding_details">
+            <h2>Opleidingsdetails</h2>
+            <ul>
+                <li><strong>Kosten:</strong> Neem contact op met onze administratie voor informatie over collegegeld en eventuele studiefinanciering.</li>
+                <li><strong>Duur:</strong> De opleiding Astronomie duurt normaal gesproken vier jaar bij een voltijdse studie.</li>
+                <li><strong>Laptop eisen:</strong> Voor de opleiding Astronomie moet je een laptop hebben, omdat we de lessen volgen van uit een onlineonderwijsysteem</li>
+                <li><strong>BBL/BOL:</strong> Deze opleiding wordt aangeboden als voltijdse BOL (BeroepsOpleidende Leerweg).</li>
+                <li><strong>Open dagen:</strong> Bekijk onze website voor de data van de eerstvolgende open dagen.</li>
+            </ul>
+        </section>
     </main>
+    
     <footer>
         <div class="contact-info">
             <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
