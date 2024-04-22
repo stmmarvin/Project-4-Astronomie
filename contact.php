@@ -6,16 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/contact.css">
-    <nav>
-        <div id="navbar">
-            <h1 id="banner_text">MBO Utrecht</h1>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="Course.php">Opleiding</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="#">FAQ</a></li> <!-- Daar gaan we voor sprint 2 aan het werk-->
-            </ul>
-        </div>
 </head>
 <body>
     
