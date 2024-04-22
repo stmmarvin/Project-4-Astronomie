@@ -101,7 +101,15 @@
             <p class="email">astronomie@utrecht.nl</p>
         </div>
         <div class="social-media-links">
-
+            <a href="" class="social-media-link" id="twitter">
+                <img src="" alt="">
+            </a>
+            <a href="" class="social-media-link" id="facebook">
+                <img src="" alt="">
+            </a>
+            <a href="" class="social-media-link" id="youtube">
+                <img src="" alt="">
+            </a>
         </div>
     </footer>
 </body>
