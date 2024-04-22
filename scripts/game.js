@@ -13,6 +13,7 @@ class Ship {
         this.armor = armor;
         this.shields = shields;
         this.hull = hull;
+        this.mods = [];
     }
 
     static create_cargo() {
@@ -23,12 +24,12 @@ class Ship {
                         ,Math.floor((Math.random() * 2) + 1)
                         ,Math.floor((Math.random() * 2) + 1)
                         ,Math.floor(Math.random() * 2)
-                        ,Math.floor(Math.random() * 2)
-                        ,Math.round((Math.random() * 5) + 0.1 + Number.EPSILON)
-                        ,Math.round((Math.random() * 5) + 0.1 + Number.EPSILON)
-                        ,Math.floor(Math.random() * 100)
-                        ,Math.floor(Math.random() * 50)
-                        ,Math.floor((Math.random() * 100) + 100))
+                        ,Math.floor(Math.random() * 2 + 1)
+                        ,Math.round(Math.random() * 5 + 1)
+                        ,Math.round(Math.random() * 5)
+                        ,Math.floor(Math.random() * 101)
+                        ,Math.floor(Math.random() * 51)
+                        ,Math.floor((Math.random() * 101) + 100))
 
     }
 }
@@ -51,13 +52,39 @@ class Weapon extends Mod {
 }
 
 class Utility extends Mod {
-    constructor(name, type, slots_used, effect, strength) {
+    constructor(name, type, slots_used) {
         super(name,type,slots_used);
-        this.effect = effect;
-        this.strength = strength;
+    }
+
+    add_effect(effect, strength) {
+
     }
 }
 
+class System {
+    constructor(planets, features) {
+        
+    }
+}
+
+class Astronomical {
+    constructor(size, features) {
+    }
+}
+
+class Star extends Astronomical {
+    constructor(size,features,instensity) {
+        super(size,features) 
+        this.instensity = instensity;
+    }
+}
+
+class Planet extends Astronomical {
+    constructor(size,features,distance,wetness,athmosphere,temperature,habitability) {
+        super(size,features)
+        this.distance = 
+    }
+}
 
 
 cargo_names_default = ["Space Whale","Earth or Bust!","Bucket","Century Hawk","Rusty","Primrose","Old Man","Gold Digger","Walter","Red Dwarf"];
