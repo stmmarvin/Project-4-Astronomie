@@ -26,7 +26,7 @@
 
 
     <div id="banner">
-      <img src="../img/Home page/Screenshot 2024-04-22 083310.png" alt="height-50">
+      <img src="../img/Screenshot 2024-04-22 083310.png" alt="height-50">
       <div class="content text-center">
         <h1>
           Opleiding
