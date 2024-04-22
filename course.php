@@ -49,6 +49,49 @@
             <img src="" alt="" class="tall-img">
             <img src="" alt="" class="tall-img">
         </div>
+
+        <div class="divider"></div>
+
+        <div class="pricing_container">
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
+            <div class="pricing_box">
+                <h4>
+                    <money_box>
+                        <h4></h4>
+                    </money_box>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <button class="inschrijven"></button>
+                </h4>
+            </div>
+        </div>
+
+
     </main>
     <footer>
         <div class="contact-info">
