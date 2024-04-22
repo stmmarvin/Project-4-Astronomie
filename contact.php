@@ -34,47 +34,6 @@
 
         <div class="divider"></div>
 
-        <div class="pricing_container">
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-            <div class="pricing_box">
-                <h4>
-                    <money_box>
-                        <h4></h4>
-                    </money_box>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <button class="inschrijven"></button>
-                </h4>
-            </div>
-        </div>
-
-        <div class="divider"></div>
-
         <div class="contacts_container">
             <div class="contact">
                 <img src="" alt="">
@@ -113,12 +72,12 @@
         </div>
         <div class="social-media-links">
             <a href="" class="social-media-link" id="twitter">
-                <img src="" alt="">
+                <img src="media/img/Logo_of_Twitter_wikimedia_commons.svg" alt="">
             </a>
             <a href="" class="social-media-link" id="facebook">
-                <img src="" alt="">
+                <img src="media/img/2021_Facebook_icon_wikimedia_commons.svg" alt="">
             </a>
-            <a href="" class="social-media-link" id="youtube">
+            <a href="media/img/YouTube_full-color_icon_(2017)_wikimedia_commons.svg" class="social-media-link" id="youtube">
                 <img src="" alt="">
             </a>
         </div>

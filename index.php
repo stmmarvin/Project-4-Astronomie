@@ -14,7 +14,7 @@
                 <li><a href="">Artikelen</a></li>
                 <li><a href="">Info</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="">FAQ</a></li>
+                <li><a href="game.html">Game</a></li>
             </ul>
         </nav>
         <div id="banner">
@@ -53,12 +53,12 @@
         </div>
         <div class="social-media-links">
             <a href="" class="social-media-link" id="twitter">
-                <img src="" alt="">
+                <img src="media/img/Logo_of_Twitter_wikimedia_commons.svg" alt="">
             </a>
             <a href="" class="social-media-link" id="facebook">
-                <img src="" alt="">
+                <img src="media/img/2021_Facebook_icon_wikimedia_commons.svg" alt="">
             </a>
-            <a href="" class="social-media-link" id="youtube">
+            <a href="media/img/YouTube_full-color_icon_(2017)_wikimedia_commons.svg" class="social-media-link" id="youtube">
                 <img src="" alt="">
             </a>
         </div>
