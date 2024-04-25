@@ -7,6 +7,7 @@
   <title>Astronomie</title>
   <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/course.css" />
   
 </head>
 
@@ -18,7 +19,7 @@
         <ul>
         <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
         <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
-        <li><a href="../ContactP/contact.php">Contact</a></li>
+        <!--<li><a href="ContactP/contact.php">Contact</a></li> Pagina is nog niet nodig in sprint 1-->
       </ul>
     </div>
   </div>
