@@ -90,6 +90,19 @@
             </ul>
         </section>
     </main>
+
+    <h3>Heb je een vraag? Neem contact met ons op!</h3>
+
+    <form action="" method="post">
+   <label for="fullname">Volledige Naam:</label><br>
+   <input type="text" id="fullname" name="fullname" placeholder="Voer hier je volledige naam in"><br>
+   <label for="email">Email:</label><br>
+   <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+    <label for="question">Stel hier je Vraag:</label><br>
+    <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Verzenden">
+    </form>
+
     
     <footer>
         <div class="contact-info">
