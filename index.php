@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="scss/_base.scss" />
+  
   
 </head>
 
@@ -28,7 +30,7 @@
       <img src="../img/Screenshot 2024-04-22 083310.png" alt="height-50">
       <div class="content text-center">
         <h1>
-          Astronomie
+        Astronomie
         </h1>
         <p>MBO Utrecht</p>
       </div>
@@ -39,7 +41,11 @@
 
   <div>
 
-  <div class="bubble"><p>Ontdek de grenzeloze mogelijkheden van het heelal met onze uitdagende en boeiende opleiding in Astronomie. <br>Of je nu een gepassioneerde sterrenkijker bent of een toekomstige astronoom in spe, onze opleiding biedt een unieke reis door de wonderen van de kosmos.<br><br>
+  <h2> Welkom op de opleiding Astronomie </h2>
+
+
+  <div class="bubble"><p><b> Wat kan je allemaal verwachten op deze opleiding </b> <br><br>   
+    Je ontdekt de grenzeloze mogelijkheden van het heelal met onze uitdagende en boeiende opleiding in Astronomie. <br>Of je nu een gepassioneerde sterrenkijker bent of een toekomstige astronoom in spe, onze opleiding biedt een unieke reis door de wonderen van de kosmos.<br><br>
 
     Leer de geheimen van de sterren, planeten, en melkwegstelsels ontrafelen terwijl je wordt begeleid door toegewijde docenten<br> en onderzoekers die je zullen inspireren met hun expertise en enthousiasme voor het vakgebied.<br><br>
     
@@ -76,7 +82,7 @@
   <div class="bubble">
       <div class="container row">
           <div class="col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-              <p> <b>Waarom de Opleiding de moeite waard is om te volgen:</b> <br><br> <b>-</b> Ontdek de schoonheid en complexiteit van de school en draag bij aan ons begrip van de kosmos.<br><br>
+              <p> <b>Waarom Astronomie studeren:</b> <br><br> <b>-</b> Ontdek de schoonheid en complexiteit van de school en draag bij aan ons begrip van de kosmos.<br><br>
                   <b>-</b> Word lid van een gemeenschap van nieuwsgierige en gepassioneerde individuen die gedreven worden door een gezamenlijke interesse in de astronomie.<br><br>
                   <b>-</b> Bereid je voor op een carrière die zich uitstrekt tot de grenzen van de ruimte en verder, en maak deel uit van baanbrekende ontdekkingen en ontwikkelingen in de kosmische wetenschappen.</p>
           </div>
@@ -108,5 +114,4 @@
         </div>
     </footer>
 </body>
-
 </html>

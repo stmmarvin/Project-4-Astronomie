@@ -14,13 +14,15 @@ body {
   font-family: conf.get("normal-font");
   line-height: 1.55em;
   overflow-x: hidden;
-
+  
   * {
     box-sizing: border-box;
   }
 }
 
-h1,
+h1 {
+  padding-inline-start:1%;
+},
 h2,
 h3,
 h4,
@@ -36,6 +38,7 @@ h1 {
 }
 h2 {
   font-size: 2.5em;
+  padding-inline-start:25%;
 }
 h3 {
   font-size: 2em;
@@ -52,6 +55,8 @@ h6 {
 
 p {
   margin: 0.5em 0;
+  padding-left: 1%;
+
 }
 
 img {
