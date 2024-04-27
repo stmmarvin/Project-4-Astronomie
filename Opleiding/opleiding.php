@@ -5,10 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
-  <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/course.css" />
-  
+  <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -27,12 +26,12 @@
 
 
     <div id="banner">
-      <img src="../img/Screenshot 2024-04-22 083310.png" alt="height-50">
+    <img src="../media/img/studenten.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Opleiding
         </h1>
-        <p>MBO Utrecht</p>
+        <p>mbo niveau 3 of hoger</p>
       </div>
       </img>
     </div>
@@ -45,13 +44,19 @@
             <p>
                 Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer. 
                 Astronomen bestuderen de oorsprong, evolutie, en de toekomst van het universum.
-
+            </p>
+            <p>
+                Je studeert Sterrenkunde wanneer je je wilt richten op alle facetten van het heelal. 
+                Je doet uitgebreide kennis op over planeten en hun manen, asteroïden, sterren en andere objecten in het heelal. 
+                Daarnaast leer je alles over instrumenten en methoden om het heelal te bestuderen. Met deze studie kun je veel 
+                betekenen voor de maatschappij. Zo is medische beeldapparatuur, zoals de MRI-scanner op sterrenkundige technologie 
+                gebaseerd en zijn de grootste zonnepanelen gemaakt van materiaal dat ontwikkeld is om een ruimtetelescoop van energie te voorzien.
             </p>
           </div>
         </section>
 
         <section class="opleiding_vakken">
-            <h3>Wat kun je verwachten van deze opleiding?</h3>
+            <h2>Wat kun je verwachten van deze opleiding?</h2>
             <p>
                 Tijdens de opleiding Astronomie kun je verwachten:
                 <ul>
@@ -92,36 +97,43 @@
         </section>
     </main>
 
-    <h3>Heb je een vraag? Neem contact met ons op!</h3>
+    <h3>Heb je een vragen? Neem contact met ons op!</h3>
 
-    <form action="" method="post">
+    <form action="" method="post" class="contact-form">
    <label for="fullname">Volledige Naam:</label><br>
-   <input type="text" id="fullname" name="fullname" placeholder="Voer hier je volledige naam in"><br>
+   <input type="text" id="fullname" name="fullname" placeholder="naam"><br>
+
+    <label for="telefoonnummer">Telefoonnummer:</label><br>
+    <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456"><br>
+
    <label for="email">Email:</label><br>
    <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+
     <label for="question">Stel hier je Vraag:</label><br>
     <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+
     <input type="submit" value="Verzenden">
     </form>
 
     
-    <footer>
-        <div class="contact-info">
-            <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
-            <p class="email">astronomie@utrecht.nl</p>
-        </div>
-        <div class="social-media-links">
-            <a href="" class="social-media-link" id="twitter">
-                <img src="media/img/Logo_of_Twitter_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="" class="social-media-link" id="facebook">
-                <img src="media/img/2021_Facebook_icon_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="media/img/YouTube_full-color_icon_(2017)_wikimedia_commons.svg" class="social-media-link" id="youtube">
-                <img src="" alt="">
-            </a>
-        </div>
-    </footer>
+    <footer class="footer">
+  <div class="contact-info">
+    <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
+    <p class="email"><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+  </div>
+  <div class="social-media-links">
+    <a href="https://twitter.com/uutrecht" class="social-media-link" id="twitter">
+      <img src="../media/img/twitter.png" alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com/uutrecht" class="social-media-link" id="facebook">
+      <img src="../media/img/facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.youtube.com/uutrecht" class="social-media-link" id="youtube">
+      <img src="../media/img/youtube.png" alt="YouTube">
+    </a>
+  </div>
+</footer>
+
 </body>
 
 </html>
