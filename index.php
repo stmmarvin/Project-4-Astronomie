@@ -98,11 +98,15 @@
 
 
 <footer class="footer">
+      <p><div class="rechten">
+      <p>Alle rechten voorbehouden</p>
+      <p>© 2024 - Heden</p>
+      </div></p>
   <div class="footer-column">
-    <h3>Informatie</h3>
-    <p>Alle rechten voorbehouden</p>
-    <p>© 2024 - Heden</p>
-    <p>Australiëlaan 25, Utrecht, 3526AB</p>
+    <h3>Pagina's</h3>
+      <a href="../index.php">Home</a>
+      <a href="../Opleiding/opleiding.php">Opleiding</a>
+      <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
   </div>
   <div class="footer-column">
     <h3>Scuti UY</h3>
@@ -110,6 +114,7 @@
   </div>
   <div class="footer-column">
     <h3>Contactgegevens</h3>
+    <p>Australiëlaan 25, Utrecht 3526AB</p>
     <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
     <div class="social-media-links">
       <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
