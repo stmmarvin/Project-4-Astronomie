@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
-  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/main.css"/>
+  <link rel="stylesheet" href="../css/contact.css">
  
 </head>
 
@@ -23,62 +24,33 @@
   </div>
 </nav>
 
+<div class="row">
+  <div class="profile">
+    <div class="card"></div>
+    <img src="../ContactP\img\download(1).jpeg" alt="">
+    <div class="container">
+    <h2>Luuk van den Bosch</h2>
+    <p>Lorem ipsum dolor sit amet, 
+      consectetur adipisicing elit. Harum, 
+      iure non corporis error eius ea possimus, 
+      dolorum hic iusto sequi reprehenderit 
+      dolorem sint impedit nemo! 
+      Sit ex quisquam error fugiat?</p>
+  </div>
+  </div>
+  
+  <div class="profile">
+    <div class="card"></div>
+    <img src="" alt="">
+  </div>
+  <div class="profile">
+    <div class="card"></div>
+    <img src="" alt="">
+  </div>
+</div>
 
-    <div id="banner">
-      <img src="../img/Screenshot 2024-04-22 083310.png" alt="height-50">
-      <div class="content text-center">
-        <h1>
-          Contact
-        </h1>
-        <p>MBO Utrecht</p>
-      </div>
-      </img>
-    </div>
-  </header>
 
-  <main>
-        <div id="arrow_container">
-            <div class="arrow" id="arrow_left"></div>
-            <img src="" alt="" class="arrow_img">
-            <img src="" alt="" class="arrow_img hidden">
-            <img src="" alt="" class="arrow_img hidden">
-            <img src="" alt="" class="arrow_img hidden">
-            <div class="arrow" id="arrow_right"></div>
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="contacts_container">
-            <div class="contact">
-                <img src="" alt="">
-                <div class="contact_info_box">
-                    <p></p>
-                </div>
-                <button class="contact_button"></button>
-            </div>
-            <div class="contact">
-                <img src="" alt="">
-                <div class="contact_info_box">
-                    <p></p>
-                </div>
-                <button class="contact_button"></button>
-            </div>
-            <div class="contact">
-                <img src="" alt="">
-                <div class="contact_info_box">
-                    <p></p>
-                </div>
-                <button class="contact_button"></button>
-            </div>
-        </div>
-
-        <form action="post" id="contact_form">
-            <input type="email" name="" id="">
-            <textarea name="" id="" cols="30" rows="10">
-
-            </textarea><input type="button" name="" id="">
-        </form>
-    </main>
+  
     <footer>
         <div class="contact-info">
             <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
