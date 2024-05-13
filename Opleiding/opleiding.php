@@ -117,20 +117,30 @@
 
     
     <footer class="footer">
-  <div class="contact-info">
-    <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
-    <p class="email"><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+  <div class="footer-column">
+    <h3>Informatie</h3>
+    <p>Alle rechten voorbehouden</p>
+    <p>© 2024 - Heden</p>
+    <p>Australiëlaan 25, Utrecht, 3526AB</p>
   </div>
-  <div class="social-media-links">
-    <a href="https://twitter.com/uutrecht" class="social-media-link" id="twitter">
-      <img src="../media/img/twitter.png" alt="Twitter">
-    </a>
-    <a href="https://www.facebook.com/uutrecht" class="social-media-link" id="facebook">
-      <img src="../media/img/facebook.png" alt="Facebook">
-    </a>
-    <a href="https://www.youtube.com/uutrecht" class="social-media-link" id="youtube">
-      <img src="../media/img/youtube.png" alt="YouTube">
-    </a>
+  <div class="footer-column">
+    <h3>Scuti UY</h3>
+    <!-- Content related to Scuti UY can go here -->
+  </div>
+  <div class="footer-column">
+    <h3>Contactgegevens</h3>
+    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+    <div class="social-media-links">
+      <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
+        <img src="../media/img/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
+        <img src="../media/img/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
+        <img src="../media/img/youtube.png" alt="YouTube">
+      </a>
+    </div>
   </div>
 </footer>
 
