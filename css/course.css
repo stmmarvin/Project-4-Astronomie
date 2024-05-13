@@ -682,22 +682,32 @@ img.round {
 }
 
 .footer {
-  background-color: #666;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: #2D5786;
+  color: white;
 }
-.footer .contact-info p {
+.footer .footer-column {
+  flex: 1;
+  padding: 20px;
+}
+.footer .footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.footer .footer-column p {
   margin: 0;
 }
-.footer .social-media-links a {
+.footer .footer-column .social-media-links {
+  margin-top: 10px;
+}
+.footer .footer-column .social-media-links .social-media-link {
   display: inline-block;
   margin-right: 10px;
 }
-.footer .social-media-links a img {
+.footer .footer-column .social-media-links .social-media-link img {
   width: 30px;
-  height: 30px;
+  height: auto;
 }
 
 /*# sourceMappingURL=course.css.map */
