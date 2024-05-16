@@ -681,6 +681,13 @@ img.round {
   background-color: #45a049;
 }
 
+.rechten {
+  padding: 20px;
+}
+.rechten p {
+  font-size: 14px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -690,6 +697,7 @@ img.round {
 .footer .footer-column {
   flex: 1;
   padding: 20px;
+  text-align: center;
 }
 .footer .footer-column h3 {
   font-size: 1.2rem;
