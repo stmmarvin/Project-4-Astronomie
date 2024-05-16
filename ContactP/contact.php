@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
   <link rel="stylesheet" href="../css/main.css"/>
-  <link rel="stylesheet" href="../css/contact.css">
  
 </head>
 
@@ -51,23 +50,36 @@
 
 
   
-    <footer>
-        <div class="contact-info">
-            <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
-            <p class="email">astronomie@utrecht.nl</p>
-        </div>
-        <div class="social-media-links">
-            <a href="" class="social-media-link" id="twitter">
-                <img src="media/img/Logo_of_Twitter_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="" class="social-media-link" id="facebook">
-                <img src="media/img/2021_Facebook_icon_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="media/img/YouTube_full-color_icon_(2017)_wikimedia_commons.svg" class="social-media-link" id="youtube">
-                <img src="" alt="">
-            </a>
-        </div>
-    </footer>
+<footer class="footer">
+      <p><div class="rechten">
+      <p>Alle rechten voorbehouden</p>
+      <p>© 2024</p>
+      </div></p>
+  <div class="footer-column">
+    <h3>Pagina's</h3>
+      <a href="../index.php">Home</a><br>
+      <a href="../Opleiding/opleiding.php">Opleiding</a>
+      <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
+  </div>
+
+  <div class="footer-column">
+    <h3>Contactgegevens</h3>
+    <p>Australiëlaan 25</p>
+    <p>Utrecht 3526AB</p>
+    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+    <div class="social-media-links">
+      <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
+        <img src="../media/img/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
+        <img src="../media/img/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
+        <img src="../media/img/youtube.png" alt="YouTube">
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 
 </html>

@@ -5,8 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
-  <link rel="stylesheet" href="../css/navbar.css" />
-  <link rel="stylesheet" href="../css/course.css" />
+<link rel="stylesheet" href="../css/main.css">
   <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
 </head>
 
@@ -100,8 +99,10 @@
     <h3>Heb je een vragen? Neem contact met ons op!</h3>
 
     <form action="" method="post" class="contact-form">
-   <label for="fullname">Volledige Naam:</label><br>
-   <input type="text" id="fullname" name="fullname" placeholder="naam"><br>
+   <label for="firstname">Voornaam:</label><br>
+   <input type="text" id="firstname" name="firstname" placeholder="voornaam"><br>
+   <label for="lastname">Achternaam:</label><br>
+    <input type="text" id="lastname" name="lastname" placeholder="achternaam"><br>
 
     <label for="telefoonnummer">Telefoonnummer:</label><br>
     <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456"><br>

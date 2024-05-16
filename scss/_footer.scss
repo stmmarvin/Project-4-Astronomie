@@ -1,0 +1,41 @@
+.rechten {
+    padding: 20px;
+    p {
+      font-size: 14px;
+    }
+  }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2D5786;
+  color: white;
+  
+  .footer-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      margin: 0;
+    }
+    
+    .social-media-links {
+      margin-top: 10px;
+      
+      .social-media-link {
+        display: inline-block;
+        margin-right: 10px;
+        
+        img {
+          width: 30px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
