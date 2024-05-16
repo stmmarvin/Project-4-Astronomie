@@ -146,7 +146,9 @@
     </div>
   </div>
 </footer>
-
+<script src="../Main/assets/javascript/script.js"></script>
+<script src="../Main/assets/javascript/activeTab.js"></script>
+<script src="../Main/assets/javascript/progressBar.js"></script>
 </body>
 
 </html>
