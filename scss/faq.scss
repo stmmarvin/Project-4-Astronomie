@@ -1,0 +1,76 @@
+@use "base";
+@use "text-options";
+
+@use "navbar";
+@use "banner";
+@use "conf";
+
+@use "flex-grid";
+@use "flex-options";
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  font-family: conf.get("normal-font");
+  line-height: 1.55em;
+  overflow-x: hidden;
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+
+h1 {
+    font-size: 24px;
+}
+  
+  .rechten {
+    padding: 20px;
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D5786;
+    color: white;
+    
+    .footer-column {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        margin: 0;
+      }
+      
+      .social-media-links {
+        margin-top: 10px;
+        
+        .social-media-link {
+          display: inline-block;
+          margin-right: 10px;
+          
+          img {
+            width: 30px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  
