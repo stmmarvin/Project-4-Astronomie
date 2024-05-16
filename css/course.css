@@ -704,6 +704,13 @@ img.round {
   background-color: #45a049;
 }
 
+.rechten {
+  padding: 20px;
+}
+.rechten p {
+  font-size: 14px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
