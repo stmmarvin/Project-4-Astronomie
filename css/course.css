@@ -23,23 +23,28 @@ nav {
   background-color: #000;
   z-index: 3;
 }
+
 nav ul {
   display: flex;
   padding: 0;
   margin: 0.5rem;
 }
+
 nav ul li {
   display: flex;
   position: relative;
 }
+
 nav ul li a {
   display: inline-block;
   padding: 1rem;
   color: #fff;
 }
+
 nav .main-menu ul > li > a {
   text-decoration: none;
 }
+
 nav .main-menu ul > li > a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -54,6 +59,7 @@ nav .main-menu ul > li > a:hover {
   min-height: fit-content;
   padding: clamp(5rem, 20vh, 15rem) clamp(1rem, 5vw, 5rem) clamp(1rem, 5vw, 5rem);
 }
+
 #banner img {
   position: absolute;
   inset: 0;
@@ -62,6 +68,7 @@ nav .main-menu ul > li > a:hover {
   object-fit: cover;
   z-index: 1;
 }
+
 #banner .content {
   display: flex;
   width: clamp(20rem, 20vw, 100%);
@@ -72,6 +79,7 @@ nav .main-menu ul > li > a:hover {
   color: #fff;
   z-index: 2;
 }
+
 #banner.height-50 {
   height: 50vh;
 }
@@ -80,6 +88,7 @@ nav .main-menu ul > li > a:hover {
   width: 100%;
   margin: 0 auto;
 }
+
 @media screen and (min-width: 576px) {
   .container {
     width: 476px;
@@ -105,7 +114,6 @@ nav .main-menu ul > li > a:hover {
     width: 1300px;
   }
 }
-
 .row,
 .col,
 [class^=col-],
@@ -127,6 +135,7 @@ nav .main-menu ul > li > a:hover {
   max-width: 100%;
   padding: 0.5rem;
 }
+
 .col .inner,
 [class^=col-] .inner,
 [class*=" col-"] .inner {
@@ -139,12 +148,12 @@ nav .main-menu ul > li > a:hover {
 .col {
   flex-grow: 1;
 }
+
 @media screen and (max-width: 576px) {
   .col {
     width: 100%;
   }
 }
-
 [class^=col-],
 [class*=" col-"] {
   flex: 0 0 auto;
@@ -521,6 +530,7 @@ body {
   line-height: 1.55em;
   overflow-x: hidden;
 }
+
 body * {
   box-sizing: border-box;
 }
@@ -579,6 +589,7 @@ section {
   position: relative;
   padding: 2rem 0;
 }
+
 section h2, section h3 {
   text-align: center;
 }
@@ -601,17 +612,21 @@ img.round {
 .product .product-info {
   display: flex;
 }
+
 .product .product-img {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.0549019608);
 }
+
 .product .product-img img {
   object-fit: contain;
 }
+
 .product .products-container {
   padding: 1rem 0;
 }
+
 .product .products-container aside ul {
   width: 100%;
   margin: 0;
@@ -620,10 +635,12 @@ img.round {
   border: 1px solid #efefef;
   border-radius: 0.5rem;
 }
+
 .product .products-container aside ul li {
   padding: 0;
   margin: 0;
 }
+
 .product .products-container aside ul li a {
   display: inline-block;
   width: 100%;
@@ -631,11 +648,13 @@ img.round {
   text-decoration: none;
   border-bottom: 1px solid #efefef;
 }
+
 .product .product-info {
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
 }
+
 .product .price {
   padding: 0 0 0.5rem 1rem;
   font-family: "Barlow Condensed", sans-serif;
@@ -648,6 +667,7 @@ img.round {
   max-width: 400px;
   margin: 0 auto;
 }
+
 .contact-form label {
   display: flex;
   flex-direction: column;
@@ -655,6 +675,7 @@ img.round {
   margin-top: 25px;
   font-weight: 300;
 }
+
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form input[type=tel],
@@ -666,6 +687,7 @@ img.round {
   box-sizing: border-box;
   font-size: 16px;
 }
+
 .contact-form input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -677,6 +699,7 @@ img.round {
   cursor: pointer;
   font-size: 16px;
 }
+
 .contact-form input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -687,27 +710,36 @@ img.round {
   background-color: #2D5786;
   color: white;
 }
+
 .footer .footer-column {
   flex: 1;
   padding: 20px;
+  text-align: center;
 }
+
 .footer .footer-column h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
+
 .footer .footer-column p {
   margin: 0;
 }
+
 .footer .footer-column .social-media-links {
   margin-top: 10px;
 }
+
 .footer .footer-column .social-media-links .social-media-link {
   display: inline-block;
   margin-right: 10px;
 }
+
 .footer .footer-column .social-media-links .social-media-link img {
   width: 30px;
   height: auto;
 }
+
+
 
 /*# sourceMappingURL=course.css.map */
