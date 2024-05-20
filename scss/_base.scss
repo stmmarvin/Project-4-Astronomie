@@ -2,6 +2,22 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
 
+$primary-color: #333;
+$secondary-color: #f4f4f4;
+$font-family: 'Montserrat', sans-serif;
+
+body {
+  font-family: $font-family;
+  background-color: $secondary-color;
+  color: $primary-color;
+  font-family: conf.get("normal-font");
+  line-height: 1.55em;
+  overflow-x: hidden;
+  * {
+    box-sizing: border-box;
+  }
+}
+
 html,
 body {
   width: 100%;
@@ -10,15 +26,6 @@ body {
   font-size: 20px;
 }
 
-body {
-  font-family: conf.get("normal-font");
-  line-height: 1.55em;
-  overflow-x: hidden;
-  
-  * {
-    box-sizing: border-box;
-  }
-}
 
 .bubble {
   background-color: #4a43437b;

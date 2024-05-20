@@ -11,9 +11,29 @@
 
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
-/*
- * @TODO: Add flex-grid and flex-options files. 
- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
 
 img.round {
   aspect-ratio: 1 / 1;
