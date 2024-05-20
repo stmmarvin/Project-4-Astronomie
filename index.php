@@ -99,16 +99,29 @@
 
 
 <footer class="footer">
-      <p><div class="rechten">
+    <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
-      </div></p>
-  <div class="footer-column">
-    <h3>Pagina's</h3>
+    </div>
+    
+    <div class="footer-column">
+      <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a>
-      <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
-  </div>
+    </div>
+    
+    <div class="footer-column">
+      <h3>Opleidingen</h3>
+      <a href="sterrenkunde.php">Sterrenkunde</a><br>
+      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
+      <a href="astrofysica.php">Astrofysica</a><br>
+      <a href="planetologie.php">Planetologie</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contactgegevens</h3>
+      <p>Australiëlaan 25</p>
+      <p>Utrecht 3526AB</p>
 
   <div class="footer-column">
     <h3>Contactgegevens</h3>
