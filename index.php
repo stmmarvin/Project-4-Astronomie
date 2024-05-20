@@ -119,11 +119,6 @@
       <a href="planetologie.php">Planetologie</a>
     </div>
 
-    <div class="footer-column">
-      <h3>Contactgegevens</h3>
-      <p>Australiëlaan 25</p>
-      <p>Utrecht 3526AB</p>
-
   <div class="footer-column">
     <h3>Contactgegevens</h3>
     <p>Australiëlaan 25</p>
