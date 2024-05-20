@@ -1,20 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
-html,
 body {
-  width: 100%;
-  min-height: 100%;
-  margin: 0;
-  font-size: 20px;
-}
-
-body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
   font-family: "Montserrat", sans-serif;
   line-height: 1.55em;
   overflow-x: hidden;
 }
 body * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-size: 20px;
 }
 
 .bubble {
@@ -764,6 +767,11 @@ img {
   max-height: 100%;
 }
 
+h2 img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
 section {
   position: relative;
   padding: 2rem 0;
@@ -779,67 +787,68 @@ img.round {
   object-fit: cover;
 }
 
-.card {
+.overzicht_opleidingen {
+  padding: 2rem 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1rem 0.6rem rgba(0, 0, 0, 0.0666666667);
+}
+.overzicht_opleidingen h2 {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.overzicht_opleidingen .opleidingen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.overzicht_opleidingen .opleiding.card {
   background-color: #f8f8f8;
-  border: 1px solid rgba(170, 170, 170, 0.5333333333);
+  border: 1px solid #aaa;
   box-shadow: 0 0.5rem 0.3rem rgba(0, 0, 0, 0.0666666667);
   border-radius: 0.5rem;
-  overflow: hidden;
+  padding: 1.5rem;
+  flex: 1 1 calc(25% - 1.5rem);
+  max-width: calc(25% - 1.5rem);
+  text-align: center;
+  position: relative;
 }
-
-.product .product-img,
-.product .product-info {
-  display: flex;
+.overzicht_opleidingen .opleiding.card .opleiding-image {
+  position: absolute;
+  bottom: 8%;
+  right: -12%;
+  transform: translateX(-50%);
+  width: 100px;
 }
-
-.product .product-img {
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.0549019608);
+.overzicht_opleidingen .opleiding.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
-
-.product .product-img img {
-  object-fit: contain;
+.overzicht_opleidingen .opleiding.card p {
+  font-size: 15px;
+  font-style: italic;
 }
-
-.product .products-container {
-  padding: 1rem 0;
-}
-
-.product .products-container aside ul {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 1px solid #efefef;
+.overzicht_opleidingen .opleiding.card a {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: black;
   border-radius: 0.5rem;
-}
-
-.product .products-container aside ul li {
-  padding: 0;
-  margin: 0;
-}
-
-.product .products-container aside ul li a {
-  display: inline-block;
-  width: 100%;
-  padding: 0.5rem;
   text-decoration: none;
-  border-bottom: 1px solid #efefef;
 }
-
-.product .product-info {
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-between;
+.overzicht_opleidingen .opleiding.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+  text-align: left;
 }
-
-.product .price {
-  padding: 0 0 0.5rem 1rem;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.8em;
-  color: #cf0c0c;
-  text-align: right;
+.overzicht_opleidingen .opleiding.card ul li {
+  margin-bottom: 0.5rem;
+}
+.overzicht_opleidingen .opleiding.card ul li strong {
+  font-weight: bold;
 }
 
 .contact-form {
@@ -1353,9 +1362,29 @@ img.round {
   align-items: stretch !important;
 }
 
-/*
- * @TODO: Add flex-grid and flex-options files. 
- */
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
 img.round {
   aspect-ratio: 1/1;
   border-radius: 50%;
