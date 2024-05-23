@@ -142,23 +142,6 @@
 
   </main>
 
-  <section class="contact">
-    <h3>Heb je vragen? Neem contact met ons op!</h3>
-    <form action="create.php" method="post" class="contact-form">
-      <label for="firstname">Voornaam:</label><br>
-      <input type="text" id="firstname" name="firstname" placeholder="voornaam"><br>
-      <label for="lastname">Achternaam:</label><br>
-      <input type="text" id="lastname" name="lastname" placeholder="achternaam"><br>
-      <label for="telefoonnummer">Telefoonnummer:</label><br>
-      <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456"><br>
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="name@example.com"><br>
-      <label for="question">Stel hier je vraag:</label><br>
-      <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
-      <input type="submit" value="Verzenden">
-    </form>
-  </section>
-
   <footer class="footer">
     <div class="rechten">
       <p>Alle rechten voorbehouden</p>
