@@ -18,7 +18,7 @@
         <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
         <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
         <li><a href="../FAQ/faq.php">FAQ</a></li>
-        <!--<li><a href="ContactP/contact.php">Contact</a></li> Pagina is nog niet nodig in sprint 1-->
+        <li><a href="ContactP/contact.php">Contact</a></li> 
       </ul>
     </div>
   </div>
