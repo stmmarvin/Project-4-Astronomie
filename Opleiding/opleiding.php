@@ -17,8 +17,8 @@
           <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../Opleiding/opleiding.php">Opleiding</a></li>
-            <li><a href="../ContactP/contact.php">Contact</a></li>
             <li><a href="../FAQ/faq.php">FAQ</a></li>
+            <li><a href="../ContactP/contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
