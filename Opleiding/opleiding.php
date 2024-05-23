@@ -27,7 +27,7 @@
       <img src="../media/img/studenten.jpg" alt="Studenten" class="height-50">
       <div class="content text-center">
         <h1>Opleiding</h1>
-        <p>mbo niveau 3 of hoger</p>
+        <p>Niveau 4 of hoger</p>
       </div>
     </div>
   </header>
@@ -51,7 +51,7 @@
     </section>
 
     <section class="opleiding_vakken">
-      <h2>Wat kun je verwachten van deze opleiding?</h2>
+      <h2><img src="../media/img/reading-book.png"> Wat kun je verwachten van deze opleiding?</h2>
       <ul>
         <li>Diepgaande kennis van astronomische concepten</li>
         <li>Praktische ervaring met observaties en onderzoek</li>
@@ -62,7 +62,7 @@
     </section>
 
     <section class="opleiding_details">
-      <h2>Opleidingsdetails</h2>
+      <h2><img src="../media/img/preview.png"> Opleidingsdetails</h2>
       <ul>
         <li><strong>Kosten:</strong> Voor de kosten van de opleiding betaal je lesgeld als je op 1 augustus ouder bent dan 18 jaar.
           Verder zijn er nog kosten voor boeken en andere leermiddelen.
@@ -77,7 +77,7 @@
             <li>Windows 10 of 11 of MacOS versie 11 of hoger</li>
           </ul>
         </li>
-        <li><strong>BBL/BOL:</strong> Deze opleiding wordt aangeboden als voltijdse BOL (BeroepsOpleidende Leerweg).</li>
+        <li><strong>BOL:</strong> Deze opleiding wordt aangeboden als voltijdse BOL (BeroepsOpleidende Leerweg).</li>
         <li><strong>Open dagen:</strong> Bekijk onze website voor de data van de eerstvolgende open dagen.</li>
       </ul>
     </section>
@@ -85,53 +85,49 @@
     <!--Opleidingen-->
 
     <section class="overzicht_opleidingen">
-    <h2><img src="../media/img/graduation.png">Overzicht van Opleidingen</h2>
+    <h2><img src="../media/img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
     <div class="opleidingen">
         <div class="opleiding card">
-        <a href="sterrenkunde.php">
+        <a href="">
             <h3>Sterrenkunde</h3>
             <img src="../media/img/Sterrenkunde.png" class="opleiding-image">
-            <p>Een diepgaande studie van het universum, inclusief sterren, planeten en andere hemellichamen.</p>
             <ul>
-                <li><strong>Type:</strong> BOL</li>
-                <li><strong>Niveau:</strong> HBO</li>
-                <li><strong>Duur:</strong> 4 jaar</li>
+            <li><strong>De geschiedenis van de astronomie</strong></li>
+            <li><strong>De fysica van sterren en planeten</strong></li>
+            <li><strong>De technologie achter telescopen en ruimtevaartuigen</strong></li>
             </ul>
         </a>
         </div>
         <div class="opleiding card">
-          <a href="ruimtevaarttechnologie.php">
-            <h3>Ruimtevaarttechnologie</h3>
+          <a href="*">
+            <h3>Ruimtevaart</h3>
             <img src="../media/img/Ruimtevaarttechnologie.jpg" class="opleiding-image">
-            <p>De technologie en engineering achter ruimtevaartuigen en satellieten.</p>
             <ul>
-                <li><strong>Type:</strong> BOL</li>
-                <li><strong>Niveau:</strong> HBO</li>
-                <li><strong>Duur:</strong> 4 jaar</li>
+            <li><strong>De geschiedenis van de ruimtevaart</strong></li>
+            <li><strong>De fysica van ruimtevaartuigen</strong></li>
+            <li><strong>De technologie achter raketten en satellieten</strong></li>
             </ul>
             </a>
         </div>
         <div class="opleiding card">
-          <a href="astrofysica.php">
+          <a href="*">
             <h3>Astrofysica</h3>
             <img src="../media/img/astrofysicus.jpg" class="opleiding-image">
-            <p>De fysica van sterren en andere objecten in de ruimte, inclusief hun eigenschappen en gedrag.</p>
             <ul>
-                <li><strong>Type:</strong> BOL</li>
-                <li><strong>Niveau:</strong> HBO</li>
-                <li><strong>Duur:</strong> 4 jaar</li>
+            <li><strong>De fysica van sterren en planeten</strong></li>
+            <li><strong>De evolutie van het universum</strong></li>
+            <li><strong>De oorsprong van het leven in het universum</strong></li>
             </ul>
             </a>
         </div>
         <div class="opleiding card">
-          <a href="planetologie.php">
+          <a href="*">
             <h3>Planetologie</h3>
             <img src="../media/img/planet.jpg" class="opleiding-image">
-            <p>De studie van planeten, manen en planetaire systemen, vooral in ons eigen zonnestelsel.</p>
             <ul>
-                <li><strong>Type:</strong> BOL</li>
-                <li><strong>Niveau:</strong> HBO</li>
-                <li><strong>Duur:</strong> 4 jaar</li>
+            <li><strong>De geschiedenis van de planetologie</strong></li>
+            <li><strong>De fysica van planeten en manen</strong></li>
+            <li><strong>De technologie achter ruimtemissies naar planeten</strong></li>
             </ul>
             </a>
         </div>
@@ -172,6 +168,7 @@
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a>
+      <a href="../FAQ/faq.php">FAQ</a>
     </div>
     
     <div class="footer-column">
