@@ -816,11 +816,11 @@ img.round {
   position: relative;
 }
 .overzicht_opleidingen .opleiding.card .opleiding-image {
-  position: absolute;
+  position: relative;
   bottom: 8%;
-  right: -12%;
+  left: 50%;
   transform: translateX(-50%);
-  width: 100px;
+  width: 100%;
 }
 .overzicht_opleidingen .opleiding.card h3 {
   font-size: 1.5rem;
@@ -839,13 +839,15 @@ img.round {
   text-decoration: none;
 }
 .overzicht_opleidingen .opleiding.card ul {
+  position: relative;
   list-style: none;
   padding: 0;
   font-size: 0.9rem;
   text-align: left;
 }
 .overzicht_opleidingen .opleiding.card ul li {
-  margin-bottom: 0.5rem;
+  text-align: left;
+  margin: 8%;
 }
 .overzicht_opleidingen .opleiding.card ul li strong {
   font-weight: bold;
