@@ -147,7 +147,7 @@
 
   <section class="contact">
     <h3>Heb je vragen? Neem contact met ons op!</h3>
-    <form action="" method="post" class="contact-form">
+    <form action="create.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
       <input type="text" id="firstname" name="firstname" placeholder="voornaam"><br>
       <label for="lastname">Achternaam:</label><br>
