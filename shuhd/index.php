@@ -40,7 +40,7 @@
     </div>
   </header>
 
-
+  <main class="container">
   <div>
 
   <h2> Welkom op de opleiding Astronomie </h2>
@@ -61,13 +61,13 @@
           <p><b>Overzicht van de Astronomie Opleiding</b> <br><br> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de kans om de mysteries van de kosmos te ontrafelen.</p>
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <img src="../home\img\1000046100.jpg" alt="">
+        <img src="media/img/planet.jpg" alt="">
     </div>
   </div>
 <br>
   <div class="bubble row">
       <div class="col-6">
-          <img src="../home\img\1000046101.jpg" alt="">
+          <img src="media/img/sterrenkunde.png" alt="">
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
         <p><b>Cursusonderwerpen:</b> <br><b>-</b> Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.<br><br><b>-</b> Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, en de vorming en eigenschappen van sterrenstelsels.<br><br>
@@ -92,7 +92,7 @@
       </div>
   </div>
   </div>
-
+</main>
 <script src="../Main/assets/javascript/script.js"></script>
 <script src="../Main/assets/javascript/activeTab.js"></script>
 <script src="../Main/assets/javascript/progressBar.js"></script>
