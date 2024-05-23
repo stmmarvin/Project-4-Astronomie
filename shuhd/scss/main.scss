@@ -1,0 +1,83 @@
+@use "base";
+@use "text-options";
+@use "home";
+@use "navbar";
+@use "banner";
+@use "conf";
+@use "course";
+@use "footer";
+@use "flex-grid";
+@use "flex-options";
+
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+img.round {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border: 1px solid #aaa8;
+  box-shadow: 0 0.5rem 0.3rem #0001;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product {
+  .product-img,
+  .product-info {
+    display: flex;
+  }
+
+  .product-img {
+    justify-content: czenter;
+    align-items: center;
+    box-shadow: 0 0.5rem 0.5rem #0000000e;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .product-info {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .price {
+    padding: 0 0 0.5rem 1rem;
+    font-family: conf.get("title-font");
+    font-size: 1.8em;
+    color: conf.get("red");
+    text-align: right;
+  }
+}
+
+// Path: scss/_base.scss

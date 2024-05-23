@@ -1,0 +1,10 @@
+.profile img {
+  width: 160px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+/*# sourceMappingURL=contact.css.map */

@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
   <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="scss/_base.scss" />
+  <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
+ 
   
   
 </head>
@@ -19,6 +20,7 @@
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="Opleiding/opleiding.php">Opleiding</a></li>
+            <li><a href="../FAQ/faq.php">FAQ</a></li>
             <!--<li><a href="ContactP/contact.php">Contact</a></li> Pagina is nog niet nodig in sprint 1-->
           </ul>
         </div>
@@ -59,13 +61,13 @@
           <p><b>Overzicht van de Astronomie Opleiding</b> <br><br> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de kans om de mysteries van de kosmos te ontrafelen.</p>
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <img src="" alt="">
+        <img src="../home\img\1000046100.jpg" alt="">
     </div>
   </div>
-
+<br>
   <div class="bubble row">
       <div class="col-6">
-          <img src="" alt="">
+          <img src="../home\img\1000046101.jpg" alt="">
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
         <p><b>Cursusonderwerpen:</b> <br><b>-</b> Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.<br><br><b>-</b> Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, en de vorming en eigenschappen van sterrenstelsels.<br><br>
@@ -96,22 +98,44 @@
 <script src="../Main/assets/javascript/progressBar.js"></script>
 </home>
 
-<footer>
-        <div class="contact-info">
-            <p class="adres">Australiëlaan 25, Utrecht, 3526AB</p>
-            <p class="email">astronomie@utrecht.nl</p>
-        </div>
-        <div class="social-media-links">
-            <a href="" class="social-media-link" id="twitter">
-                <img src="media/img/Logo_of_Twitter_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="" class="social-media-link" id="facebook">
-                <img src="media/img/2021_Facebook_icon_wikimedia_commons.svg" alt="">
-            </a>
-            <a href="media/img/YouTube_full-color_icon_(2017)_wikimedia_commons.svg" class="social-media-link" id="youtube">
-                <img src="" alt="">
-            </a>
-        </div>
-    </footer>
+
+<footer class="footer">
+    <div class="rechten">
+      <p>Alle rechten voorbehouden</p>
+      <p>© 2024</p>
+    </div>
+    
+    <div class="footer-column">
+      <h3>Pagina's</h3>
+      <a href="../index.php">Home</a><br>
+      <a href="../Opleiding/opleiding.php">Opleiding</a>
+    </div>
+    
+    <div class="footer-column">
+      <h3>Opleidingen</h3>
+      <a href="sterrenkunde.php">Sterrenkunde</a><br>
+      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
+      <a href="astrofysica.php">Astrofysica</a><br>
+      <a href="planetologie.php">Planetologie</a>
+    </div>
+
+  <div class="footer-column">
+    <h3>Contactgegevens</h3>
+    <p>Australiëlaan 25</p>
+    <p>Utrecht 3526AB</p>
+    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+    <div class="social-media-links">
+      <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
+        <img src="../media/img/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
+        <img src="../media/img/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
+        <img src="../media/img/youtube.png" alt="YouTube">
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
