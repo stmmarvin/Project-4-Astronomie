@@ -15,10 +15,10 @@
     <div class="container row jc-center">
     <div class="main-menu">
         <ul>
-        <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
-        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li>
         <li><a href="../FAQ/faq.php">FAQ</a></li>
-        <li><a href="ContactP/contact.php">Contact</a></li> 
+        <li><a href="../ContactP/contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -37,6 +37,33 @@
     </div>
   </header>
 
+  <main>
+    <section class="faq-section">
+      <div class="container">
+        <h2><img src="../media/img/help.png">Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="faq-item">
+            <h3>Wat zijn de toelatingseisen voor de opleiding Astronomie?</h3>
+            <p>De toelatingseisen voor de opleiding Astronomie zijn een bachelordiploma in de natuurkunde of een verwant vakgebied.</p>
+            </div>
+            <div class="faq-item">
+            <h3>Welke vakken zijn opgenomen in de opleiding Astronomie?</h3>
+            <p>De opleiding Astronomie omvat vakken zoals Sterrenkunde, Galactische Astronomie en Kosmologie.</p>
+            </div>
+            <div class="faq-item">
+            <h3>Welke carrièremogelijkheden zijn er voor afgestudeerden in Astronomie?</h3>
+            <p>Afgestudeerden in Astronomie kunnen carrières nastreven als onderzoekswetenschappers, observatoriumtechnici of wetenschapsdocenten.</p>
+            </div>
+            <div class="faq-item">
+            <h3>Zijn er financiële ondersteuningsmogelijkheden beschikbaar voor studenten Astronomie?</h3>
+            <p>Ja, er zijn beurzen en subsidies beschikbaar voor studenten Astronomie. Je kunt contact opnemen met het financiële ondersteuningsbureau van de universiteit voor meer informatie.</p>
+            </div>
+            <div class="faq-item">
+            <h3>Kan ik tijdens de opleiding Astronomie stage lopen?</h3>
+            <p>Ja, de opleiding Astronomie biedt mogelijkheden voor stages bij observatoria en onderzoeksinstituten.</p>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
       <div class="rechten">
@@ -50,6 +77,14 @@
       <a href="../FAQ/faq.php">FAQ</a>
       <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
   </div>
+
+  <div class="footer-column">
+      <h3>Opleidingen</h3>
+      <a href="sterrenkunde.php">Sterrenkunde</a><br>
+      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
+      <a href="astrofysica.php">Astrofysica</a><br>
+      <a href="planetologie.php">Planetologie</a>
+    </div>
   
   <div class="footer-column">
     <h3>Contactgegevens</h3>
