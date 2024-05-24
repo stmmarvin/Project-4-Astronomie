@@ -38,9 +38,10 @@
 
 <section class="contact">
   <div class="flex-direction">
-  
 
   <h3>Adres en Locatie</h3>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.849989008314!2d5.099612576505236!3d52.06425507194521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c665948a2073bf%3A0xb8405acd63a12ee1!2sMBO%20Utrecht!5e0!3m2!1snl!2snl!4v1716453590789!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   <p>Australiëlaan 25</p>
     <p>Utrecht 3526AB</p>
@@ -53,15 +54,15 @@
     <h3>Heb je vragen? Neem contact met ons op!</h3>
     <form action="create.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
-      <input type="text" id="firstname" name="firstname" placeholder="voornaam"><br>
+      <input type="text" id="firstname" name="firstname" placeholder="voornaam" required><br> 
       <label for="lastname">Achternaam:</label><br>
-      <input type="text" id="lastname" name="lastname" placeholder="achternaam"><br>
+      <input type="text" id="lastname" name="lastname" placeholder="achternaam" required><br>
       <label for="telefoonnummer">Telefoonnummer:</label><br>
-      <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456"><br>
+      <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456" required><br>
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+      <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
       <label for="question">Stel hier je vraag:</label><br>
-      <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+      <textarea id="question" name="question" rows="4" cols="50" required></textarea><br>
       <input type="submit" value="Verzenden">
     </form>
   </section>
