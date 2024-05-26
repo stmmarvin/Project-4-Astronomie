@@ -3,7 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f4f4f4;
-  color: #333;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   line-height: 1.55em;
   overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
 }
 
 .bubble {
-  background-color: rgba(74, 67, 67, 0.4823529412);
+  background-color: rgba(213, 211, 211, 0.699);
   border-radius: 25px 0 25px 0;
 }
 
