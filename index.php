@@ -45,6 +45,9 @@
 
   <h3> Welkom op de opleiding Astronomie </h3>
 <br><br>
+<video width="640" height="360" controls>
+        <source src="vid/kennis vid.mov" type="video/mp4">
+    </video>
 
   <div class="bubble"><h2> Wat kan je allemaal verwachten op deze opleiding </h2> <br> <p>  
     Je ontdekt de grenzeloze mogelijkheden van het heelal met onze uitdagende en boeiende opleiding in Astronomie. <br>Of je nu een gepassioneerde sterrenkijker bent of een toekomstige astronoom in spe, onze opleiding biedt een unieke reis door de wonderen van de kosmos.<br><br>
