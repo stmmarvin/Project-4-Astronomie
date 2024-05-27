@@ -15,14 +15,10 @@
     <div class="container row jc-center">
     <div class="main-menu">
         <ul>
-        <li><a href="../index.php">Home</a></li>
-        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li>
-        <li><a href="../FAQ/faq.php">FAQ</a></li>
-<<<<<<< HEAD
-        <li><a href="../ContactP/contact.php">Contact</a></li> 
-=======
-        <li><a href="../ContactP/contact.php">Contact</a></li>
->>>>>>> 9ad724ff818c5f1d28e6245df3c8acc2b430df36
+        <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
+        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+        <li><a href="../FAQ/faq.php">FAQ</a></li> <!-- Link to the "FAQ" page from any other page -->
+        <li><a href="../ContactP/contact.php">Contact</a></li> <!-- Link to the "Contact" page from any other page -->
       </ul>
     </div>
   </div>
@@ -74,21 +70,15 @@
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
       </div>
-  <div class="footer-column">
-    <h3>Pagina's</h3>
-      <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
-      <a href="../FAQ/faq.php">FAQ</a>
-      <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
-  </div>
 
-  <div class="footer-column">
-      <h3>Opleidingen</h3>
-      <a href="sterrenkunde.php">Sterrenkunde</a><br>
-      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
-      <a href="astrofysica.php">Astrofysica</a><br>
-      <a href="planetologie.php">Planetologie</a>
+      <div class="footer-column">
+      <h3>Pagina's</h3>
+      <a href="../index.php">Home</a><br>
+      <a href="../Opleiding/opleiding.php">Opleiding</a>
+      <a href="../FAQ/faq.php">FAQ</a>
+      <a href="../ContactP/contact.php">Contact</a>
     </div>
+
   
   <div class="footer-column">
     <h3>Contactgegevens</h3>

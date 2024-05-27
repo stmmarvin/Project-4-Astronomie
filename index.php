@@ -121,14 +121,8 @@
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a>
-    </div>
-    
-    <div class="footer-column">
-      <h3>Opleidingen</h3>
-      <a href="sterrenkunde.php">Sterrenkunde</a><br>
-      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
-      <a href="astrofysica.php">Astrofysica</a><br>
-      <a href="planetologie.php">Planetologie</a>
+      <a href="../FAQ/faq.php">FAQ</a>
+      <a href="../ContactP/contact.php">Contact</a>
     </div>
 
   <div class="footer-column">
