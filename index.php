@@ -46,7 +46,7 @@
   <h3> Welkom op de opleiding Astronomie </h3>
 <br><br>
 <video width="640" height="360" controls>
-        <source src="vid/kennis vid.mov" type="video/mp4">
+        <source src="vid/homevideo.mov" type="video/mp4">
     </video>
 
   <div class="bubble"><h2> Wat kan je allemaal verwachten op deze opleiding </h2> <br> <p>  
