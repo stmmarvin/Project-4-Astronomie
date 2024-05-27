@@ -16,6 +16,7 @@
       <div class="main-menu">
         <ul>
         <li><a href="../index.php">Home</a></li> <!-- Link back to the home page -->
+        <li><a href="../Astronomie/astronomie">Astronomie</a></li>
         <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
         <li><a href="../FAQ/faq.php">FAQ</a></li>
         <li><a href="../ContactP/contact.php">Contact</a></li>
