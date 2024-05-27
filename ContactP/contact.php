@@ -26,7 +26,7 @@
 </nav>
 
 <div id="banner">
-      <img src="https://thispersondoesnotexist.com/" alt="height-50">
+      <img src="../media/img/contact.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
         Contact
