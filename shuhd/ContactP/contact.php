@@ -17,38 +17,48 @@
         <ul>
         <li><a href="../index.php">Home</a></li> <!-- Link back to the home page -->
         <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+        <li><a href="../FAQ/faq.php">FAQ</a></li>
         <li><a href="../ContactP/contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="row">
-  <div class="profile">
-    <div class="card"></div>
-    <img src="../ContactP\img\download(1).jpeg" alt="">
-    <div class="container">
-    <h2>Luuk van den Bosch</h2>
-    <p>Lorem ipsum dolor sit amet, 
-      consectetur adipisicing elit. Harum, 
-      iure non corporis error eius ea possimus, 
-      dolorum hic iusto sequi reprehenderit 
-      dolorem sint impedit nemo! 
-      Sit ex quisquam error fugiat?</p>
-  </div>
-  </div>
+<div id="banner">
+      <img src="https://thispersondoesnotexist.com/" alt="height-50">
+      <div class="content text-center">
+        <h1>
+        Contact
+        </h1>
+        <p>MBO Utrecht</p>
+      </div>
+      </img>
+    </div>
+  </header>
+
+<section class="contact">
+  <div class="flex-direction">
   
-  <div class="profile">
-    <div class="card"></div>
-    <img src="" alt="">
-  </div>
-  <div class="profile">
-    <div class="card"></div>
-    <img src="" alt="">
-  </div>
+
+  <h3>Adres en Locatie</h3>
+
+    <h3>Heb je vragen? Neem contact met ons op!</h3>
+    <form action="create.php" method="post" class="contact-form">
+      <label for="firstname">Voornaam:</label><br>
+      <input type="text" id="firstname" name="firstname" placeholder="voornaam"><br>
+      <label for="lastname">Achternaam:</label><br>
+      <input type="text" id="lastname" name="lastname" placeholder="achternaam"><br>
+      <label for="telefoonnummer">Telefoonnummer:</label><br>
+      <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+      <label for="question">Stel hier je vraag:</label><br>
+      <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Verzenden">
+    </form>
+  </section>
 </div>
-
-
+</div>
   
 <footer class="footer">
       <p><div class="rechten">

@@ -549,11 +549,11 @@ img.round {
     position: relative;
 
     .opleiding-image {
-      position: absolute;
+      position: relative;
       bottom: 8%;
-      right: -12%;
+      left: 50%;
       transform: translateX(-50%);
-      width: 100px; 
+      width: 100%; 
     }
 
     h3 {
@@ -576,13 +576,15 @@ img.round {
     }
 
     ul {
+      position: relative;
       list-style: none;
       padding: 0;
       font-size: 0.9rem;
       text-align: left;
 
       li {
-        margin-bottom: 0.5rem;
+        text-align: left;
+        margin: 8%;
 
         strong {
           font-weight: bold;
