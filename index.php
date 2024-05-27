@@ -65,13 +65,13 @@
           <p> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de kans om de mysteries van de kosmos te ontrafelen.</p>
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <img src="media/img/planet.jpg" alt=""  height="400" width="400">
+        <img src="media/img/zee.webp" alt=""  height="400" width="400">
     </div>
   </div>
 <br>
   <div class="bubble row">
       <div class="col-6">
-          <img src="media/img/sterrenkunde.png" alt=""  height="400" width="400">
+          <img src="media/img/zeee.webp" alt=""  height="400" width="400">
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
         <h2>Cursusonderwerpen:</h2> <p><br><b>-</b> Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.<br><br><b>-</b> Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, en de vorming en eigenschappen van sterrenstelsels.<br><br>
