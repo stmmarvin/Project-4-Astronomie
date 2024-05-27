@@ -42,14 +42,6 @@
 
   <h3>Adres en Locatie</h3>
 
-  <p>Australiëlaan 25</p>
-    <p>Utrecht 3526AB</p>
-    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
-
-
-
-
-
     <h3>Heb je vragen? Neem contact met ons op!</h3>
     <form action="create.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
