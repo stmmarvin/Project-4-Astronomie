@@ -74,9 +74,9 @@
     <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a>
-      <a href="../FAQ/faq.php">FAQ</a>
-      <a href="../ContactP/contact.php">Contact</a>
+      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../FAQ/faq.php">FAQ</a><br>
+      <a href="../ContactP/contact.php">Contact</a><br>
     </div>
     
     <div class="footer-column">
