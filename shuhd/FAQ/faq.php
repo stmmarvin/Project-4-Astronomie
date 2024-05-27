@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronomie</title>
-    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../css/faq.css" />
     <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    
+
+<body>   
 <header>
   <nav>
     <div class="container row jc-center">
-    <div class="main-menu">
+      <div class="main-menu">
         <ul>
-        <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
-        <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
-        <li><a href="../FAQ/faq.php">FAQ</a></li>
-        <!--<li><a href="ContactP/contact.php">Contact</a></li> Pagina is nog niet nodig in sprint 1-->
-      </ul>
+          <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
+          <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+          <li><a href="../FAQ/faq.php">FAQ</a></li> <!-- Link to the "FAQ" page from any other page -->
+          <li><a href="../ContactP/contact.php">Contact</a></li> <!-- Link to the "Contact" page from any other page -->
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
     <div id="banner">
