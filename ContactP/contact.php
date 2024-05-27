@@ -39,21 +39,6 @@
 <section class="contact">
   <div class="flex-direction">
 
-  <h3>Adres en Locatie</h3>
-
-<<<<<<< HEAD
-=======
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.849989008314!2d5.099612576505236!3d52.06425507194521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c665948a2073bf%3A0xb8405acd63a12ee1!2sMBO%20Utrecht!5e0!3m2!1snl!2snl!4v1716453590789!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-  <p>Australiëlaan 25</p>
-    <p>Utrecht 3526AB</p>
-    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
-
-
-
-
-
->>>>>>> 586bbf925f4f4f6ff643032eb3a84700247cd8e8
     <h3>Heb je vragen? Neem contact met ons op!</h3>
     <form action="create.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
