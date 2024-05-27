@@ -42,27 +42,34 @@
       <div class="container">
         <h2><img src="../media/img/help.png">Frequently Asked Questions</h2>
         <div class="faq">
-            <div class="faq-item">
-            <h3>Wat zijn de toelatingseisen voor de opleiding Astronomie?</h3>
+            <div class="faq-item hidden">
+            <h3>Wat zijn de toelatingseisen voor de opleiding Astronomie?<span class="arrow">&rarr;</span></h3>
             <p>De toelatingseisen voor de opleiding Astronomie zijn een bachelordiploma in de natuurkunde of een verwant vakgebied.</p>
             </div>
-            <div class="faq-item">
-            <h3>Welke vakken zijn opgenomen in de opleiding Astronomie?</h3>
+            <div class="faq-item hidden">
+            <h3>Welke vakken zijn opgenomen in de opleiding Astronomie?<span class="arrow">&rarr;</span></h3>
             <p>De opleiding Astronomie omvat vakken zoals Sterrenkunde, Galactische Astronomie en Kosmologie.</p>
             </div>
-            <div class="faq-item">
-            <h3>Welke carrièremogelijkheden zijn er voor afgestudeerden in Astronomie?</h3>
+            <div class="faq-item hidden">
+            <h3>Welke carrièremogelijkheden zijn er voor afgestudeerden in Astronomie?<span class="arrow">&rarr;</span></h3>
             <p>Afgestudeerden in Astronomie kunnen carrières nastreven als onderzoekswetenschappers, observatoriumtechnici of wetenschapsdocenten.</p>
             </div>
-            <div class="faq-item">
-            <h3>Zijn er financiële ondersteuningsmogelijkheden beschikbaar voor studenten Astronomie?</h3>
+            <div class="faq-item hidden">
+            <h3>Zijn er financiële ondersteuningsmogelijkheden beschikbaar voor studenten Astronomie?<span class="arrow">&rarr;</span></h3>
             <p>Ja, er zijn beurzen en subsidies beschikbaar voor studenten Astronomie. Je kunt contact opnemen met het financiële ondersteuningsbureau van de universiteit voor meer informatie.</p>
             </div>
-            <div class="faq-item">
-            <h3>Kan ik tijdens de opleiding Astronomie stage lopen?</h3>
+            <div class="faq-item hidden">
+            <h3>Kan ik tijdens de opleiding Astronomie stage lopen?<span class="arrow">&rarr;</span></h3>
             <p>Ja, de opleiding Astronomie biedt mogelijkheden voor stages bij observatoria en onderzoeksinstituten.</p>
       </div>
     </section>
+
+    <section>
+      <p>Staat je vraag niet tussen de lijst? <a href="../ContactP/contact.php" class="button"> Neem contact met ons op</a></p>
+    </section>
+
+
+
   </main>
 
   <footer class="footer">
@@ -74,9 +81,9 @@
       <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a>
-      <a href="../FAQ/faq.php">FAQ</a>
-      <a href="../ContactP/contact.php">Contact</a>
+      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../FAQ/faq.php">FAQ</a><br>
+      <a href="../ContactP/contact.php">Contact</a><br>
     </div>
 
   
@@ -101,5 +108,26 @@
 <script src="../Main/assets/javascript/script.js"></script>
 <script src="../Main/assets/javascript/activeTab.js"></script>
 <script src="../Main/assets/javascript/progressBar.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".faq-item h3").on("click", function(){
+    $(".faq-item p").slideUp();
+    $(".faq-item .arrow").html('&rarr;');
+
+    var content = $(this).next('p');
+    var arrow = $(this).find('.arrow');
+    if (content.is(":visible")) {
+      content.slideUp();
+      arrow.html('&rarr;');
+    } else {
+      content.slideDown();
+      arrow.html('&#9733;');
+    }
+  });
+});
+</script>
+
 </body>
 </html>
