@@ -16,6 +16,7 @@
         <div class="main-menu">
           <ul>
             <li><a href="../index.php">Home</a></li>
+            <li><a href="../Astronomie/astronomie.php">Astronomie</a></li>
             <li><a href="../Opleiding/opleiding.php">Opleiding</a></li>
             <li><a href="../FAQ/faq.php">FAQ</a></li>
             <li><a href="../ContactP/contact.php">Contact</a></li>
