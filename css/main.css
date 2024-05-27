@@ -3,7 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f4f4f4;
-  color: #333;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   line-height: 1.55em;
   overflow-x: hidden;
@@ -20,6 +20,14 @@ body {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.bubble {
+  background-color: rgba(213, 211, 211, 0.699);
+  border-radius: 25px 0 25px 0;
+}
+
+>>>>>>> 586bbf925f4f4f6ff643032eb3a84700247cd8e8
 h1 {
   padding-inline-start: 1%;
 }
@@ -785,8 +793,9 @@ img.round {
 .overzicht_opleidingen {
   padding: 2rem 0;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 4%;
   box-shadow: 0 1rem 0.6rem rgba(0, 0, 0, 0.0666666667);
+  margin: 7%;
 }
 .overzicht_opleidingen h2 {
   text-align: left;
@@ -887,6 +896,32 @@ img.round {
 
 .contact-form input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.faq-item p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 
