@@ -57,7 +57,7 @@ $tableRows = "";
                     </tr>";
  }
 
- header('Refresh:6; url=../index.php');
+
 
 ?>
 
@@ -87,6 +87,6 @@ $tableRows = "";
                 <?php echo $tableRows; ?>
             </tbody>   
     </table>
-    
+    <a href="../index.php">Home</a>
 </body>
 </html>
