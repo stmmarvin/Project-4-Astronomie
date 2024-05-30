@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="shortcut icon" href="..//img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -35,23 +35,8 @@
   </header>
 
   <main class="container">
-    <section class="opleiding_info">
-      <div class="col-12">
-        <h2><img src="..//img/galaxy.png">Wat is Astronomie?</h2>
-        <p>
-          Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer.
-          Astronomen bestuderen de oorsprong, evolutie, en de toekomst van het universum.
-        </p>
-        <p>
-          Je studeert Sterrenkunde wanneer je je wilt richten op alle facetten van het heelal.
-          Je doet uitgebreide kennis op over planeten en hun manen, asteroïden, sterren en andere objecten in het heelal.
-          Daarnaast leer je alles over instrumenten en methoden om het heelal te bestuderen. Met deze studie kun je veel
-          betekenen voor de maatschappij. Zo is medische beeldapparatuur, zoals de MRI-scanner, op sterrenkundige technologie
-          gebaseerd en zijn de grootste zonnepanelen gemaakt van materiaal dat ontwikkeld is om een ruimtetelescoop van energie te voorzien.
-        </p>
-      </div>
-    </section>
 
+    <!-- Opleiding informatie -->
     <section class="opleiding_vakken">
       <h2><img src="../img/reading-book.png"> Wat kun je verwachten van deze opleiding?</h2>
       <ul>
@@ -63,14 +48,18 @@
       </ul>
     </section>
 
+    <!-- Opleiding details -->
     <section class="opleiding_details">
       <h2><img src="../img/preview.png"> Opleidingsdetails</h2>
       <ul>
-        <li><strong>Kosten:</strong> Voor de kosten van de opleiding betaal je lesgeld als je op 1 augustus ouder bent dan 18 jaar.
+        <li><strong>Kosten:</strong> Voor de kosten van de opleiding betaal je lesgeld als je op 1 augustus ouder bent
+          dan 18 jaar.
           Verder zijn er nog kosten voor boeken en andere leermiddelen.
           Ook moet je rekening houden met de kosten voor een computer.</li>
-        <li><strong>Duur:</strong> De opleiding Astronomie duurt normaal gesproken vier jaar bij een voltijdse studie.</li>
-        <li><strong>Laptop eisen:</strong> Voor de opleiding Astronomie moet je een laptop hebben, omdat we de lessen volgen vanuit een online onderwijssysteem.
+        <li><strong>Duur:</strong> De opleiding Astronomie duurt normaal gesproken vier jaar bij een voltijdse studie.
+        </li>
+        <li><strong>Laptop eisen:</strong> Voor de opleiding Astronomie moet je een laptop hebben, omdat we de lessen
+          volgen vanuit een online onderwijssysteem.
           Dit zijn de eisen voor de laptop:
           <ul>
             <li>Minimaal 8GB RAM</li>
@@ -84,72 +73,63 @@
       </ul>
     </section>
 
-    <!--Opleidingen-->
-
+    <!-- Overzicht van de opleidingen -->
     <section class="overzicht_opleidingen">
-    <h2><img src="../img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
-    <div class="opleidingen">
+      <h2><img src="../img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
+      <div class="opleidingen">
         <div class="opleiding card">
-        <a href="">
+          <a href="">
             <h3>Sterrenkunde</h3>
-            <img src="../img/Sterrenkunde.png" class="opleiding-image">
             <ul>
-            <li><strong>De geschiedenis van de astronomie</strong></li>
-            <li><strong>De fysica van sterren en planeten</strong></li>
-            <li><strong>De technologie achter telescopen en ruimtevaartuigen</strong></li>
+              <li><strong>De geschiedenis van de astronomie</strong></li>
+              <li><strong>De fysica van sterren en planeten</strong></li>
+              <li><strong>De technologie achter telescopen en ruimtevaartuigen</strong></li>
             </ul>
-        </a>
+          </a>
         </div>
         <div class="opleiding card">
-          <a href="*">
+          <a href="#">
             <h3>Ruimtevaart</h3>
-            <img src="../img/Ruimtevaarttechnologie.jpg" class="opleiding-image">
             <ul>
-            <li><strong>De geschiedenis van de ruimtevaart</strong></li>
-            <li><strong>De fysica van ruimtevaartuigen</strong></li>
-            <li><strong>De technologie achter raketten en satellieten</strong></li>
+              <li><strong>De geschiedenis van de ruimtevaart</strong></li>
+              <li><strong>De fysica van ruimtevaartuigen</strong></li>
+              <li><strong>De technologie achter raketten en satellieten</strong></li>
             </ul>
-            </a>
+          </a>
         </div>
         <div class="opleiding card">
-          <a href="*">
+          <a href="#">
             <h3>Astrofysica</h3>
-            <img src="../img/astrofysicus.jpg" class="opleiding-image">
             <ul>
-            <li><strong>De fysica van sterren en planeten</strong></li>
-            <li><strong>De evolutie van het universum</strong></li>
-            <li><strong>De oorsprong van het leven in het universum</strong></li>
+              <li><strong>De fysica van sterren en planeten</strong></li>
+              <li><strong>De evolutie van het universum</strong></li>
+              <li><strong>De oorsprong van het leven in het universum</strong></li>
             </ul>
-            </a>
+          </a>
         </div>
         <div class="opleiding card">
-          <a href="*">
+          <a href="#">
             <h3>Planetologie</h3>
-            <img src="../img/planet.jpg" class="opleiding-image">
             <ul>
-            <li><strong>De geschiedenis van de planetologie</strong></li>
-            <li><strong>De fysica van planeten en manen</strong></li>
-            <li><strong>De technologie achter ruimtemissies naar planeten</strong></li>
+              <li><strong>De geschiedenis van de planetologie</strong></li>
+              <li><strong>De fysica van planeten en manen</strong></li>
+              <li><strong>De technologie achter ruimtemissies naar planeten</strong></li>
             </ul>
-            </a>
+          </a>
         </div>
-    </div>
-</section>
-
-
-
-
+      </div>
+    </section>
 
 
   </main>
 
   <footer class="footer">
-      <div class="rechten">
+    <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
-      </div>
+    </div>
 
-      <div class="footer-column">
+    <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
       <a href="../Astronomie/astronomie.php">Astronomie</a><br>
@@ -158,26 +138,26 @@
       <a href="../ContactP/contact.php">Contact</a><br>
     </div>
 
-  
-  <div class="footer-column">
-    <h3>Contactgegevens</h3>
-    <p>Australiëlaan 25</p>
-    <p>Utrecht 3526AB</p>
-    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
-    <div class="social-media-links">
-      <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-        <img src="../img/twitter.png" alt="Twitter">
-      </a>
-      <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-        <img src="../img/facebook.png" alt="Facebook">
-      </a>
-      <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-        <img src="../img/youtube.png" alt="YouTube">
-      </a>
+
+    <div class="footer-column">
+      <h3>Contactgegevens</h3>
+      <p>Australiëlaan 25</p>
+      <p>Utrecht 3526AB</p>
+      <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+      <div class="social-media-links">
+        <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
+          <img src="../img/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
+          <img src="../img/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
+          <img src="../img/youtube.png" alt="YouTube">
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
-  
+  </footer>
+
   <script src="../Main/assets/javascript/script.js"></script>
   <script src="../Main/assets/javascript/activeTab.js"></script>
   <script src="../Main/assets/javascript/progressBar.js"></script>
