@@ -41,59 +41,93 @@
   <main class="container">
   <div>
 
-  <h3> Welkom op de opleiding Astronomie </h3>
+  <h3><img src="img/sparkle.png" class = "icon"> Welkom op de opleiding Astronomie </h3>
+  <br><br>
+  <video width="640" height="360" controls>
+    <source src="vid/homevideo.mov" type="video/mp4">
+  </video>
+
+<div>
+<h2><img src="img/s_stars.png" class = "icon"> Wat kan je allemaal verwachten op deze opleiding</h2><br>
+
+<p>  
+Je ontdekt de grenzeloze mogelijkheden van het heelal met onze uitdagende en boeiende opleiding in Astronomie. 
+<br>Of je nu een gepassioneerde sterrenkijker bent of een toekomstige astronoom in spe, onze opleiding biedt een unieke reis door de wonderen van de kosmos.
 <br><br>
-<video width="640" height="360" controls>
-        <source src="vid/homevideo.mov" type="video/mp4">
-    </video>
 
-  <div class="bubble"><h2> Wat kan je allemaal verwachten op deze opleiding </h2> <br> <p>  
-    Je ontdekt de grenzeloze mogelijkheden van het heelal met onze uitdagende en boeiende opleiding in Astronomie. <br>Of je nu een gepassioneerde sterrenkijker bent of een toekomstige astronoom in spe, onze opleiding biedt een unieke reis door de wonderen van de kosmos.<br><br>
+Leer de geheimen van de sterren, planeten, en melkwegstelsels ontrafelen terwijl je wordt begeleid door toegewijde docenten
+<br> en onderzoekers die je zullen inspireren met hun expertise en enthousiasme voor het vakgebied.
+<br><br>
 
-    Leer de geheimen van de sterren, planeten, en melkwegstelsels ontrafelen terwijl je wordt begeleid door toegewijde docenten<br> en onderzoekers die je zullen inspireren met hun expertise en enthousiasme voor het vakgebied.<br><br>
-    
-    Of je nu droomt van het bestuderen van verre exoplaneten, het onderzoeken van zwarte gaten,<br> of het begrijpen van de oorsprong van het universum, onze opleiding biedt een solide basis voor een boeiende carrière in de astronomie.<br><br>
-    
-    Verken onze website verder en ontdek hoe onze opleiding jou kan helpen om de sterren te bereiken!</p>
-  </div>
+Of je nu droomt van het bestuderen van verre exoplaneten, het onderzoeken van zwarte gaten,
+<br> of het begrijpen van de oorsprong van het universum, onze opleiding biedt een solide basis voor een boeiende carrière in de astronomie.
+<br><br>
 
-  <div class="bubble row">
-      <div class="col-6">
-          <h2>Overzicht van de Astronomie Opleiding</h2> <br><br> 
-          <p> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de kans om de mysteries van de kosmos te ontrafelen.</p>
-      </div>
-      <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <img src="img/moon.webp" alt=""  height="400" width="400">
+Verken onze website verder en ontdek hoe onze opleiding jou kan helpen om de sterren te bereiken!
+</p>
+</div>
+
+<div>
+    <div>
+        <h2><img src="img/sparkle (1).png" class = "icon">Overzicht van de Astronomie Opleiding</h2> 
+        <br><br> 
+        <p> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, 
+          van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire 
+          opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de 
+          kans om de mysteries van de kosmos te ontrafelen.
+        </p>
     </div>
+    <div>
+      <img src="img/moon.webp" class="img">
   </div>
+</div>
 <br>
-  <div class="bubble row">
-      <div class="col-6">
-          <img src="img/sky.webp" alt=""  height="400" width="400">
-      </div>
-      <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <h2>Cursusonderwerpen:</h2> <p><br><b>-</b> Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.<br><br><b>-</b> Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, en de vorming en eigenschappen van sterrenstelsels.<br><br>
-          <b>-</b> Planetaire Wetenschappen: Onderzoek naar de eigenschappen van planeten, manen, en andere hemellichamen in ons zonnestelsel en daarbuiten. <br><br> <b>En nog meer leuke cursussen!</b></p>
-      </div>
-  </div>
+<div>
+    <div>
+        <img src="img/sky.webp" class="img">
+    </div>
+    <div>
+      <h2><img src="img/sparkle (1).png" class = "icon">Cursusonderwerpen:</h2>
+      <p>
+        <br>
+        <b>-</b>
+        Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, 
+        inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.
+        <br><br>
+        <b>-</b>
+        Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, 
+        en de vorming en eigenschappen van sterrenstelsels.
+        <br><br>
+        <b>-</b>
+        Planetaire Wetenschappen: Onderzoek naar de eigenschappen van planeten, manen, en andere hemellichamen 
+        in ons zonnestelsel en daarbuiten. 
+        <br><br> 
+        <b>En nog meer leuke cursussen!</b>
+      </p>
+    </div>
+</div>
 
-  <div class="bubble">
-      <p><h2> Doelen van de Opleiding: </h2> <br><br> <b>-</b> Studenten voorbereiden op een loopbaan in de academische wereld, onderzoeksinstituten, de ruimtevaartindustrie, en andere gebieden waarin kennis van de astronomie en ruimtewetenschappen wordt gewaardeerd.<br><br>
-          <b>-</b> Ontwikkelen van analytische en probleemoplossende vaardigheden die relevant zijn voor een breed scala aan beroepen.<br><br>
-          <b>-</b> Stimuleren van een dieper begrip en waardering voor het universum en onze plaats daarin.</p>
-  </div>
+<div>
+    <p>
+      <h2><img src="img/sparkle (1).png" class = "icon">Doelen van de Opleiding:</h2>
+      <br><br>
+      <b>-</b>
+      Studenten voorbereiden op een loopbaan in de academische wereld, onderzoeksinstituten, 
+      e ruimtevaartindustrie, en andere gebieden waarin kennis van de astronomie en ruimtewetenschappen wordt gewaardeerd.
+      <br><br>
+        <b>-</b> 
+        Ontwikkelen van analytische en probleemoplossende vaardigheden die relevant zijn voor een breed scala aan beroepen.
+        <br><br>
+        <b>-</b>
+        Stimuleren van een dieper begrip en waardering voor het universum en onze plaats daarin.
+      </p>
+</div>
 
-  <div class="bubble">
-      <div class="container row">
-          <div class="col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-               <h2>Waarom Astronomie studeren:</h2> <p><br><br> <b>-</b> Ontdek de schoonheid en complexiteit van de school en draag bij aan ons begrip van de kosmos.<br><br>
-                  <b>-</b> Word lid van een gemeenschap van nieuwsgierige en gepassioneerde individuen die gedreven worden door een gezamenlijke interesse in de astronomie.<br><br>
-                  <b>-</b> Bereid je voor op een carrière die zich uitstrekt tot de grenzen van de ruimte en verder, en maak deel uit van baanbrekende ontdekkingen en ontwikkelingen in de kosmische wetenschappen.</p>
-          </div>
+<div>
+  </div>
+  </div>
+--
 
-      </div>
-  </div>
-  </div>
 </main>
 <script src="../Main/assets/javascript/script.js"></script>
 <script src="../Main/assets/javascript/activeTab.js"></script>
@@ -138,5 +172,6 @@
   <script src="../Main/assets/javascript/script.js"></script>
   <script src="../Main/assets/javascript/activeTab.js"></script>
   <script src="../Main/assets/javascript/progressBar.js"></script>
+
 </body>
 </html>
