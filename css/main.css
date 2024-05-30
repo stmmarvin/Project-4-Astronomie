@@ -3,7 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f4f4f4;
-  color: #000;
+  color: #333;
   font-family: "Montserrat", sans-serif;
   line-height: 1.55em;
   overflow-x: hidden;
@@ -20,14 +20,6 @@ body {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-=======
-.bubble {
-  background-color: rgba(213, 211, 211, 0.699);
-  border-radius: 25px 0 25px 0;
-}
-
->>>>>>> 586bbf925f4f4f6ff643032eb3a84700247cd8e8
 h1 {
   padding-inline-start: 1%;
 }
@@ -48,6 +40,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
+  padding-inline-start: 25%;
 }
 
 h3 {
@@ -928,6 +921,7 @@ img.round {
   float: right;
 }
 
+
 .rechten {
   padding: 20px;
 }
@@ -1443,9 +1437,6 @@ img.round {
   align-items: center;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.0549019608);
 }
-.product .product-img img {
-  object-fit: contain;
-}
 .product .product-info {
   flex-direction: column;
   flex-grow: 1;
@@ -1457,6 +1448,25 @@ img.round {
   font-size: 1.8em;
   color: #cf0c0c;
   text-align: right;
+}
+
+.img {
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5%;
+  height: 35em;
+  transition: transform 0.2s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  width: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
