@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Astronomie</title>
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="..//img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     </nav>
 
     <div id="banner">
-      <img src="../media/img/studenten.jpg" alt="Studenten" class="height-50">
+      <img src="../img/Opleiding-Foto.png" alt="Studenten" class="height-50">
       <div class="content text-center">
         <h1>Opleiding</h1>
         <p>Niveau 4 of hoger</p>
@@ -37,7 +37,7 @@
   <main class="container">
     <section class="opleiding_info">
       <div class="col-12">
-        <h2><img src="../media/img/galaxy.png">Wat is Astronomie?</h2>
+        <h2><img src="..//img/galaxy.png">Wat is Astronomie?</h2>
         <p>
           Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer.
           Astronomen bestuderen de oorsprong, evolutie, en de toekomst van het universum.
@@ -53,7 +53,7 @@
     </section>
 
     <section class="opleiding_vakken">
-      <h2><img src="../media/img/reading-book.png"> Wat kun je verwachten van deze opleiding?</h2>
+      <h2><img src="../img/reading-book.png"> Wat kun je verwachten van deze opleiding?</h2>
       <ul>
         <li>Diepgaande kennis van astronomische concepten</li>
         <li>Praktische ervaring met observaties en onderzoek</li>
@@ -64,7 +64,7 @@
     </section>
 
     <section class="opleiding_details">
-      <h2><img src="../media/img/preview.png"> Opleidingsdetails</h2>
+      <h2><img src="../img/preview.png"> Opleidingsdetails</h2>
       <ul>
         <li><strong>Kosten:</strong> Voor de kosten van de opleiding betaal je lesgeld als je op 1 augustus ouder bent dan 18 jaar.
           Verder zijn er nog kosten voor boeken en andere leermiddelen.
@@ -87,12 +87,12 @@
     <!--Opleidingen-->
 
     <section class="overzicht_opleidingen">
-    <h2><img src="../media/img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
+    <h2><img src="../img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
     <div class="opleidingen">
         <div class="opleiding card">
         <a href="">
             <h3>Sterrenkunde</h3>
-            <img src="../media/img/Sterrenkunde.png" class="opleiding-image">
+            <img src="../img/Sterrenkunde.png" class="opleiding-image">
             <ul>
             <li><strong>De geschiedenis van de astronomie</strong></li>
             <li><strong>De fysica van sterren en planeten</strong></li>
@@ -103,7 +103,7 @@
         <div class="opleiding card">
           <a href="*">
             <h3>Ruimtevaart</h3>
-            <img src="../media/img/Ruimtevaarttechnologie.jpg" class="opleiding-image">
+            <img src="../img/Ruimtevaarttechnologie.jpg" class="opleiding-image">
             <ul>
             <li><strong>De geschiedenis van de ruimtevaart</strong></li>
             <li><strong>De fysica van ruimtevaartuigen</strong></li>
@@ -114,7 +114,7 @@
         <div class="opleiding card">
           <a href="*">
             <h3>Astrofysica</h3>
-            <img src="../media/img/astrofysicus.jpg" class="opleiding-image">
+            <img src="../img/astrofysicus.jpg" class="opleiding-image">
             <ul>
             <li><strong>De fysica van sterren en planeten</strong></li>
             <li><strong>De evolutie van het universum</strong></li>
@@ -125,7 +125,7 @@
         <div class="opleiding card">
           <a href="*">
             <h3>Planetologie</h3>
-            <img src="../media/img/planet.jpg" class="opleiding-image">
+            <img src="../img/planet.jpg" class="opleiding-image">
             <ul>
             <li><strong>De geschiedenis van de planetologie</strong></li>
             <li><strong>De fysica van planeten en manen</strong></li>
@@ -152,6 +152,7 @@
       <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
+      <a href="../Astronomie/astronomie.php">Astronomie</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
@@ -165,13 +166,13 @@
     <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
     <div class="social-media-links">
       <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-        <img src="../media/img/twitter.png" alt="Twitter">
+        <img src="../img/twitter.png" alt="Twitter">
       </a>
       <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-        <img src="../media/img/facebook.png" alt="Facebook">
+        <img src="../img/facebook.png" alt="Facebook">
       </a>
       <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-        <img src="../media/img/youtube.png" alt="YouTube">
+        <img src="../img/youtube.png" alt="YouTube">
       </a>
     </div>
   </div>

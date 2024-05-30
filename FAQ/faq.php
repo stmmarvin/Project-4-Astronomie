@@ -6,7 +6,7 @@
     <title>Astronomie</title>
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="shortcut icon" href="../media/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     
@@ -27,7 +27,7 @@
 
 
     <div id="banner">
-    <img src="../media/img/questions.jpg" alt="height-50">
+    <img src="../img/questions.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Frequently Asked Questions (FAQ)
@@ -41,7 +41,7 @@
   <main>
     <section class="faq-section">
       <div class="container">
-        <h2><img src="../media/img/help.png">Frequently Asked Questions</h2>
+        <h2><img src="../img/help.png">Frequently Asked Questions</h2>
         <div class="faq">
             <div class="faq-item hidden">
             <h3>Wat zijn de toelatingseisen voor de opleiding Astronomie?<span class="arrow">&rarr;</span></h3>
@@ -82,6 +82,7 @@
       <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
+      <a href="../Astronomie/astronomie.php">Astronomie</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
@@ -95,17 +96,21 @@
     <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
     <div class="social-media-links">
       <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-        <img src="../media/img/twitter.png" alt="Twitter">
+        <img src="../img/twitter.png" alt="Twitter">
       </a>
       <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-        <img src="../media/img/facebook.png" alt="Facebook">
+        <img src="../img/facebook.png" alt="Facebook">
       </a>
       <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-        <img src="../media/img/youtube.png" alt="YouTube">
+        <img src="../img/youtube.png" alt="YouTube">
       </a>
     </div>
   </div>
 </footer>
+  
+  <script src="../Main/assets/javascript/script.js"></script>
+  <script src="../Main/assets/javascript/activeTab.js"></script>
+  <script src="../Main/assets/javascript/progressBar.js"></script>
 <script src="../Main/assets/javascript/script.js"></script>
 <script src="../Main/assets/javascript/activeTab.js"></script>
 <script src="../Main/assets/javascript/progressBar.js"></script>

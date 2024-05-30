@@ -23,7 +23,7 @@
     </nav>
 
     <div id="banner">
-      <img src="..\img\moon.png" alt="Astronomie" class="height-50">
+      <img src="..\img\moon.webp" alt="Astronomie" class="height-50">
       <div class="content text-center">
         <h1>Astronomie</h1>
         <p>Informatie</p>
@@ -35,7 +35,7 @@
     <main class="container">
     <section class="opleiding_info">
       <div class="col-12">
-        <h2><img src="../media/img/galaxy.png">Wat is Astronomie?</h2>
+        <h2><img src="../img/galaxy.png">Wat is Astronomie?</h2>
         <p>
           Astronomie is de wetenschap die zich bezighoudt met de bestudering van hemellichamen zoals sterren, planeten, kometen, en meer.
           Astronomen bestuderen de oorsprong, evolutie, en de toekomst van het universum.
@@ -73,6 +73,7 @@
       <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
+      <a href="../Astronomie/astronomie.php">Astronomie</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
@@ -86,16 +87,20 @@
     <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
     <div class="social-media-links">
       <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-        <img src="../media/img/twitter.png" alt="Twitter">
+        <img src="../img/twitter.png" alt="Twitter">
       </a>
       <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-        <img src="../media/img/facebook.png" alt="Facebook">
+        <img src="../img/facebook.png" alt="Facebook">
       </a>
       <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-        <img src="../media/img/youtube.png" alt="YouTube">
+        <img src="../img/youtube.png" alt="YouTube">
       </a>
     </div>
   </div>
 </footer>
+  
+  <script src="../Main/assets/javascript/script.js"></script>
+  <script src="../Main/assets/javascript/activeTab.js"></script>
+  <script src="../Main/assets/javascript/progressBar.js"></script>
 </body>
 </html>

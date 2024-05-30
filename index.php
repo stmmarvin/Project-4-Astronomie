@@ -30,7 +30,7 @@
 
 
     <div id="banner">
-      <img src="../img/Screenshot 2024-04-22 083310.png" alt="height-50">
+      <img src="../img/star-system.png" alt="height-50">
       <div class="content text-center">
         <h1>
         Astronomie
@@ -66,13 +66,13 @@
           <p> Onze Astronomie opleiding biedt een diepgaande verkenning van het universum, van de kleinste deeltjes tot de grootste structuren. Deze boeiende en multidisciplinaire opleiding combineert theoretische studies met praktisch onderzoek en biedt studenten de kans om de mysteries van de kosmos te ontrafelen.</p>
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
-        <img src="media/img/zee.webp" alt=""  height="400" width="400">
+        <img src="img/moon.webp" alt=""  height="400" width="400">
     </div>
   </div>
 <br>
   <div class="bubble row">
       <div class="col-6">
-          <img src="media/img/zeee.webp" alt=""  height="400" width="400">
+          <img src="img/sky.webp" alt=""  height="400" width="400">
       </div>
       <div class="zoom media-item col-6 col-l-6 col-m-6 col-s-12 col-xs-12">
         <h2>Cursusonderwerpen:</h2> <p><br><b>-</b> Inleiding tot de Astronomie: Verkenning van de basisprincipes van de astronomie, inclusief de geschiedenis van de astronomie, observatietechnieken en de structuur van het universum.<br><br><b>-</b> Sterrenkunde: Bestudering van de levenscyclus van sterren, stellaire evolutie, en de vorming en eigenschappen van sterrenstelsels.<br><br>
@@ -112,6 +112,7 @@
       <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
+      <a href="../Astronomie/astronomie.php">Astronomie</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
@@ -125,16 +126,20 @@
     <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
     <div class="social-media-links">
       <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-        <img src="../media/img/twitter.png" alt="Twitter">
+        <img src="../img/twitter.png" alt="Twitter">
       </a>
       <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-        <img src="../media/img/facebook.png" alt="Facebook">
+        <img src="../img/facebook.png" alt="Facebook">
       </a>
       <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-        <img src="../media/img/youtube.png" alt="YouTube">
+        <img src="../img/youtube.png" alt="YouTube">
       </a>
     </div>
   </div>
 </footer>
+  
+  <script src="../Main/assets/javascript/script.js"></script>
+  <script src="../Main/assets/javascript/activeTab.js"></script>
+  <script src="../Main/assets/javascript/progressBar.js"></script>
 </body>
 </html>
