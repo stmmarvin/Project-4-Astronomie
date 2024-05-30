@@ -104,25 +104,20 @@
 
 
 <footer class="footer">
-    <div class="rechten">
+      <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
-    </div>
-    
-    <div class="footer-column">
+      </div>
+
+      <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a>
-    </div>
-    
-    <div class="footer-column">
-      <h3>Opleidingen</h3>
-      <a href="sterrenkunde.php">Sterrenkunde</a><br>
-      <a href="ruimtevaarttechnologie.php">Ruimtevaarttechnologie</a><br>
-      <a href="astrofysica.php">Astrofysica</a><br>
-      <a href="planetologie.php">Planetologie</a>
+      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../FAQ/faq.php">FAQ</a><br>
+      <a href="../ContactP/contact.php">Contact</a><br>
     </div>
 
+  
   <div class="footer-column">
     <h3>Contactgegevens</h3>
     <p>Australiëlaan 25</p>

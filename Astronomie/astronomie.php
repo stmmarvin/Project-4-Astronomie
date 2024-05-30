@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
 </head>
-
+<body>
 <header>
     <nav>
       <div class="container row jc-center">
@@ -32,7 +32,6 @@
   </header>
 
 
-<body>
     <main class="container">
     <section class="opleiding_info">
       <div class="col-12">
@@ -50,6 +49,7 @@
         </p>
       </div>
     </section>
+  </main>
 
     <section class="Astronomie-info">
         <div class="container">
@@ -64,38 +64,38 @@
             </div>
         </div>
     </section>
-
     <footer class="footer">
-    <div class="rechten">
+      <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
-    </div>
-    
-    <div class="footer-column">
+      </div>
+
+      <div class="footer-column">
       <h3>Pagina's</h3>
       <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a>
-      <a href="../FAQ/faq.php">FAQ</a>
-      <a href="../ContactP/contact.php">Contact</a>
+      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../FAQ/faq.php">FAQ</a><br>
+      <a href="../ContactP/contact.php">Contact</a><br>
     </div>
-    
-    <div class="footer-column">
-      <h3>Contactgegevens</h3>
-      <p>Australiëlaan 25</p>
-      <p>Utrecht 3526AB</p>
-      <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
-      <div class="social-media-links">
-        <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
-          <img src="../media/img/twitter.png" alt="Twitter">
-        </a>
-        <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
-          <img src="../media/img/facebook.png" alt="Facebook">
-        </a>
-        <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
-          <img src="../media/img/youtube.png" alt="YouTube">
-        </a>
-      </div>
+
+  
+  <div class="footer-column">
+    <h3>Contactgegevens</h3>
+    <p>Australiëlaan 25</p>
+    <p>Utrecht 3526AB</p>
+    <p><a href="mailto:astronomie@utrecht.nl">astronomie@utrecht.nl</a></p>
+    <div class="social-media-links">
+      <a href="https://twitter.com/utrecht" class="social-media-link" id="twitter">
+        <img src="../media/img/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://www.facebook.com/utrecht" class="social-media-link" id="facebook">
+        <img src="../media/img/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.youtube.com/utrecht" class="social-media-link" id="youtube">
+        <img src="../media/img/youtube.png" alt="YouTube">
+      </a>
     </div>
-  </footer>
+  </div>
+</footer>
 </body>
 </html>

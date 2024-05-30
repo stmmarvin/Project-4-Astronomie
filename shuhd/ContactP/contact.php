@@ -61,17 +61,20 @@
 </div>
   
 <footer class="footer">
-      <p><div class="rechten">
+      <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
-      </div></p>
-  <div class="footer-column">
-    <h3>Pagina's</h3>
-      <a href="../index.php">Home</a><br>
-      <a href="../Opleiding/opleiding.php">Opleiding</a>
-      <!--<a href="ContactP/contact.php">Contact</a> Pagina is nog niet nodig in sprint 1-->
-  </div>
+      </div>
 
+      <div class="footer-column">
+      <h3>Pagina's</h3>
+      <a href="../index.php">Home</a><br>
+      <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../FAQ/faq.php">FAQ</a><br>
+      <a href="../ContactP/contact.php">Contact</a><br>
+    </div>
+
+  
   <div class="footer-column">
     <h3>Contactgegevens</h3>
     <p>Australiëlaan 25</p>
