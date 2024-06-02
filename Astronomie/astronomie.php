@@ -14,11 +14,12 @@
       <div class="container row jc-center">
         <div class="main-menu">
           <ul>
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="../Astronomie/astronomie">Astronomie</a></li>
-            <li><a href="../Opleiding/opleiding.php">Opleiding</a></li>
-            <li><a href="../FAQ/faq.php">FAQ</a></li>
-            <li><a href="../ContactP/contact.php">Contact</a></li>
+            <li><a href="../index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
+            <li><a href="../Astronomie/astronomie.php">Astronomie</a></li> <!-- Link to the "Astronomie" page from any other page -->
+            <li><a href="../Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
+            <li><a href="../gamePagina/game.php">Game</a></li> <!-- Link to the "Game" page from any other page -->
+            <li><a href="../FAQ/faq.php">FAQ</a></li> <!-- Link to the "FAQ" page from any other page -->
+            <li><a href="../ContactP/contact.php">Contact</a></li> <!-- Link to the "Contact" page from any other page -->
           </ul>
         </div>
       </div>
@@ -51,7 +52,7 @@
         </p>
       </div>
     </section>
-    
+
     <section>
         <h2>Geschiedenis van Astronomie</h2>
         <p>Astronomie is een van de oudste wetenschappen. Oude beschavingen zoals de Babyloniërs, Grieken, Chinezen en Maya's hielden zich bezig met het observeren van de hemel.</p>
@@ -96,6 +97,7 @@
       <a href="../index.php">Home</a><br>
       <a href="../Astronomie/astronomie.php">Astronomie</a><br>
       <a href="../Opleiding/opleiding.php">Opleiding</a><br>
+      <a href="../gamePagina/game.php">Game</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
     </div>
