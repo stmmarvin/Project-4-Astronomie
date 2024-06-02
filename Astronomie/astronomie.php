@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronomie</title>
     <link rel="stylesheet" href="../css/main.css">
+    
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -33,8 +34,8 @@
   </header>
 
 
-    <main class="container">
-    <section class="opleiding_info">
+  <main class="container">
+    <section class="opleiding_info text-center">
       <div class="col-12">
         <h2><img src="../img/galaxy.png">Wat is Astronomie?</h2>
         <p>
@@ -50,21 +51,40 @@
         </p>
       </div>
     </section>
-  </main>
-
-    <section class="Astronomie-info">
-        <div class="container">
-            <div class="Astronomie card">
-                    <h3>Wikipedia over Astronomie</h3>
-                    <img src="../img\Wikipedia_logo_nohat_only_wikipedia.png" alt="wikipedia logo">
-                    <p><a href="https://nl.wikipedia.org/wiki/Astronomie">
-                        Lees meer over Astronomie op Wikipedia</p>
-                </a>
-
-                
-            </div>
-        </div>
+    
+    <section>
+        <h2>Geschiedenis van Astronomie</h2>
+        <p>Astronomie is een van de oudste wetenschappen. Oude beschavingen zoals de Babyloniërs, Grieken, Chinezen en Maya's hielden zich bezig met het observeren van de hemel.</p>
+        <p>In de 16e eeuw bracht Nicolaus Copernicus een revolutie teweeg met zijn heliocentrische model, dat beweerde dat de zon in het centrum van het universum stond, niet de aarde.</p>
     </section>
+
+    <section>
+        <h2>Belangrijke Astronomen</h2>
+        <ul>
+            <li><strong>Galileo Galilei:</strong> Ontdekte de vier grootste manen van Jupiter en verbeterde de telescoop.</li>
+            <li><strong>Nicolaus Copernicus:</strong> Stelde het heliocentrische model van het universum voor.</li>
+            <li><strong>Edwin Hubble:</strong> Toonde aan dat het universum uitdijt.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Moderne Astronomie</h2>
+        <p>De moderne astronomie maakt gebruik van geavanceerde telescopen en ruimteobservatoria zoals de Hubble Space Telescope en de James Webb Space Telescope om dieper het universum in te kijken dan ooit tevoren.</p>
+    </section>
+
+    <section>
+        <h2>Astronomische Verschijnselen</h2>
+        <p><strong>Zwarte Gaten:</strong> Regio's in de ruimte waar de zwaartekracht zo sterk is dat niets, zelfs geen licht, kan ontsnappen.</p>
+        <p><strong>Supernovae:</strong> Explosieve stervende sterren die enorme hoeveelheden energie vrijgeven.</p>
+        <p><strong>Pulsars:</strong> Zeer snel ronddraaiende neutronensterren die radiogolven uitzenden.</p>
+    </section>
+
+    <section>
+        <h2>Astronomie en Ruimtevaart</h2>
+        <p>De ontwikkeling van ruimtevaart heeft de astronomie enorm vooruit geholpen. Satellieten en ruimteobservatoria hebben nieuwe mogelijkheden geopend voor de studie van het universum.</p>
+    </section>
+
+</main>
     <footer class="footer">
       <div class="rechten">
       <p>Alle rechten voorbehouden</p>
