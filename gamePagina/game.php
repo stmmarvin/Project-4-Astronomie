@@ -24,7 +24,6 @@
         </div>
       </div>
     </nav>
-
     <div id="banner">
       <img src="../img/game of live.jpg" alt="Game" class="height-50">
       <div class="content text-center">
@@ -34,6 +33,8 @@
     </div>
   </header>
     <main>
+      <section class="game-class">
+        <div class="container">
         <div id="gamearea">
             <div class="game_top_menu">
                 <div id="base_tickers">
@@ -55,6 +56,8 @@
                 <p class="option" id="option5"></p>
             </div>
         </div>
+        </div>
+        </section>
     </main>
     <script src="scripts/screens.js"></script>
     <script src="scripts/engine.js"></script>
