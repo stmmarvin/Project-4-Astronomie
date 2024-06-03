@@ -47,8 +47,8 @@
       <input type="text" id="firstname" name="firstname" placeholder="voornaam" required><br> 
       <label for="lastname">Achternaam:</label><br>
       <input type="text" id="lastname" name="lastname" placeholder="achternaam" required><br>
-      <label for="telefoonnummer">Telefoonnummer:</label><br>
-      <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+313123456" required><br>
+      <label for="phonenumber">Telefoonnummer:</label><br>
+      <input type="tel" id="phonenumber" name="phonenumber" placeholder="+31686583949" required><br>
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
       <label for="question">Stel hier je vraag:</label><br>

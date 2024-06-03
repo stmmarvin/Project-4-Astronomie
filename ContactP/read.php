@@ -14,6 +14,7 @@ $pdo = new PDO($dsn, $dbUser, $dbPass);
 $sql = "SELECT id
                 ,Firstname
                 ,Lastname
+                ,PhoneNumber
                 ,Email 
                 ,Question 
          FROM contact
@@ -49,9 +50,9 @@ $tableRows = "";
 
  foreach ($result as $row) {
      $tableRows .= "<tr>
-                        <td>$row->id</td>
                         <td>$row->Firstname</td>
                         <td>$row->Lastname</td>
+                        <td>$row->PhoneNumber</td>
                         <td>$row->Email</td>
                         <td>$row->Question</td>
                     </tr>";

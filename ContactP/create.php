@@ -22,11 +22,13 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
     // Prepare the query
     $sql = "INSERT INTO contact (Firstname, 
-                                Lastname, 
+                                Lastname,
+                                PhoneNumber, 
                                 Email, 
                                 Question)           
             VALUEs              (:firstname, 
                                 :lastname, 
+                                :phonenumber,
                                 :email, 
                                 :question)";
     $statement = $pdo->prepare($sql);
@@ -34,8 +36,10 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     // Bind the parameters
     $statement->bindParam(':firstname', $_POST['firstname'], PDO::PARAM_STR);
     $statement->bindParam(':lastname', $_POST['lastname'], PDO::PARAM_STR);
+    $statement->bindParam(':phonenumber', $_POST['phonenumber'], PDO::PARAM_STR);
     $statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
     $statement->bindParam(':question', $_POST['question'], PDO::PARAM_STR);
+    
  /**
      * Voer de query uit in de database
      */
@@ -51,5 +55,7 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
      * navigeren
      */
     header('Refresh:2.5; url=read.php');
+
+    
 
 
