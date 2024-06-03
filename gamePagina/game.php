@@ -26,7 +26,7 @@
     </nav>
 
     <div id="banner">
-      <img src="" alt="Game" class="height-50">
+      <img src="../img/game of live.jpg" alt="Game" class="height-50">
       <div class="content text-center">
         <h1>Game</h1>
         <p>Preview</p>
