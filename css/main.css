@@ -23,6 +23,8 @@ body {
 h1 {
   padding-inline-start: 1%;
   font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+
 
 }
 
@@ -39,6 +41,8 @@ h6 {
 h1 {
   font-size: 3em;
   font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+
 
 }
 
