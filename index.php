@@ -42,7 +42,7 @@
   <main class="container">
   <div>
 
-  <h3><img src="img/sparkle.png" class = "icon"> Welkom op de opleiding Astronomie </h3>
+  <h1><img src="img/sparkle.png" class = "icon"> Welkom op de opleiding Astronomie</h1>
   <br><br>
   <video width="640" height="360" controls>
     <source src="vid/homevideo.mov" type="video/mp4">
