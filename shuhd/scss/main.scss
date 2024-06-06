@@ -7,7 +7,6 @@
 @use "course";
 @use "footer";
 @use "flex-grid";
-@use "flex-options";
 
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap");
@@ -59,10 +58,6 @@ img.round {
     justify-content: czenter;
     align-items: center;
     box-shadow: 0 0.5rem 0.5rem #0000000e;
-
-    img {
-      object-fit: contain;
-    }
   }
 
   .product-info {
@@ -78,6 +73,26 @@ img.round {
     color: conf.get("red");
     text-align: right;
   }
+}
+
+.img {
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5%;
+  height: 35em;
+  transition: transform .2s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+}
+
+.icon {
+  width: 40px;
 }
 
 // Path: scss/_base.scss

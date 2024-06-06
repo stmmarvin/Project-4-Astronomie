@@ -75,7 +75,7 @@ $tableRows = "";
 <body>
 
 
-    <p>We hebben jou vraag ontvangen. <br> We nemen zo snel mogelijk contact met je op!</p>
+    <h3>We hebben jou vraag ontvangen. <br> We nemen zo snel mogelijk contact met je op!</h3>
         
     <a href="../index.php">Home</a>
 </body>

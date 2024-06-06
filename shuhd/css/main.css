@@ -40,7 +40,6 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  padding-inline-start: 25%;
 }
 
 h3 {
@@ -714,6 +713,7 @@ body * {
 
 h1 {
   padding-inline-start: 1%;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 h2,
@@ -728,6 +728,8 @@ h6 {
 
 h1 {
   font-size: 3em;
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
 }
 
 h2 {
@@ -785,8 +787,9 @@ img.round {
 .overzicht_opleidingen {
   padding: 2rem 0;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 4%;
   box-shadow: 0 1rem 0.6rem rgba(0, 0, 0, 0.0666666667);
+  margin: 7%;
 }
 .overzicht_opleidingen h2 {
   text-align: left;
@@ -811,11 +814,11 @@ img.round {
   position: relative;
 }
 .overzicht_opleidingen .opleiding.card .opleiding-image {
-  position: absolute;
+  position: relative;
   bottom: 8%;
-  right: -12%;
+  left: 50%;
   transform: translateX(-50%);
-  width: 100px;
+  width: 100%;
 }
 .overzicht_opleidingen .opleiding.card h3 {
   font-size: 1.5rem;
@@ -834,13 +837,15 @@ img.round {
   text-decoration: none;
 }
 .overzicht_opleidingen .opleiding.card ul {
+  position: relative;
   list-style: none;
   padding: 0;
   font-size: 0.9rem;
   text-align: left;
 }
 .overzicht_opleidingen .opleiding.card ul li {
-  margin-bottom: 0.5rem;
+  text-align: left;
+  margin: 8%;
 }
 .overzicht_opleidingen .opleiding.card ul li strong {
   font-weight: bold;
@@ -885,6 +890,37 @@ img.round {
 
 .contact-form input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.faq-item p {
+  margin: 10px 0;
+  font-size: 26px;
+  line-height: 1.5;
+  display: none;
+}
+
+.arrow {
+  float: right;
 }
 
 
@@ -1237,126 +1273,6 @@ img.round {
     width: 100%;
   }
 }
-.fw-wrap {
-  flex-wrap: wrap !important;
-}
-
-.fw-nowrap {
-  flex-wrap: nowrap !important;
-}
-
-.fd-row {
-  flex-direction: row !important;
-}
-
-.fd-row-r {
-  flex-direction: row-reverse !important;
-}
-
-.fd-column {
-  flex-direction: column !important;
-}
-
-.fd-column-r {
-  flex-direction: column-reverse !important;
-}
-
-.jc-initial {
-  justify-content: initial !important;
-}
-
-.jc-inherit {
-  justify-content: inherit !important;
-}
-
-.jc-flex-start {
-  justify-content: flex-start !important;
-}
-
-.jc-flex-end {
-  justify-content: flex-end !important;
-}
-
-.jc-center {
-  justify-content: center !important;
-}
-
-.jc-space-between {
-  justify-content: space-between !important;
-}
-
-.jc-space-around {
-  justify-content: space-around !important;
-}
-
-.jc-space-evenly {
-  justify-content: space-evenly !important;
-}
-
-.ac-initial {
-  align-content: initial !important;
-}
-
-.ac-inherit {
-  align-content: inherit !important;
-}
-
-.ac-flex-start {
-  align-content: flex-start !important;
-}
-
-.ac-flex-end {
-  align-content: flex-end !important;
-}
-
-.ac-center {
-  align-content: center !important;
-}
-
-.ac-space-between {
-  align-content: space-between !important;
-}
-
-.ac-space-around {
-  align-content: space-around !important;
-}
-
-.ac-space-evenly {
-  align-content: space-evenly !important;
-}
-
-.ac-stretch {
-  align-content: stretch !important;
-}
-
-.ai-baseline {
-  align-items: baseline !important;
-}
-
-.ai-initial {
-  align-items: initial !important;
-}
-
-.ai-inherit {
-  align-items: inherit !important;
-}
-
-.ai-flex-start {
-  align-items: flex-start !important;
-}
-
-.ai-flex-end {
-  align-items: flex-end !important;
-}
-
-.ai-center {
-  align-items: center !important;
-}
-
-.ai-stretch {
-  align-items: stretch !important;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
@@ -1403,9 +1319,6 @@ img.round {
   align-items: center;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.0549019608);
 }
-.product .product-img img {
-  object-fit: contain;
-}
 .product .product-info {
   flex-direction: column;
   flex-grow: 1;
@@ -1417,6 +1330,25 @@ img.round {
   font-size: 1.8em;
   color: #cf0c0c;
   text-align: right;
+}
+
+.img {
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5%;
+  height: 35em;
+  transition: transform 0.2s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  width: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

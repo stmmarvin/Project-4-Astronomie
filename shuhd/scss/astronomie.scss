@@ -1,0 +1,87 @@
+.main .Astronomie .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Add this line */
+}
+
+.main .Astronomie h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center; /* Add this line */
+}
+
+.main .Astronomie p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  text-align: center; /* Add this line */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .Astronomie {
+    .info {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .col-12 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  section {
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.5;
+      }
+    }
+  }
+}
