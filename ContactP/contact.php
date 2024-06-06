@@ -44,15 +44,15 @@
     <h3>Heb je vragen? Neem contact met ons op!</h3>
     <form action="create.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
-      <input type="text" id="firstname" name="firstname" placeholder="voornaam" required><br> 
+      <input type="text" id="firstname" name="firstname" placeholder="Vul hier je voornaam in" required><br> 
       <label for="lastname">Achternaam:</label><br>
-      <input type="text" id="lastname" name="lastname" placeholder="achternaam" required><br>
+      <input type="text" id="lastname" name="lastname" placeholder="Vul hier je achternaam in" required><br>
       <label for="phonenumber">Telefoonnummer:</label><br>
-      <input type="tel" id="phonenumber" name="phonenumber" placeholder="+31686583949" required><br>
+      <input type="tel" id="phonenumber" name="phonenumber" placeholder="BV. 0612345678" required><br>
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="name@example.com" required><br>
+      <input type="email" id="email" name="email" placeholder="BV. naam@voorbeeld.nl" required><br>
       <label for="question">Stel hier je vraag:</label><br>
-      <textarea id="question" name="question" rows="4" cols="50" required></textarea><br>
+      <textarea id="question" name="question" placeholder="BV. wanneer begint de lessen over astronomie?" rows="4" cols="50" required></textarea><br>
       <input type="submit" value="Verzenden">
     </form>
   </section>
