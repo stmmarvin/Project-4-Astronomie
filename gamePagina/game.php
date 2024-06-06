@@ -37,14 +37,20 @@
         <div class="container">
         <div id="gamearea">
             <div class="game_top_menu">
+                <div class="time">
+                  <p id="day">?</p>
+                  <p id="hour">??</p>
+                  <p id=":">:</p>
+                  <p id="minute">??</p>
+                </div>
+                <!--Doe basis tikkers en persoonlijke tikkers in een apart vak-->
+                <!--Komt op zn minst een meer tikkers waarschijnlijk-->
                 <div id="base_tickers">
                     <img src="" alt=""><p id="fuel" class="ticker"></p>
                 </div>
                 <div id="personal_tickers">
                     <img src="" alt=""><p class="ticker" id="hunger"></p>
                 </div>
-                
-                <img src="" alt=""><p id="power" class="ticker"></p>
             </div>
             <div class="screen">
                 <h2 id="title">Welkom bij PLACEHOLDER</h2>
@@ -54,6 +60,8 @@
                 <p class="option" id="option3"></p>
                 <p class="option" id="option4"></p>
                 <p class="option" id="option5"></p>
+
+                <img src="" alt="" id="game-img"> <!--Doe dit naast alles anders in screen -->
             </div>
         </div>
         </div>
