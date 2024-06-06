@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 16 mei 2024 om 08:52
+-- Gegenereerd op: 03 jun 2024 om 07:51
 -- Serverversie: 8.2.0
 -- PHP-versie: 8.2.13
 
@@ -32,10 +32,11 @@ CREATE TABLE IF NOT EXISTS `contact` (
   `id` tinyint NOT NULL AUTO_INCREMENT,
   `Firstname` varchar(100) NOT NULL,
   `Lastname` varchar(100) NOT NULL,
+  `PhoneNumber` varchar(10) NOT NULL,
   `Email` varchar(100) NOT NULL,
-  `Question` varchar(200) NOT NULL,
+  `Question` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

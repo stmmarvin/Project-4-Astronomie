@@ -1,17 +1,21 @@
-/* Error: There is no module with the namespace "conf".
- *    ,
- * 10 |   font-family: conf.get("normal-font");
- *    |                ^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\faq.scss 10:16  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: There is no module with the namespace "conf".\a    \2577 \a 10 \2502    font-family: conf.get("normal-font");\d\a    \2502                 ^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\faq.scss 10:16  root stylesheet';
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-size: 20px;
 }
+
+body {
+  line-height: 1.55em;
+  overflow-x: hidden;
+}
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=faq.css.map */
