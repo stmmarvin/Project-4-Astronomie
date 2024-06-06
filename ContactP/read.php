@@ -75,19 +75,8 @@ $tableRows = "";
 <body>
 
 
-    <h3>Contactgegevens Overzicht</h3>
-    <table class="table table-success table-striped-columns">
-        <thead>
-                <th>Voornaam</th>
-                <th>Achternaam</th>
-                <th>Telefoonnummer</th>
-                <th>Email</th>
-                <th>Vraag</th>
-            </thead>
-            <tbody>
-                <?php echo $tableRows; ?>
-            </tbody>   
-    </table>
+    <p>We hebben jou vraag ontvangen. <br> We nemen zo snel mogelijk contact met je op!</p>
+        
     <a href="../index.php">Home</a>
 </body>
 </html>

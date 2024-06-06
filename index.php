@@ -127,7 +127,7 @@ Verken onze website verder en ontdek hoe onze opleiding jou kan helpen om de ste
 <div>
   </div>
   </div>
---
+
 
 </main>
 <script src="../Main/assets/javascript/script.js"></script>
