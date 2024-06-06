@@ -44,6 +44,7 @@
                   <p id="minute">??</p>
                 </div>
                 <!--Doe basis tikkers en persoonlijke tikkers in een apart vak-->
+                <!--Komt op zn minst een meer tikkers waarschijnlijk-->
                 <div id="base_tickers">
                     <img src="" alt=""><p id="fuel" class="ticker"></p>
                 </div>
