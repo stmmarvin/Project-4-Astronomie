@@ -42,7 +42,7 @@
   <div class="flex-direction">
 
     <h3>Heb je vragen? Neem contact met ons op!</h3>
-    <form action="create.php" method="post" class="contact-form">
+    <form action="read.php" method="post" class="contact-form">
       <label for="firstname">Voornaam:</label><br>
       <input type="text" id="firstname" name="firstname" placeholder="Vul hier je voornaam in" required><br> 
       <label for="lastname">Achternaam:</label><br>
