@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 06 jun 2024 om 08:02
+-- Gegenereerd op: 06 jun 2024 om 08:49
 -- Serverversie: 8.2.0
 -- PHP-versie: 8.2.13
 
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `id` tinyint UNSIGNED NOT NULL AUTO_INCREMENT,
   `Username` varchar(20) NOT NULL,
   `Emailadress` varchar(100) NOT NULL,
-  `Password` varchar(20) NOT NULL,
+  `Password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
