@@ -43,6 +43,7 @@
                   <p id=":">:</p>
                   <p id="minute">??</p>
                 </div>
+                <!--Doe basis tikkers en persoonlijke tikkers in een apart vak-->
                 <div id="base_tickers">
                     <img src="" alt=""><p id="fuel" class="ticker"></p>
                 </div>
@@ -58,6 +59,8 @@
                 <p class="option" id="option3"></p>
                 <p class="option" id="option4"></p>
                 <p class="option" id="option5"></p>
+
+                <img src="" alt="" id="game-img"> <!--Doe dit naast alles anders in screen -->
             </div>
         </div>
         </div>
