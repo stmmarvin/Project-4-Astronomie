@@ -22,7 +22,6 @@ body {
 
 h1 {
   padding-inline-start: 1%;
-  text-align: center;
 }
 
 h2,
@@ -37,7 +36,6 @@ h6 {
 
 h1 {
   font-size: 3em;
-  text-align: center;
 }
 
 h2 {
@@ -731,6 +729,7 @@ h6 {
 h1 {
   font-size: 3em;
   font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
 }
 
 h2 {
