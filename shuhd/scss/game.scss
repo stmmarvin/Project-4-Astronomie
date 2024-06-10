@@ -19,7 +19,7 @@ $footer-height: 80px;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
 body {
   font-family: Arial, sans-serif;
   background-color: $background-color;
@@ -27,7 +27,7 @@ body {
 }
 
 // Header and navigation
-/* header {
+header {
   background-color: $primary-color;
   height: $header-height;
   display: flex;

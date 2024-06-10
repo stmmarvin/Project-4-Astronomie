@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
+/*
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: $background-color;
+  color: $text-color;
 }
 
-/* header {
+// Header and navigation
+header {
   background-color: $primary-color;
   height: $header-height;
   display: flex;
