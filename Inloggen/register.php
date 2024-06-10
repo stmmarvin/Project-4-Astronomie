@@ -12,33 +12,7 @@
 
   <div class="Register">
     <h1>Register</h1>
-    <?php
-    include('../config/config.php');
-
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-      $username = $_POST['username'];
-      $email = $_POST['email'];
-      $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-
-      try {
-        $pdo = new PDO($dsn, $dbUser, $dbPass);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        $sql = "INSERT INTO user (Username, Emailadress, Password) VALUES (:username, :email, :password)";
-        $statement = $pdo->prepare($sql);
-        $statement->bindParam(':username', $username, PDO::PARAM_STR);
-        $statement->bindParam(':email', $email, PDO::PARAM_STR);
-        $statement->bindParam(':password', $password, PDO::PARAM_STR);
-        $statement->execute();
-
-        echo '<p>Registration successful!</p>';
-      } catch (PDOException $e) {
-        echo 'Connection failed: ' . $e->getMessage();
-      }
-    }
-    ?>
-
-    <form method="POST" action="">
+    <form method="POST" action="create.php">
       <label for="username">Username</label>
       <input type="text" name="username" id="username" required>
       <label for="email">Email</label>
