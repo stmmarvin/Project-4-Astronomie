@@ -48,7 +48,7 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     /**
      * Geef feedback aan de gebruiker
      */
-    echo "De gegevens zijn opgeslagen in de database";
+    echo "De gegevens zijn opgeslagen";
 
     /**
      * Met een header() functie kun je automatisch naar een andere pagina

@@ -14,15 +14,16 @@
     <nav>
       <div class="container row jc-center">
         <div class="main-menu">
-          <ul>
+        <ul>
             <li><a href="index.php">Home</a></li> <!-- Link back to the home page from the "Opleiding" page -->
             <li><a href="Astronomie/astronomie.php">Astronomie</a></li> <!-- Link to the "Astronomie" page from any other page -->
             <li><a href="Opleiding/opleiding.php">Opleiding</a></li> <!-- Link to the "Contact" page from any other page -->
             <li><a href="gamePagina/game.php">Game</a></li> <!-- Link to the "Game" page from any other page -->
             <li><a href="FAQ/faq.php">FAQ</a></li> <!-- Link to the "FAQ" page from any other page -->
             <li><a href="ContactP/contact.php">Contact</a></li> <!-- Link to the "Contact" page from any other page -->
-            <li><a href="Inloggen/inlog.php">Inloggen</a></li> <!-- Link to the "Inlog" page from any other page -->
+            <li><a href="Inloggen/inlog.php">Inschrijven</a></li> <!-- Link to the "Inschrijven" page from any other page -->
           </ul>
+  
         </div>
       </div>
     </nav>
@@ -128,7 +129,7 @@ Verken onze website verder en ontdek hoe onze opleiding jou kan helpen om de ste
 <div>
   </div>
   </div>
---
+
 
 </main>
 <script src="../Main/assets/javascript/script.js"></script>
