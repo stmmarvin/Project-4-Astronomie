@@ -1,5 +1,6 @@
 //story stuff
 let luggage_broken = false;
+let signal = false;
 
 function swap_screen(screen) {
 
@@ -121,24 +122,86 @@ function swap_screen(screen) {
             title.innerHTML = "Einde van het begin van het einde.";
             event_text.innerHTML = "Je zit in je kantoor, je bent omringt door computers, samen geronseld uit verschillende programma's en tijdperken.";
             option1.innerHTML = "Check de schotelantenne besturing.";
+                if (blackout) {
+                    option1.addEventListener("click", ()=> {swap_screen();});
+                }
+
+                else {
+                    option1.addEventListener("click", ()=> {swap_screen(11);});
+                }
+            option1.addEventListener("click", ()=> {swap_screen(11);});
             option2.innerHTML = "Bekijk de radio ontvanger."
             option3.innerHTML = "Zet de werkcomputer aan.";
-            option4.innerHTML = "Rommel door het kantoor heen (00:05)";
-            option1.addEventListener("click", ()=> {swap_screen(11);});
-            option1.addEventListener("click", ()=> {tick(0,0,5);});
-            option5.innerHTML = "Loop het kantoor uit";
+            option4.innerHTML = "Loop het kantoor uit. (00:05)";
+            option4.addEventListener("click", ()=> {swap_screen();});
+            option3.addEventListener("click", ()=> {tick(0,0,5);})
+            option5.innerHTML = "";
             break;
 
         case 11:
-            title.innerHTML = "";
-            event_text.innerHTML = "";
+            title.innerHTML = "Stemmen uit het grote niks.";
+            if (signal) {
+                event_text.innerHTML = "De radiotelescoopt ziet niets buiten kosmische achtergrondsstraling.";
+            }
+            else {
+                event_text.innerHTML = "Je grafiek geeft iets wat duidelijk niet alleen achtergrondsstraling is is. Of het iets is moet je nog uitvogelen";
+            }
+            
+            option1.innerHTML = "Beweeg de schotel om iets te zoeken. (00:30)";
+            
+            if ((Math.floor(Math.random() * 2)) == 1) {
+                option1.addEventListener("click", ()=> {swap_screen(12);});
+            }
+
+            else {
+                option1.addEventListener("click", ()=> {swap_screen(13);});
+            }
+            option1.addEventListener("click", ()=> {tick(0,0,5);})
+            if (signal) {
+                option2.innerHTML = "Bestudeer het signaal (00:30)";
+                option2.addEventListener("click", ()=> {tick(0,0,30);});
+            }
+            else {
+                option2.innerHTML = "Bestudeer de achtergrondsstraling";
+            }
+            option3.innerHTML = "Bekijk de rest van het kantoor";
+            option4.innerHTML = "";
+            option5.innerHTML = "";
+            break;
+
+        case 12:
+            title.innerHTML = "Iets in het niets";
+            event_text.innerHTML = "Tussen de ruis kom je wat andere ruis tegen. Nu moet je alleen nog uitvinden wat het is";
+            signal = true;
+            option1.innerHTML = "Bestudeer het gelijk (00:30)";
+            option1.addEventListener("click", ()=> {swap_screen(12);});
+            option1.addEventListener("click", ()=> {tick(0,0,30);})
+            option2.innerHTML = "Laat het voor nu liggen.";
+            option3.innerHTML = "";
+            option4.innerHTML = "";
+            option5.innerHTML = "";
+            break;
+
+        case 13:
+            title.innerHTML = "Niets in het niets in het niets in het niets...";
+            event_text.innerHTML = "Je zoekt en je zoekt, alles wat je ziet is ruis";
+            option1.innerHTML = "Bestudeer de achtergrondsstraling";
+            option2.innerHTML = "laat de ruis maar zitten. Later zal er ook wel ruis zijn.";
+            option1.addEventListener("click", ()=> {swap_screen(11);});
+            option3.innerHTML = "";
+            option4.innerHTML = "";
+            option5.innerHTML = "";
+            break;
+
+        case 14:
+            title.innerHTML = "Iets, maar wat?";
+            event_text.innerHTML = "Nu moet je uitvogelen wat dit precies is door de radiodata te gebruiken.";
             option1.innerHTML = "";
             option2.innerHTML = "";
             option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
 
         default:
             title.innerHTML = "ERROR";

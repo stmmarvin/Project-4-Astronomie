@@ -24,6 +24,10 @@ let hunger_drain = 0.05;
 let blackout = false;
 let starving = false;
 
+//Scores:
+let budget = 0;
+let data = 0;
+
 option1.addEventListener("click", activate);
 
 
