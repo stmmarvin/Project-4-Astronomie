@@ -20,17 +20,12 @@
             <li><a href="../gamePagina/game.php">Game</a></li> <!-- Link to the "Game" page from any other page -->
             <li><a href="../FAQ/faq.php">FAQ</a></li> <!-- Link to the "FAQ" page from any other page -->
             <li><a href="../ContactP/contact.php">Contact</a></li> <!-- Link to the "Contact" page from any other page -->
+            <li><a href="../Inloggen/inlog.php">Inschrijven</a></li> <!-- Link to the "Inschrijven" page from any other page -->
           </ul>
         </div>
       </div>
     </nav>
-    <div id="banner">
-      <img src="../img/game of live.jpg" alt="Game" class="height-50">
-      <div class="content text-center">
-        <h1>Game</h1>
-        <p>Preview</p>
-      </div>
-    </div>
+  
   </header>
     <main>
       <section class="game-class">
