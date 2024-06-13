@@ -33,10 +33,10 @@
         <div id="gamearea">
             <div class="game_top_menu">
                 <div class="time">
-                  <p id="day">?</p>
-                  <p id="hour">??</p>
+                  <p id="day"></p>
+                  <p id="hour"></p>
                   <p id=":">:</p>
-                  <p id="minute">??</p>
+                  <p id="minute"></p>
                 </div>
                 <!--Doe basis tikkers en persoonlijke tikkers in een apart vak-->
                 <!--Komt op zn minst een meer tikkers waarschijnlijk-->

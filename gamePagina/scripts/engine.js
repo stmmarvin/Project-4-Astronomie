@@ -65,8 +65,8 @@ function activate() {
 
 function tick(days,hours,minutes) {
     hour += hours;
-    minutes += minutes;
-    days += days;
+    minute += minutes;
+    day += days;
 
     fuel -= fuel_drain * minutes;
     fuel -= fuel_drain * hours * 60;
@@ -77,22 +77,20 @@ function tick(days,hours,minutes) {
     hunger -= hunger_drain * days * 1440;
 
 
-    if (minutes > 60) {
-        minutes -= 60;
-        hours += 1;
+    if (minute > 59) {
+        minute -= 60;
+        hour += 1;
     }
 
-    if (hours > 24) {
-        hours -= 24;
+    if (hour > 23) {
+        hour -= 24;
         day += 1;
     }
 
     day_display.innerHTML = day;
-    hour.innerHTML = hour;
-    minute.innerHTML = minute;
+    hour_display.innerHTML = hour;
+    minute_display.innerHTML = minute;
 }
-
-tick(1,1,26);
 
 function test1() {
     fuel += 10;
