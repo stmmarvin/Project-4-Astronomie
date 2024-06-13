@@ -6,8 +6,7 @@ function swap_screen(screen) {
 
     console.log("swapping screen...")
     options.forEach(option => {
-        option.removeEventListener("click",swap_screen);
-        option.removeEventListener("click",tick);
+        option.removeEventListener("click");
     })
     switch (screen) {
         case 0:
@@ -99,7 +98,7 @@ function swap_screen(screen) {
             break;
 
         case 8:
-            title.innerHTML = "Je zet je werkcomputer aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt."
+            title.innerHTML = "Je zet een van de werkcomputers aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt."
             event_text.innerHTML = "";
             option1.innerHTML = "";
             option2.innerHTML = "";
@@ -120,10 +119,10 @@ function swap_screen(screen) {
 
         case 10:
             title.innerHTML = "Einde van het begin van het einde.";
-            event_text.innerHTML = "Je zit in je kantoor, je bent omringt door computers, samen geronseld uit verschillende programma's en tijdperken.";
+            event_text.innerHTML = "Je zit in je kantoor, je bent omringt door computers, samen geronseld uit verschillende eerdere programma's en tijdperken.";
             option1.innerHTML = "Check de schotelantenne besturing.";
                 if (blackout) {
-                    option1.addEventListener("click", ()=> {swap_screen();});
+                   option1.addEventListener("click", ()=> {swap_screen();});
                 }
 
                 else {
@@ -195,7 +194,7 @@ function swap_screen(screen) {
 
         case 14:
             title.innerHTML = "Iets, maar wat?";
-            event_text.innerHTML = "Nu moet je uitvogelen wat dit precies is door de radiodata te gebruiken.";
+            event_text.innerHTML = "Je hebt je radiogolven, je hebt alleen nog niet een goed idee wat het is, dit moet je nu uitvogelen.";
             option1.innerHTML = "";
             option2.innerHTML = "";
             option3.innerHTML = "";
@@ -213,5 +212,7 @@ function swap_screen(screen) {
             option5.innerHTML = "";
             
     }
+
+    
     
 }
