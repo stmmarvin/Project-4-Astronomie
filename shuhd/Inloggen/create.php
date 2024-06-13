@@ -37,7 +37,7 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
  /**
      * Voer de query uit in de database
      */
-    $statement->execute();
+   // $statement->execute();
 
     /**
      * Geef feedback aan de gebruiker
@@ -48,7 +48,7 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
      * Met een header() functie kun je automatisch naar een andere pagina
      * navigeren
      */
-    header('Refresh:1.5; url=read.php');
+    header('Refresh: 2; url=inlog.php');
 
     
 

@@ -69,6 +69,6 @@ $tableRows = "";
 <body>
 <br>
     <h3> Je hebt nu een account <br> Nu kan je inschrijven voor onze interesse opleiding</h3>
-    <a href="../inlog.php">Inschrijven</a>
+    <a href="inlog.php">Inschrijven</a>
 </body>
 </html>
