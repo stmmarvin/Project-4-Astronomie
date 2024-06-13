@@ -101,16 +101,14 @@ main {
           }
 
           p.option {
-            background: $secondary-color;
-            color: white;
+            color: #3366CC;
             padding: 10px;
             border-radius: 5px;
-            cursor: pointer;
             margin: 5px 0;
-            transition: background-color 0.3s;
+            transition: color 0.3s;
 
             &:hover {
-              background-color: darken($secondary-color, 10%);
+              color: #0645AD;
             }
           }
 
@@ -217,18 +215,5 @@ main {
       margin-bottom: 20px;
     }
 
-    button {
-      background: $primary-color;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-
-      &:hover {
-        background-color: darken($primary-color, 10%);
-      }
-    }
   }
 }
