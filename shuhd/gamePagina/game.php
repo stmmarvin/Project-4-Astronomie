@@ -25,17 +25,6 @@
         </div>
       </div>
     </nav>
-
-    <div id="banner">
-      <img src="img/trap.webp" alt="height-50">
-      <div class="content text-center">
-        <h1>
-        Game
-        </h1>
-        <p>Geniet van het spelen</p>
-      </div>
-      </img>
-    </div>
   
   </header>
     <main>

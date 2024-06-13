@@ -46,10 +46,11 @@
 
   <h1><img src="img/sparkle.png" class = "icon"> Welkom op de opleiding Astronomie</h1>
   <br><br>
-  <video width="640" height="360" controls>
+  <div class="video-container">
+  <video controls>
     <source src="vid/homevideo.mov" type="video/mp4">
   </video>
-
+  </div>
 <div>
 <h2><img src="img/s_stars.png" class = "icon"> Wat kan je allemaal verwachten op deze opleiding</h2><br>
 
