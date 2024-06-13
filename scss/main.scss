@@ -96,3 +96,16 @@ img.round {
 }
 
 // Path: scss/_base.scss
+.video-container {
+  display: flex;
+  justify-content: center; // Horizontaal centreren
+  align-items: center;    // Verticaal centreren
+ // height: 100vh;          // Optioneel: de container neemt de volledige hoogte van de viewport
+
+video {
+  max-width: 100%;       // Optioneel: de video past in de container, maar overschrijdt de breedte niet
+  max-height: 100vh;     // Optioneel: de video past in de container, maar overschrijdt de hoogte niet
+}
+
+}
+
