@@ -1305,6 +1305,39 @@ img.round {
   cursor: pointer;
 }
 
+.Register h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.Register form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Register form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.Register form input[type=username],
+.Register form input[type=email],
+.Register form input[type=password] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.Register form input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;

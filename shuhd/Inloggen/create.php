@@ -1,4 +1,5 @@
 <?php
+
 include('../config/config.php');
 
 /**
@@ -20,35 +21,30 @@ $pdo = new PDO($dsn, $dbUser, $dbPass);
  */
 $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-    // Prepare the query
-    $sql = "INSERT INTO User (Username, 
-                                Emailadress,
-                                Password,)           
-            VALUEs              (:Username, 
-                                :Emailadress, 
-                                :Password,)";
-    $statement = $pdo->prepare($sql);
+ // Prepare the query
+$sql = "INSERT INTO user (Username, Emailaddress, Password) 
+        VALUES (:Username, :Emailaddress, :Password)";
+$statement = $pdo->prepare($sql);
 
-    // Bind the parameters
-    $statement->bindParam(':Username', $_POST['Username'], PDO::PARAM_STR);
-    $statement->bindParam(':Emailadress', $_POST['Emailadress'], PDO::PARAM_STR);
-    $statement->bindParam(':Password', $_POST['Password'], PDO::PARAM_STR);
-    
- /**
-     * Voer de query uit in de database
-     */
-   // $statement->execute();
+// Bind the parameters
+$statement->bindParam(':username', $_POST['username'], PDO::PARAM_STR);
+$statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
+$statement->bindParam(':password', $_POST['password'], PDO::PARAM_STR);
 
-    /**
-     * Geef feedback aan de gebruiker
-     */
-    echo "De gegevens zijn opgeslagen";
+/**
+ * Voer de query uit in de database
+ */
+$statement->execute();
 
-    /**
-     * Met een header() functie kun je automatisch naar een andere pagina
-     * navigeren
-     */
-    header('Refresh: 2; url=inlog.php');
+/**
+ * Geef feedback aan de gebruiker
+ */
+echo "De gegevens zijn opgeslagen";
+
+/**
+ * Met een header() functie kun je automatisch navigeren
+ */
+header('Refresh: 2; url=inlog.php');
 
     
 
