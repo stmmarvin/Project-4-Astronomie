@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inloggen</title>
+  <title>Astronomie</title>
+  <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/main.css" />
-  <link rel="stylesheet" href="../css/navbar.css"/>
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 
 
     <div id="banner">
-    <img src="../img/ " alt="height-50">
+    <img src="../img/letter.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Inschrijven voor de opleiding
@@ -40,19 +41,20 @@
       </img>
     </div>
   </header>
+
+
   <div class="Login">
     <h1>Login</h1>
     <form method="POST" action="create.php">
       <label for="username">gebruikersnaam</label>
-      <input type="username" name="username" id="username"  placeholder="Voer hier je gebruikersnaam in."required><br>
+      <input type="username" name="username" id="username"  placeholder="Voer hier je gebruikersnaam in."required>
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required><br>
-      <input type="submit" value="Login">
-      <a href="register.php">Heb je geen account? Register hier.</a>
+      <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required>
+      <input type="submit" value="Login"><br>
+      <a href="register.php">Nog geen account? Register hier.</a>
     </form>
-  </div>
-<br>
-  <footer class="footer">
+
+    <footer class="footer">
       <div class="rechten">
       <p>Alle rechten voorbehouden</p>
       <p>© 2024</p>
@@ -66,7 +68,6 @@
       <a href="../gamePagina/game.php">Game</a><br>
       <a href="../FAQ/faq.php">FAQ</a><br>
       <a href="../ContactP/contact.php">Contact</a><br>
-      <a href="../Inloggen/inlog.php">Inschrijven</a><br>
     </div>
 
   

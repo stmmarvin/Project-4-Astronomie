@@ -31,7 +31,7 @@
 
 
     <div id="banner">
-    <img src="../img/letter.jpg" alt="height-50">
+    <img src="../img/trap.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Inschrijven voor de opleiding
@@ -51,7 +51,7 @@
       <label for="password">Password</label>
       <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required>
       <input type="submit" value="Login">
-      <a href="register.php">Don't have an account? Register here.</a>
+      <a href="register.php">Nog geen account? Registreer hier.</a>
     </form>
      <footer class="footer">
       <div class="rechten">
