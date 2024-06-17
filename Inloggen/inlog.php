@@ -50,7 +50,7 @@
       <label for="password">Password</label>
       <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required>
       <input type="submit" value="Login">
-      <a href="register.php">Don't have an account? Register here.</a>
+      <a href="register.php">Nog geen account? Registreed nu.</a>
     </form>
 
     
