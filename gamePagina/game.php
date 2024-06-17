@@ -48,8 +48,8 @@
                 </div>
             </div>
             <div class="screen">
-                <h2 id="title">Welkom bij PLACEHOLDER</h2>
-                <p id="event_text">Hier in PLACEHOLDER is het je doel door de ruimte te zoeken voor radio signalen. Dit doe je door...</p>
+                <h2 id="title">The Milkyway</h2>
+                <p id="event_text">Het universum te kijken van ver en je plaats daarin te begrijpen.</p>
                 <p class="option" id="option1">Begin</p>
                 <p class="option" id="option2"></p>
                 <p class="option" id="option3"></p>
