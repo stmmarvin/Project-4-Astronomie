@@ -1,0 +1,41 @@
+@mixin input-style($width: 300px) {
+    width: $width;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    .input-group {
+        display: flex;
+        justify-content: justify;
+        width: 100%;
+        margin-bottom: 10px;
+
+        label {
+            margin-right: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            @include input-style();
+            border: 1px solid #ccc;
+        }
+    }
+
+    input[type="submit"] {
+        @include input-style(150px);
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}
