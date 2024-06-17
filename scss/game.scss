@@ -69,28 +69,28 @@ main {
   padding: 20px;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
   
-  .game-class {
-    .container {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      padding: 20px;
+    .game-class {
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
 
-      #gamearea {
-        .game_top_menu {
-          display: flex;
-          justify-content: space-between;
-          margin-bottom: 20px;
+        #gamearea {
+            .game_top_menu {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
 
-          .time, #base_tickers, #personal_tickers {
-            display: flex;
-            gap: 10px;
-            align-items: center;
+            .time, #base_tickers, #personal_tickers {
+                display: flex;
+                gap: 10px;
+                align-items: center;
 
-            p {
-              margin: 0;
+                p {
+                    margin: 0;
+                }
             }
-          }
         }
 
         .screen {
@@ -110,6 +110,10 @@ main {
             &:hover {
               color: #0645AD;
             }
+          }
+
+          p.active-option {
+            cursor: pointer;
           }
 
           #game-img {

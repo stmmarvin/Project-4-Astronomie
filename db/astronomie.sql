@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `contact`
 --
 
+create database if not exists `astronomie`;
+use astronomie;
+
 DROP TABLE IF EXISTS `contact`;
 CREATE TABLE IF NOT EXISTS `contact` (
   `id` tinyint NOT NULL AUTO_INCREMENT,

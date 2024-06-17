@@ -16,9 +16,7 @@ function swap_screen(screen) {
             option1.addEventListener("click", ()=> {swap_screen(1);});
             option2.innerHTML = "Heb te veel dorst om op te staan. En ik ben te moe om te drinken...";
             option2.addEventListener("click", ()=> {swap_screen(1);});
-            option3.innerHTML = "Skip intro";
-            option3.addEventListener("click", ()=> {swap_screen(10);});
-            option3.addEventListener("click", ()=> {tick(0,0,0);});
+            option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
@@ -213,6 +211,11 @@ function swap_screen(screen) {
             
     }
 
-    
-    
+    options.forEach(option => {
+        option.classList.add("active-option");
+
+        if (option.innerHTML = "") {
+            option.classList.remove("active-option" );
+        }
+    })
 }
