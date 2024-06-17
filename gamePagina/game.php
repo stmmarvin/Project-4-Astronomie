@@ -56,7 +56,7 @@
                 <p class="option" id="option4"></p>
                 <p class="option" id="option5"></p>
 
-                <img src="" alt="" id="game-img"> <!--Doe dit naast alles anders in screen -->
+                <img src="" alt="" id="game_img"> <!--Doe dit naast alles anders in screen -->
             </div>
         </div>
         </div>

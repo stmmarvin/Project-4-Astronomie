@@ -7,11 +7,12 @@ const hunger_ticker = document.getElementById("hunger");
 const option1 = document.getElementById("option1");
 const option2 = document.getElementById("option2");
 const option3 = document.getElementById("option3");
-let option4 = document.getElementById("option4");
-let option5 = document.getElementById("option5");
-let options = document.querySelectorAll("option")
-let title = document.getElementById("title");
-let event_text = document.getElementById("event_text");
+const option4 = document.getElementById("option4");
+const option5 = document.getElementById("option5");
+const options = document.querySelectorAll("option")
+const title = document.getElementById("title");
+const event_text = document.getElementById("event_text");
+const event_img = document.getElementById("game_img");
 
 //Tickers
 let minute = 0;
@@ -20,7 +21,7 @@ let day = 0;
 let fuel = 100;
 let hunger = 100;
 let fuel_drain = 0.05;
-let hunger_drain = 0.05;
+let hunger_drain = 0.05;   
 let blackout = false;
 let starving = false;
 

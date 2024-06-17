@@ -26,8 +26,7 @@ function swap_screen(screen) {
             event_text.innerHTML = "De echo van de kamer klinkt veel groter dan je slaapkamer. De waas die je door een van je ogen, die half open is, ziet. Ziet er ook niet uit als je slaapkamer";
             option1.innerHTML = "wrijf dat spul uit je ogen" //2
             option1.addEventListener("click", ()=> {swap_screen(2);});
-            option2.innerHTML = "&#x0022 De wekker! Waar is de @#!* wekker! &#x0022" //3
-            option2.addEventListener("click", ()=> {swap_screen(3);});
+            option2.innerHTML = "" //3
             option3.innerHTML = "Nog vijf minuten..." //4
             option3.addEventListener("click", ()=> {swap_screen(4);});
             option4.innerHTML = ""
@@ -36,18 +35,21 @@ function swap_screen(screen) {
         case 2:
             title.innerHTML = "Slaapslijm";
             event_text.innerHTML = "Dat ranzige spul wat in je ogen zat is weg. Je kan nu duidelijk zien, dat je zeker weten niet in je slaapkamer bent. Je realiseert ook dat je niet in een bed slaapt. Maar met je kont in een bureau stoel, en je torso op een bureau.";
-            option1.innerHTML = "&#x0022 Oh ja... &#x0022";//5
+            option1.innerHTML = "&#x0022 Oh ja... &#x0022";
+            option1.addEventListener("click", ()=> {swap_screen(3);});
             option2.innerHTML = "";
             option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
         case 3:
-            title.innerHTML = "De hoorn der eind tijden."
-            event_text.innerHTML = "Je raazt door de kamer heen. Op zoek naar die duivelse wekker. Met half je zicht is dit moeilijk te doen. Uiteindelijk kom je bij een wazig object terecht. Je wekker zit er in";
-            option1.innerHTML = "Scheur dat ding open om dat elektronisch gejank zo snel mogelijk te stoppen";
-            option2.innerHTML = "Scheld de wekker uit";
-            option3.innerHTML = "Adem in en uit."
+            event_img.src = "img/Amundsen-Scott-comms-room-from-wikimedia-commons";
+            title.innerHTML = "Antartictische afflictie"
+            event_text.innerHTML = "Waarom zou je in je kamer zijn? Je werkt nu in het <a href='https://en.wikipedia.org/wiki/Amundsen%E2%80%93Scott_South_Pole_Station'>Amundsen-Scott radio antarctische onderzoek station</a>. Je bent niet thuis omdat je op de zuidpool bent. Je kijkt uit het raam en ziet alleen maar wit. Het is licht buiten. Het is twaalf uur s'nachts.";
+            option1.innerHTML = "Rek uit.";
+            option1.addEventListener("click", ()=> {swap_screen(5);});
+            option2.innerHTML = "";
+            option3.innerHTML = ""
             option4.innerHTML = ""
             option5.innerHTML = ""
             break;
@@ -66,7 +68,7 @@ function swap_screen(screen) {
         
         case 5:
             title.innerHTML = "De eerste dag van je leven."
-            event_text.innerHTML = "Natuurlijk ben je niet op je oude slaapkamer. Je woont nu op je nieuwe baan. De baan waar je in slaap bent gevallen. Mischien moet je nu je werk gaan doen...";
+            event_text.innerHTML = "Je woont nu op je nieuwe werk voor de komende tijd. Je werk waar je in slaap bent gevallen. Mischien moet je nu je werk gaan doen...";
             option1.innerHTML = "Nee ik ga weer naar bed.";
             option1.addEventListener("click", ()=> {swap_screen(0);});
             option2.innerHTML = "Kijk rond het kantoor."; //6
