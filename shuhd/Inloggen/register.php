@@ -40,16 +40,15 @@
     </div>
   </header>
   <div class="Register">
-    <h1></h1>
-    <form method="POST" action="create.php">
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" required> <br>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required> <br>
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" required> <br>
-      <input type="submit" value="Register">
-    </form>
+    <h1>Register</h1>
+  <form method="post" action="create.php">
+    <input type="text" name="username" placeholder="Username">
+    <input type="email" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Register">
+</form>
+
+
   </div>
 
 <br>

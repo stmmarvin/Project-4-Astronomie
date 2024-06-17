@@ -79,16 +79,14 @@ main .game-class .container #gamearea .screen h2 {
   margin-bottom: 20px;
 }
 main .game-class .container #gamearea .screen p.option {
-  background: #2ecc71;
-  color: white;
+  color: #3366CC;
   padding: 10px;
   border-radius: 5px;
-  cursor: pointer;
   margin: 5px 0;
-  transition: background-color 0.3s;
+  transition: color 0.3s;
 }
 main .game-class .container #gamearea .screen p.option:hover {
-  background-color: #25a25a;
+  color: #0645AD;
 }
 main .game-class .container #gamearea .screen #game-img {
   margin-top: 20px;
@@ -182,18 +180,6 @@ main .game-class .container #gamearea .screen #game-img {
 }
 .modal .modal-content p {
   margin-bottom: 20px;
-}
-.modal .modal-content button {
-  background: #3498db;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-.modal .modal-content button:hover {
-  background-color: #217dbb;
 }
 
 /*# sourceMappingURL=game.css.map */
