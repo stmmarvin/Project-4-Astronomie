@@ -70,7 +70,7 @@ function swap_screen(screen) {
             title.innerHTML = "De eerste dag van je leven."
             event_text.innerHTML = "Je woont nu op je nieuwe werk voor de komende tijd. Je werk waar je in slaap bent gevallen. Mischien moet je nu je werk gaan doen...";
             option1.innerHTML = "Nee ik ga weer naar bed.";
-            option1.addEventListener("click", ()=> {swap_screen(0);});
+            option1.addEventListener("click", ()=> {swap_screen(6);});
             option2.innerHTML = "Kijk rond het kantoor."; //6
             option3.innerHTML = "";
             option4.innerHTML = "";
@@ -79,7 +79,7 @@ function swap_screen(screen) {
 
         case 6:
             title.innerHTML = "De werkkamer"
-            event_text.innerHTML = "Je nieuwe kantoor. Eigenlijk is het een kantoor voor meerdere mensen. Maar jij bent de enige die hier nu werkt. Nogal onhandig aangezien dit je eerste dag is en er nu niemand is om je in te werken. Je had al gehoord dat er niemand hier was voor een jaar of zo. Maar het is treurig om de staat van dit gebouw te zien."
+            event_text.innerHTML = "Je nieuwe kantoor. Eigenlijk is het een kantoor voor meerdere mensen. Maar jij bent de enige die hier nu op dit momentwerkt. Nogal onhandig aangezien dit je eerste dag is en er nu niemand is om je in te werken."
             option1.innerHTML = "Aan het werk dan maar. Zet de computer aan";
             option1.addEventListener("click", ()=> {swap_screen(8);});
             option2.innerHTML = "";
@@ -99,8 +99,8 @@ function swap_screen(screen) {
             break;
 
         case 8:
-            title.innerHTML = "Je zet je werkcomputer aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt."
-            event_text.innerHTML = "";
+            title.innerHTML = "De nieuwste van het nieuwste (in 2007)"
+            event_text.innerHTML = "Je zet je werkcomputer aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt.";
             option1.innerHTML = "";
             option2.innerHTML = "";
             option3.innerHTML = "";
