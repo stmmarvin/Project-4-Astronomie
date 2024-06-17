@@ -48,13 +48,31 @@ $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     /**
      * Geef feedback aan de gebruiker
      */
-    echo "De gegevens zijn opgeslagen";
+    
 
     /**
      * Met een header() functie kun je automatisch naar een andere pagina
      * navigeren
      */
-    header('Refresh:1.5; url=read.php');
+    header('Refresh:2.5; url=../index.php');
+    ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weergave Contactgegevens</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<br>
+    <h3>We hebben jou vraag ontvangen. <br> We nemen zo snel mogelijk contact met je op!</h3>
+</body>
+</html>
+
 
     
 
