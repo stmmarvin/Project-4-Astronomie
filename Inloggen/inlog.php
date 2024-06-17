@@ -7,7 +7,6 @@
   <title>Astronomie</title>
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/main.css" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
@@ -51,8 +50,10 @@
       <label for="password">Password</label>
       <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required>
       <input type="submit" value="Login">
-      <a href="register.php">Nog geen account? Registreer hier.</a>
+      <a href="register.php">Don't have an account? Register here.</a>
     </form>
+
+    
      <footer class="footer">
       <div class="rechten">
       <p>Alle rechten voorbehouden</p>
