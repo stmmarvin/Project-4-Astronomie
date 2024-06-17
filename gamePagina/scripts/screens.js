@@ -80,8 +80,8 @@ function swap_screen(screen) {
         case 6:
             title.innerHTML = "De werkkamer"
             event_text.innerHTML = "Je nieuwe kantoor. Eigenlijk is het een kantoor voor meerdere mensen. Maar jij bent de enige die hier nu op dit momentwerkt. Nogal onhandig aangezien dit je eerste dag is en er nu niemand is om je in te werken."
-            option1.innerHTML = "Aan het werk dan maar. Zet de computer aan";
-            option1.addEventListener("click", ()=> {swap_screen(8);});
+            option1.innerHTML = "Aan het werk dan maar...";
+            option1.addEventListener("click", ()=> {swap_screen(10);});
             option2.innerHTML = "";
             option3.innerHTML = "";
             option4.innerHTML = "";
@@ -101,7 +101,7 @@ function swap_screen(screen) {
         case 8:
             title.innerHTML = "De nieuwste van het nieuwste (in 2007)"
             event_text.innerHTML = "Je zet je werkcomputer aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt.";
-            option1.innerHTML = "";
+            option1.innerHTML = "Sluit de wer.";
             option2.innerHTML = "";
             option3.innerHTML = "";
             option4.innerHTML = "";
@@ -116,7 +116,7 @@ function swap_screen(screen) {
             option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
-            break;
+            break;  
 
         case 10:
             title.innerHTML = "Einde van het begin van het einde.";
@@ -132,6 +132,7 @@ function swap_screen(screen) {
             option1.addEventListener("click", ()=> {swap_screen(11);});
             option2.innerHTML = "Bekijk de radio ontvanger."
             option3.innerHTML = "Zet de werkcomputer aan.";
+            option3.addEventListener("click", ()=> {swap_screen(8);});
             option4.innerHTML = "Loop het kantoor uit. (00:05)";
             option4.addEventListener("click", ()=> {swap_screen();});
             option3.addEventListener("click", ()=> {tick(0,0,5);})
