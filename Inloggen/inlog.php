@@ -31,7 +31,7 @@
 
 
     <div id="banner">
-    <img src="../img/letter.jpg" alt="height-50">
+    <img src="../img/trap.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Inschrijven voor de opleiding
