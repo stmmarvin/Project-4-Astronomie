@@ -4,9 +4,9 @@ const hour_display = document.getElementById("hour");
 const minute_display = document.getElementById("minute");
 const fuel_ticker = document.getElementById("fuel");
 const hunger_ticker = document.getElementById("hunger");
-let option1 = document.getElementById("option1");
-let option2 = document.getElementById("option2");
-let option3 = document.getElementById("option3");
+const option1 = document.getElementById("option1");
+const option2 = document.getElementById("option2");
+const option3 = document.getElementById("option3");
 let option4 = document.getElementById("option4");
 let option5 = document.getElementById("option5");
 let options = document.querySelectorAll("option")
@@ -23,6 +23,10 @@ let fuel_drain = 0.05;
 let hunger_drain = 0.05;
 let blackout = false;
 let starving = false;
+
+//Scores:
+let budget = 0;
+let data = 0;
 
 option1.addEventListener("click", activate);
 
@@ -61,8 +65,8 @@ function activate() {
 
 function tick(days,hours,minutes) {
     hour += hours;
-    minutes += minutes;
-    days += days;
+    minute += minutes;
+    day += days;
 
     fuel -= fuel_drain * minutes;
     fuel -= fuel_drain * hours * 60;
@@ -73,22 +77,20 @@ function tick(days,hours,minutes) {
     hunger -= hunger_drain * days * 1440;
 
 
-    if (minutes > 60) {
-        minutes -= 60;
-        hours += 1;
+    if (minute > 59) {
+        minute -= 60;
+        hour += 1;
     }
 
-    if (hours > 24) {
-        hours -= 24;
+    if (hour > 23) {
+        hour -= 24;
         day += 1;
     }
 
     day_display.innerHTML = day;
-    hour.innerHTML = hour;
-    minute.innerHTML = minute;
+    hour_display.innerHTML = hour;
+    minute_display.innerHTML = minute;
 }
-
-tick(1,1,26);
 
 function test1() {
     fuel += 10;
