@@ -29,7 +29,7 @@
 
 
     <div id="banner">
-    <img src="../img/questions.jpg" alt="height-50">
+    <img src="../img/faq.jpg" alt="height-50">
       <div class="content text-center">
         <h1>
           Frequently Asked Questions (FAQ)
