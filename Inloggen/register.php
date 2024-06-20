@@ -44,11 +44,11 @@
   <h1>Registreren</h1>
   <div class="Register">
     <form method="POST" action="create.php">
-        <label for="username">Username</label>
+        <label for="username">Gebruikersnaam</label>
         <input type="text" name="username" id="username" placeholder="Vul hier naam in." required>
         <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="Vul hier email in." required>
-        <label for="password">Password</label>
+        <label for="password">Wachtwoord</label>
         <input type="password" name="password" id="password" placeholder="Vul hier wachtwoord in." required>
         <input type="submit" value="Registeer">
     </form>
