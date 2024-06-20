@@ -51,10 +51,9 @@
         <label for="password">Wachtwoord</label>
         <input type="password" name="password" id="password" placeholder="Vul hier wachtwoord in." required>
         <input type="submit" value="Registeer">
+        <a href="inlog.php">Heb je al een account? Log hier in.</a>
     </form>
 </div>
-<br>
-    <p>Heb je al een account? <a href="inlog.php">Log in</a></p>
   </div>
   <footer class="footer">
       <div class="rechten">
