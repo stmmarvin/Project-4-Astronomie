@@ -69,6 +69,7 @@ $tableRows = "";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrijf overzicht</title>
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/overzicht.css">
 </head>
 <body>
     <main>
@@ -90,19 +91,33 @@ $tableRows = "";
     </nav>
     </header>
 
+    
+    <div id="banner">
+    <img src="../img/codeing.png" alt="height-50">
+      <div class="content text-center">
+        <h1>
+        overzicht 
+        </h1>
+        <p>gegevens </p>
+      </div>
+      </img>
+    </div>
+  </header>
+
+  <h3>Beste bezoeker alleen u ziet deze gegevens </h3>
+
     <section class="overzicht">
-        <div class="container">
-        <table class="">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>PhoneNumber</th>
-            <th>Email</th>
-            <th>Question</th>
-        </tr>
-        <?php echo $tableRows; ?>
-    </table>
-        
+    <table class="table table-dark table-striped">
+            <table class="">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>PhoneNumber</th>
+                    <th>Email</th>
+                    <th>Question</th>
+                </tr>
+                <?php echo $tableRows; ?>
+            </table>
         </div>
     </section>
     </main>
