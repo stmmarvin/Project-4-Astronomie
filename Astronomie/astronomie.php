@@ -55,13 +55,13 @@
     </section>
 
     <section>
-        <h2>Geschiedenis van Astronomie</h2>
+        <h2><img src="../img/constellation.png">Geschiedenis van Astronomie</h2>
         <p>Astronomie is een van de oudste wetenschappen. Oude beschavingen zoals de Babyloniërs, Grieken, Chinezen en Maya's hielden zich bezig met het observeren van de hemel.</p>
         <p>In de 16e eeuw bracht Nicolaus Copernicus een revolutie teweeg met zijn heliocentrische model, dat beweerde dat de zon in het centrum van het universum stond, niet de aarde.</p>
     </section>
 
     <section>
-        <h2>Belangrijke Astronomen</h2>
+        <h2><img src="../img/floor.png">Belangrijke Astronomen</h2>
         <ul>
             <li><strong>Galileo Galilei:</strong> Ontdekte de vier grootste manen van Jupiter en verbeterde de telescoop.</li>
             <li><strong>Nicolaus Copernicus:</strong> Stelde het heliocentrische model van het universum voor.</li>
@@ -70,19 +70,19 @@
     </section>
 
     <section>
-        <h2>Moderne Astronomie</h2>
+        <h2><img src="../img/satellite.png">Moderne Astronomie</h2>
         <p>De moderne astronomie maakt gebruik van geavanceerde telescopen en ruimteobservatoria zoals de Hubble Space Telescope en de James Webb Space Telescope om dieper het universum in te kijken dan ooit tevoren.</p>
     </section>
 
     <section>
-        <h2>Astronomische Verschijnselen</h2>
+        <h2><img src="../img/mars.png">Astronomische Verschijnselen</h2>
         <p><strong>Zwarte Gaten:</strong> Regio's in de ruimte waar de zwaartekracht zo sterk is dat niets, zelfs geen licht, kan ontsnappen.</p>
         <p><strong>Supernovae:</strong> Explosieve stervende sterren die enorme hoeveelheden energie vrijgeven.</p>
         <p><strong>Pulsars:</strong> Zeer snel ronddraaiende neutronensterren die radiogolven uitzenden.</p>
     </section>
 
     <section>
-        <h2>Astronomie en Ruimtevaart</h2>
+        <h2><img src="../img/space-travel.png">Astronomie en Ruimtevaart</h2>
         <p>De ontwikkeling van ruimtevaart heeft de astronomie enorm vooruit geholpen. Satellieten en ruimteobservatoria hebben nieuwe mogelijkheden geopend voor de studie van het universum.</p>
     </section>
 
