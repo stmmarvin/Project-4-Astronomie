@@ -57,6 +57,8 @@
     <h2><img src="../img/constellation.png">Geschiedenis van Astronomie</h2>
     <p>Astronomie, de studie van de hemel, is een van de oudste wetenschappen. Oude beschavingen zoals de Egyptenaren, Romeinen, en Azteken waren al vroeg bezig met het observeren van de hemel en het herkennen van patronen.</p>
     <p>In de 17e eeuw maakten Johannes Kepler en Isaac Newton belangrijke bijdragen aan onze begrip van astronomie, met Kepler's wetten van planetaire beweging en Newton's wet van universele zwaartekracht.</p>
+    <p>In de 20e eeuw, met de ontwikkeling van de ruimtevaart, werd het mogelijk om de ruimte direct te verkennen. Dit leidde tot belangrijke ontdekkingen zoals de bevestiging van de theorie van algemene relativiteit door de observatie van zwaartekrachtsgolven, en de ontdekking van exoplaneten.</p>
+    <p>De 21e eeuw heeft de opkomst van multi-messenger astronomie gezien, waarbij observaties worden gedaan in verschillende golflengtes en met verschillende soorten signalen, zoals licht, radiogolven, en zwaartekrachtsgolven. Dit heeft geleid tot een nog dieper begrip van het universum.</p>
 </section>
 
 <section>
