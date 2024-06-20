@@ -96,4 +96,3 @@ function tick(days,hours,minutes) {
 function test1() {
     fuel += 10;
 }
-
