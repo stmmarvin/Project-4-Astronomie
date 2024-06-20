@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronomie</title>
     <link rel="stylesheet" href="../css/main.css">
-    
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -55,36 +54,36 @@
     </section>
 
     <section>
-        <h2><img src="../img/constellation.png">Geschiedenis van Astronomie</h2>
-        <p>Astronomie is een van de oudste wetenschappen. Oude beschavingen zoals de Babyloniërs, Grieken, Chinezen en Maya's hielden zich bezig met het observeren van de hemel.</p>
-        <p>In de 16e eeuw bracht Nicolaus Copernicus een revolutie teweeg met zijn heliocentrische model, dat beweerde dat de zon in het centrum van het universum stond, niet de aarde.</p>
-    </section>
+    <h2><img src="../img/constellation.png">Geschiedenis van Astronomie</h2>
+    <p>Astronomie, de studie van de hemel, is een van de oudste wetenschappen. Oude beschavingen zoals de Egyptenaren, Romeinen, en Azteken waren al vroeg bezig met het observeren van de hemel en het herkennen van patronen.</p>
+    <p>In de 17e eeuw maakten Johannes Kepler en Isaac Newton belangrijke bijdragen aan onze begrip van astronomie, met Kepler's wetten van planetaire beweging en Newton's wet van universele zwaartekracht.</p>
+</section>
 
-    <section>
-        <h2><img src="../img/floor.png">Belangrijke Astronomen</h2>
-        <ul>
-            <li><strong>Galileo Galilei:</strong> Ontdekte de vier grootste manen van Jupiter en verbeterde de telescoop.</li>
-            <li><strong>Nicolaus Copernicus:</strong> Stelde het heliocentrische model van het universum voor.</li>
-            <li><strong>Edwin Hubble:</strong> Toonde aan dat het universum uitdijt.</li>
-        </ul>
-    </section>
+<section>
+    <h2><img src="../img/floor.png">Belangrijke Astronomen trivia</h2>
+    <ul>
+        <li><strong><a href="https://en.wikipedia.org/wiki/Galileo_Galilei">Galileo Galilei:</a></strong> Vaak genoemd als de vader van de moderne astronomie, Galileo maakte belangrijke ontdekkingen over ons zonnestelsel.</li>
+        <li><strong><a href="https://en.wikipedia.org/wiki/Johannes_Kepler">Johannes Kepler:</a></strong> Bekend om zijn wetten van planetaire beweging.</li>
+        <li><strong><a href="https://en.wikipedia.org/wiki/Isaac_Newton">Isaac Newton:</a></strong> Ontwikkelde de wet van universele zwaartekracht.</li>
+    </ul>
+</section>
 
-    <section>
-        <h2><img src="../img/satellite.png">Moderne Astronomie</h2>
-        <p>De moderne astronomie maakt gebruik van geavanceerde telescopen en ruimteobservatoria zoals de Hubble Space Telescope en de James Webb Space Telescope om dieper het universum in te kijken dan ooit tevoren.</p>
-    </section>
+<section>
+    <h2><img src="../img/satellite.png">Moderne Astronomie</h2>
+    <p>De moderne astronomie maakt gebruik van geavanceerde technologie, zoals ruimtetelescopen en satellieten, om dieper in het universum te kijken dan ooit tevoren.</p>
+</section>
 
-    <section>
-        <h2><img src="../img/mars.png">Astronomische Verschijnselen</h2>
-        <p><strong>Zwarte Gaten:</strong> Regio's in de ruimte waar de zwaartekracht zo sterk is dat niets, zelfs geen licht, kan ontsnappen.</p>
-        <p><strong>Supernovae:</strong> Explosieve stervende sterren die enorme hoeveelheden energie vrijgeven.</p>
-        <p><strong>Pulsars:</strong> Zeer snel ronddraaiende neutronensterren die radiogolven uitzenden.</p>
-    </section>
+<section>
+    <h2><img src="../img/mars.png">Astronomische Verschijnselen</h2>
+    <p><strong>Zwarte Gaten:</strong> Gebieden in de ruimte waar de zwaartekracht zo sterk is dat niets, zelfs geen licht, kan ontsnappen.</p>
+    <p><strong>Supernovae:</strong> De explosieve dood van een ster, die enorme hoeveelheden energie vrijgeeft.</p>
+    <p><strong>Pulsars:</strong> Snel ronddraaiende neutronensterren die radiogolven uitzenden.</p>
+</section>
 
-    <section>
-        <h2><img src="../img/space-travel.png">Astronomie en Ruimtevaart</h2>
-        <p>De ontwikkeling van ruimtevaart heeft de astronomie enorm vooruit geholpen. Satellieten en ruimteobservatoria hebben nieuwe mogelijkheden geopend voor de studie van het universum.</p>
-    </section>
+<section>
+    <h2><img src="../img/space-travel.png">Astronomie en Ruimtevaart</h2>
+    <p>De ontwikkeling van ruimtevaart heeft de astronomie enorm vooruit geholpen. Satellieten en ruimteobservatoria hebben nieuwe mogelijkheden geopend voor de studie van het universum.</p>
+</section>
 
 </main>
     <footer class="footer">
