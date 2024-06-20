@@ -140,8 +140,7 @@ Verken onze website verder en ontdek hoe onze opleiding jou kan helpen om de ste
 
 <footer class="footer">
       <div class="rechten">
-      <p>Alle rechten voorbehouden</p>
-      <p>© 2024</p>
+      <p>Alle rechten voorbehouden © 2024</p>
       </div>
 
       <div class="footer-column">

@@ -47,7 +47,7 @@
     <form method="POST" action="create.php">
       <label for="username">gebruikersnaam</label>
       <input type="username" name="username" id="username"  placeholder="Voer hier je gebruikersnaam in."required>
-      <label for="password">Password</label>
+      <label for="password">Wachtwoord</label>
       <input type="password" name="password" id="password" placeholder="Voer hier je wachtwoord in."required>
       <input type="submit" value="Login">
       <a href="register.php">Nog geen account? Registreed nu.</a>

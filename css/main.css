@@ -772,6 +772,7 @@ h2 img {
 section {
   position: relative;
   padding: 2rem 0;
+  margin: 5%;
 }
 
 section h2, section h3 {
@@ -784,73 +785,74 @@ img.round {
   object-fit: cover;
 }
 
-.overzicht_opleidingen {
-  padding: 2rem 0;
-  background-color: #fff;
-  border-radius: 4%;
-  box-shadow: 0 1rem 0.6rem rgba(0, 0, 0, 0.0666666667);
-  margin: 7%;
+.overzicht_cursussen {
+  padding: 20px;
+  background-color: #f1f1f1;
 }
-.overzicht_opleidingen h2 {
-  text-align: left;
-  margin-bottom: 2rem;
-  font-size: 2rem;
+.overzicht_cursussen h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-.overzicht_opleidingen .opleidingen {
+.overzicht_cursussen h2 img {
+  margin-right: 10px;
+}
+.overzicht_cursussen .cursussen {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
+  gap: 20px;
 }
-.overzicht_opleidingen .opleiding.card {
-  background-color: #f8f8f8;
-  border: 1px solid #aaa;
-  box-shadow: 0 0.5rem 0.3rem rgba(0, 0, 0, 0.0666666667);
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  flex: 1 1 calc(25% - 1.5rem);
-  max-width: calc(25% - 1.5rem);
-  text-align: center;
-  position: relative;
+.overzicht_cursussen .cursussen .cursus {
+  flex: 1 1 calc(25% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-.overzicht_opleidingen .opleiding.card .opleiding-image {
-  position: relative;
-  bottom: 8%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+.overzicht_cursussen .cursussen .cursus:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.overzicht_opleidingen .opleiding.card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-.overzicht_opleidingen .opleiding.card p {
-  font-size: 15px;
-  font-style: italic;
-}
-.overzicht_opleidingen .opleiding.card a {
+.overzicht_cursussen .cursussen .cursus a {
   display: block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  color: black;
-  border-radius: 0.5rem;
+  padding: 20px;
   text-decoration: none;
+  color: inherit;
 }
-.overzicht_opleidingen .opleiding.card ul {
-  position: relative;
-  list-style: none;
+.overzicht_cursussen .cursussen .cursus a h3 {
+  font-size: 20px;
+  color: #2D5786;
+  margin-bottom: 10px;
+}
+.overzicht_cursussen .cursussen .cursus a ul {
+  list-style-type: none;
   padding: 0;
-  font-size: 0.9rem;
-  text-align: left;
 }
-.overzicht_opleidingen .opleiding.card ul li {
-  text-align: left;
-  margin: 8%;
+.overzicht_cursussen .cursussen .cursus a ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
-.overzicht_opleidingen .opleiding.card ul li strong {
+.overzicht_cursussen .cursussen .cursus a ul li strong {
   font-weight: bold;
 }
 
+@media (max-width: 1200px) {
+  .overzicht_cursussen .cursussen .cursus {
+    flex: 1 1 calc(33.333% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .overzicht_cursussen .cursussen .cursus {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .overzicht_cursussen .cursussen .cursus {
+    flex: 1 1 100%;
+  }
+}
 .contact-form {
   max-width: 400px;
   margin: 0 auto;
@@ -924,30 +926,34 @@ img.round {
 }
 
 
-.rechten {
-  padding: 20px;
-}
-.rechten p {
-  font-size: 14px;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #2D5786;
   color: white;
+  padding: 20px;
+}
+.footer .rechten {
+  flex: 1;
+  text-align: justify;
+}
+.footer .rechten p {
+  margin: 0;
 }
 .footer .footer-column {
   flex: 1;
-  padding: 20px;
   text-align: center;
 }
 .footer .footer-column h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
-.footer .footer-column p {
-  margin: 0;
+.footer .footer-column a {
+  color: white;
+  text-decoration: none;
+}
+.footer .footer-column a:hover {
+  color: #ddd;
 }
 .footer .footer-column .social-media-links {
   margin-top: 10px;
@@ -1274,7 +1280,6 @@ img.round {
   }
 }
 .Login h1 {
-  font-size: 24px;
   color: #333;
   margin-bottom: 10px;
 }
@@ -1297,12 +1302,13 @@ img.round {
   margin-bottom: 10px;
 }
 .Login form input[type=submit] {
-  background-color: #333;
+  background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  margin-top: 1%;
 }
 
 body {

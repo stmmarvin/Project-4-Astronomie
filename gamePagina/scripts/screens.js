@@ -1,9 +1,6 @@
-//story stuff
 let luggage_broken = false;
 let signal = false;
-
 function swap_screen(screen) {
-
     console.log("swapping screen...")
     options.forEach(option => {
         option.removeEventListener("click",swap_screen);
@@ -76,10 +73,11 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 6:
             title.innerHTML = "De werkkamer"
             event_text.innerHTML = "Je nieuwe kantoor. Eigenlijk is het een kantoor voor meerdere mensen. Maar jij bent de enige die hier nu op dit momentwerkt. Nogal onhandig aangezien dit je eerste dag is en er nu niemand is om je in te werken."
+            option1.innerHTML = "Aan het werk dan maar. Zet de computer aan";
+            option1.addEventListener("click", ()=> {swap_screen(8);});
             option1.innerHTML = "Aan het werk dan maar...";
             option1.addEventListener("click", ()=> {swap_screen(10);});
             option2.innerHTML = "";
@@ -97,17 +95,16 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 8:
             title.innerHTML = "De nieuwste van het nieuwste (in 2007)"
             event_text.innerHTML = "Je zet je werkcomputer aan. Dit oude ding kan niet jonger dan tien jaar zijn. Tot horror zie dat hij op windows XP runt.";
+            option1.innerHTML = "";
             option1.innerHTML = "Sluit de wer.";
             option2.innerHTML = "";
             option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 9:
             title.innerHTML = "";
             event_text.innerHTML = "";
@@ -116,6 +113,7 @@ function swap_screen(screen) {
             option3.innerHTML = "";
             option4.innerHTML = "";
             option5.innerHTML = "";
+            break;
             break;  
 
         case 10:
@@ -125,7 +123,6 @@ function swap_screen(screen) {
                 if (blackout) {
                     option1.addEventListener("click", ()=> {swap_screen();});
                 }
-
                 else {
                     option1.addEventListener("click", ()=> {swap_screen(11);});
                 }
@@ -138,7 +135,6 @@ function swap_screen(screen) {
             option3.addEventListener("click", ()=> {tick(0,0,5);})
             option5.innerHTML = "";
             break;
-
         case 11:
             title.innerHTML = "Stemmen uit het grote niks.";
             if (signal) {
@@ -153,7 +149,6 @@ function swap_screen(screen) {
             if ((Math.floor(Math.random() * 2)) == 1) {
                 option1.addEventListener("click", ()=> {swap_screen(12);});
             }
-
             else {
                 option1.addEventListener("click", ()=> {swap_screen(13);});
             }
@@ -169,7 +164,6 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 12:
             title.innerHTML = "Iets in het niets";
             event_text.innerHTML = "Tussen de ruis kom je wat andere ruis tegen. Nu moet je alleen nog uitvinden wat het is";
@@ -182,7 +176,6 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 13:
             title.innerHTML = "Niets in het niets in het niets in het niets...";
             event_text.innerHTML = "Je zoekt en je zoekt, alles wat je ziet is ruis";
@@ -193,7 +186,6 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 14:
             title.innerHTML = "Iets, maar wat?";
             event_text.innerHTML = "Nu moet je uitvogelen wat dit precies is door de radiodata te gebruiken.";
@@ -203,7 +195,6 @@ function swap_screen(screen) {
             option4.innerHTML = "";
             option5.innerHTML = "";
             break;
-
         case 15:
             title.innerHTML = "Winner Winner chicken dinner";
             event_text.innerHTML = "Nu moet je uitvogelen wat dit precies is door de radiodata te gebruiken.";
@@ -215,7 +206,6 @@ function swap_screen(screen) {
             option5.innerHTML = "";
             break;    
         
-
         default:
             title.innerHTML = "ERROR";
             event_text.innerHTML = "Je hebt de game gebroken. Je hoort dit niet te zien. Hoe heb je dat gedaan?"
@@ -226,16 +216,13 @@ function swap_screen(screen) {
             option5.innerHTML = "";
             
     }
-
     options.forEach(option => {
         option.classList.add("active-option");
-
         if (option.innerHTML = "") {
             option.classList.remove("active-option" );
         }
     })
 }
-
 function ask_name() {
     let name = prompt("Wat is je naam?");
     if (name != null) {

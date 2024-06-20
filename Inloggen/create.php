@@ -1,55 +1,48 @@
 <?php
-include('../config/config.php');
+include ('../config/config.php');
 
-/**
- * Gebruik dubbele quotes om de connectiestring, 
- * gebruik kleine letters voor host en dbname!
- */
-$dsn = "mysql:host=$dbHost;
-        dbname=$dbName;
-        charset=UTF8";
-
-/**
- * Maak een nieuw PDO object waarmee je verbinding maakt met de 
- * MySQL-server en de database
- */
+$dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
 $pdo = new PDO($dsn, $dbUser, $dbPass);
 
-/**
- * We gaan de $_POST-array waarden schoonmaken
- */
 $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-    // Prepare the query
-    $sql = "INSERT INTO User (Username, 
-                                Emailadress,
-                                Password,)           
-            VALUEs              (:Username, 
-                                :Emailadress, 
-                                :Password,)";
+// Debugging: Print the received POST data
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    var_dump($_POST);
+}
+
+// Check if the required fields are set and not empty
+if (!isset($_POST['username']) || empty($_POST['username']) || 
+    !isset($_POST['email']) || empty($_POST['email']) || 
+    !isset($_POST['password']) || empty($_POST['password'])) {
+    echo "All fields are required.";
+    exit;
+}
+
+// Check if the username or email already exists
+$sql = "SELECT * FROM User WHERE Username = :username OR Emailadress = :email";
+$statement = $pdo->prepare($sql);
+$statement->bindParam(':username', $_POST['username'], PDO::PARAM_STR);
+$statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
+$statement->execute();
+
+if ($statement->rowCount() > 0) {
+    // Username or email already exists
+    echo "De gebruikersnaam of het e-mailadres bestaat al";
+} else {
+    // Hash the password before storing it
+    $hashedPassword = password_hash($_POST['password'], PASSWORD_BCRYPT);
+
+    // Username and email are unique, proceed with the insertion
+    $sql = "INSERT INTO User (Username, Emailadress, Password) 
+            VALUES (:username, :email, :password)";
     $statement = $pdo->prepare($sql);
+    $statement->bindParam(':username', $_POST['username'], PDO::PARAM_STR);
+    $statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
+    $statement->bindParam(':password', $hashedPassword, PDO::PARAM_STR);
 
-    // Bind the parameters
-    $statement->bindParam(':Username', $_POST['Username'], PDO::PARAM_STR);
-    $statement->bindParam(':Emailadress', $_POST['Emailadress'], PDO::PARAM_STR);
-    $statement->bindParam(':Password', $_POST['Password'], PDO::PARAM_STR);
-    
- /**
-     * Voer de query uit in de database
-     */
-   // $statement->execute();
+    $statement->execute();
 
-    /**
-     * Geef feedback aan de gebruiker
-     */
     echo "De gegevens zijn opgeslagen";
-
-    /**
-     * Met een header() functie kun je automatisch naar een andere pagina
-     * navigeren
-     */
-    header('Refresh: 2; url=inlog.php');
-
-    
-
-
+    header('Refresh: 2; url=overzicht.php');
+}

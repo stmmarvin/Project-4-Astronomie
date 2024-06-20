@@ -48,22 +48,23 @@
                 </div>
             </div>
             <div class="screen">
-                <h2 id="title">Welkom bij PLACEHOLDER</h2>
-                <p id="event_text">Hier in PLACEHOLDER is het je doel door de ruimte te zoeken voor radio signalen. Dit doe je door...</p>
+                <h2 id="title">The Milkyway</h2>
+                <p id="event_text">Het universum te kijken van ver en je plaats daarin te begrijpen.</p>
                 <p class="option" id="option1">Begin</p>
                 <p class="option" id="option2"></p>
                 <p class="option" id="option3"></p>
                 <p class="option" id="option4"></p>
                 <p class="option" id="option5"></p>
 
-                <img src="" alt="" id="game_img"> <!--Doe dit naast alles anders in screen -->
+                <img src=" " alt="" id="game_img"> <!--Doe dit naast alles anders in screen -->
             </div>
         </div>
         </div>
         </section>
     </main>
-    <script src="scripts/screens.js"></script>
     <script src="scripts/engine.js"></script>
+    <script src="scripts/screens.js"></script>
+    
     <footer class="footer">
       <div class="rechten">
       <p>Alle rechten voorbehouden</p>

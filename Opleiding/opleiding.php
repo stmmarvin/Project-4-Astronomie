@@ -75,52 +75,53 @@
       </ul>
     </section>
 
-    <!-- Overzicht van de opleidingen -->
-    <section class="overzicht_opleidingen">
-      <h2><img src="../img/graduation.png">Overzicht van wat de opleiding inhoudt</h2>
-      <div class="opleidingen">
-        <div class="opleiding card">
-          <a href="">
-            <h3>Sterrenkunde</h3>
-            <ul>
-              <li><strong>De geschiedenis van de astronomie</strong></li>
-              <li><strong>De fysica van sterren en planeten</strong></li>
-              <li><strong>De technologie achter telescopen en ruimtevaartuigen</strong></li>
-            </ul>
-          </a>
-        </div>
-        <div class="opleiding card">
-          <a href="#">
-            <h3>Ruimtevaart</h3>
-            <ul>
-              <li><strong>De geschiedenis van de ruimtevaart</strong></li>
-              <li><strong>De fysica van ruimtevaartuigen</strong></li>
-              <li><strong>De technologie achter raketten en satellieten</strong></li>
-            </ul>
-          </a>
-        </div>
-        <div class="opleiding card">
-          <a href="#">
-            <h3>Astrofysica</h3>
-            <ul>
-              <li><strong>De fysica van sterren en planeten</strong></li>
-              <li><strong>De evolutie van het universum</strong></li>
-              <li><strong>De oorsprong van het leven in het universum</strong></li>
-            </ul>
-          </a>
-        </div>
-        <div class="opleiding card">
-          <a href="#">
-            <h3>Planetologie</h3>
-            <ul>
-              <li><strong>De geschiedenis van de planetologie</strong></li>
-              <li><strong>De fysica van planeten en manen</strong></li>
-              <li><strong>De technologie achter ruimtemissies naar planeten</strong></li>
-            </ul>
-          </a>
-        </div>
-      </div>
-    </section>
+   <!-- Overzicht van de cursussen -->
+<section class="overzicht_cursussen">
+  <h2><img src="../img/graduation.png" alt="Graduation Cap">Overzicht van de cursussen</h2>
+  <div class="cursussen">
+    <div class="cursus card">
+      <a href="https://nl.wikipedia.org/wiki/Astronomie">
+        <h3>Sterrenkunde</h3>
+        <ul>
+          <li><strong>Inleiding tot kosmische verschijnselen</strong></li>
+          <li><strong>Analyse van sterren en planeten</strong></li>
+          <li><strong>Moderne technieken in de astronomie</strong></li>
+        </ul>
+      </a>
+    </div>
+    <div class="cursus card">
+      <a href="https://en.wikipedia.org/wiki/Spaceflight">
+        <h3>Ruimtevaart</h3>
+        <ul>
+          <li><strong>Geschiedenis van de ruimteverkenning</strong></li>
+          <li><strong>Principes van ruimtevaarttechniek</strong></li>
+          <li><strong>Innovaties in raket- en satelliettechnologie</strong></li>
+        </ul>
+      </a>
+    </div>
+    <div class="cursus card">
+      <a href="https://en.wikipedia.org/wiki/Astrophysics">
+        <h3>Astrofysica</h3>
+        <ul>
+          <li><strong>Grondslagen van astrofysica</strong></li>
+          <li><strong>Oorsprong en evolutie van het universum</strong></li>
+          <li><strong>Zoeken naar exoplaneten en buitenaards leven</strong></li>
+        </ul>
+      </a>
+    </div>
+    <div class="cursus card">
+      <a href="https://en.wikipedia.org/wiki/Planetary_science">
+        <h3>Planetologie</h3>
+        <ul>
+          <li><strong>Studie van planeten en hun samenstelling</strong></li>
+          <li><strong>Analyse van planeetatmosferen</strong></li>
+          <li><strong>Exploratie van ons zonnestelsel</strong></li>
+        </ul>
+      </a>
+    </div>
+  </div>
+</section>
+
 
 
   </main>
