@@ -62,8 +62,9 @@
         </div>
         </section>
     </main>
-    <script src="scripts/screens.js"></script>
     <script src="scripts/engine.js"></script>
+    <script src="scripts/screens.js"></script>
+    
     <footer class="footer">
       <div class="rechten">
       <p>Alle rechten voorbehouden</p>
