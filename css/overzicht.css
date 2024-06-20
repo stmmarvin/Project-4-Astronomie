@@ -1,0 +1,48 @@
+     .overzicht {
+            padding: 20px;
+            background-color: #f2f2f2;
+            color: #000000;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+        }
+
+        .overzicht .container {
+            overflow-x: auto;
+        }
+
+        .overzicht table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .overzicht th, .overzicht td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .overzicht th {
+            background-color: #ffffff;
+            color: #1f1f1f;
+        }
+
+        .overzicht tr:nth-child(even) {
+            background-color: #d0d0d0;
+        }
+
+        .overzicht tr:hover {
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+
+        .overzicht th:first-child, .overzicht td:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .overzicht th:last-child, .overzicht td:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
