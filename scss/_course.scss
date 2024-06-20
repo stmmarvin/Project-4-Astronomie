@@ -511,6 +511,7 @@ h2 img {
 section {
   position: relative;
   padding: 2rem 0;
+  margin: 5%;
 }
 section h2, section h3 {
   text-align: center;
@@ -523,82 +524,105 @@ img.round {
 }
 
 
-.overzicht_opleidingen {
-  padding: 2rem 0;
-  background-color: #fff;
-  border-radius: 4%;
-  box-shadow: 0 1rem 0.6rem #0001;
-  margin: 7%;
+// Variabelen voor kleuren en typografie
+$primary-color: #2D5786;
+$secondary-color: #f1f1f1;
+$text-color: #333;
+
+.overzicht_cursussen {
+  padding: 20px;
+  background-color: $secondary-color;
 
   h2 {
-    text-align: left;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+    img {
+      margin-right: 10px;
+    }
   }
 
-  .opleidingen {
+  .cursussen {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-  }
+    gap: 20px;
 
-  .opleiding.card {
-    background-color: #f8f8f8;
-    border: 1px solid #aaa;
-    box-shadow: 0 0.5rem 0.3rem #0001;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    flex: 1 1 calc(25% - 1.5rem);
-    max-width: calc(25% - 1.5rem);
-    text-align: center;
-    position: relative;
+    .cursus {
+      flex: 1 1 calc(25% - 20px);
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
 
-    .opleiding-image {
-      position: relative;
-      bottom: 8%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%; 
-    }
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
 
-    h3 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
+      a {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: inherit;
 
-    p {
-      font-size: 15px;
-      font-style: italic;
-    }
+        h3 {
+          font-size: 20px;
+          color: $primary-color;
+          margin-bottom: 10px;
+        }
 
-    a {
-      display: block;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      color: black;
-      border-radius: 0.5rem;
-      text-decoration: none;
-    }
+        ul {
+          list-style-type: none;
+          padding: 0;
 
-    ul {
-      position: relative;
-      list-style: none;
-      padding: 0;
-      font-size: 0.9rem;
-      text-align: left;
+          li {
+            font-size: 16px;
+            margin-bottom: 5px;
 
-      li {
-        text-align: left;
-        margin: 8%;
-
-        strong {
-          font-weight: bold;
+            strong {
+              font-weight: bold;
+            }
+          }
         }
       }
     }
   }
 }
+
+// Responsieve stijlen
+@media (max-width: 1200px) {
+  .overzicht_cursussen {
+    .cursussen {
+      .cursus {
+        flex: 1 1 calc(33.333% - 20px);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .overzicht_cursussen {
+    .cursussen {
+      .cursus {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .overzicht_cursussen {
+    .cursussen {
+      .cursus {
+        flex: 1 1 100%;
+      }
+    }
+  }
+}
+
 
 
 
