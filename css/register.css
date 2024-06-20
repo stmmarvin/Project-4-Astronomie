@@ -1,38 +1,34 @@
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 20px;
-  margin-left: 20px;
+.Register h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
-form .input-group {
-  display: flex;
-  justify-content: justify;
+.Register form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Register form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.Register form input[type=text],
+.Register form input[type=password],
+.Register form input[type=email] {
   width: 100%;
-  margin-bottom: 10px;
-}
-form .input-group label {
-  margin-right: 10px;
-}
-form .input-group input[type=text],
-form .input-group input[type=email],
-form .input-group input[type=password] {
-  width: 300px;
   padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
   border: 1px solid #ccc;
-}
-form input[type=submit] {
-  width: 150px;
-  padding: 10px;
+  border-radius: 3px;
   margin-bottom: 10px;
-  border-radius: 5px;
+}
+.Register form input[type=submit] {
   background-color: #4CAF50;
   color: #fff;
+  padding: 10px 20px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
-  margin-top: 10px;
 }
 
 /*# sourceMappingURL=register.css.map */

@@ -41,23 +41,18 @@
     </div>
   </header>
 
+  <h1>Registreren</h1>
   <div class="Register">
-    <h1>Registeren</h1>
     <form method="POST" action="create.php">
-      <div class="input-group">
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" placeholder="Vul hier naam in." required>
-      </div>
-      <div class="input-group">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="Vul hier email in." required>
-      </div>
-      <div class="input-group">
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" placeholder="Vul hier wachtwoord in." required>
-      </div>
-      <input type="submit" value="Registeer">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Vul hier naam in." required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Vul hier email in." required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Vul hier wachtwoord in." required>
+        <input type="submit" value="Registeer">
     </form>
+</div>
 <br>
     <p>Heb je al een account? <a href="inlog.php">Log in</a></p>
   </div>
