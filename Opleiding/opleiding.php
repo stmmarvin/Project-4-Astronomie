@@ -80,7 +80,7 @@
   <h2><img src="../img/graduation.png" alt="Graduation Cap">Overzicht van de cursussen</h2>
   <div class="cursussen">
     <div class="cursus card">
-      <a href="#">
+      <a href="https://nl.wikipedia.org/wiki/Astronomie">
         <h3>Sterrenkunde</h3>
         <ul>
           <li><strong>Inleiding tot kosmische verschijnselen</strong></li>
@@ -90,7 +90,7 @@
       </a>
     </div>
     <div class="cursus card">
-      <a href="#">
+      <a href="https://en.wikipedia.org/wiki/Spaceflight">
         <h3>Ruimtevaart</h3>
         <ul>
           <li><strong>Geschiedenis van de ruimteverkenning</strong></li>
@@ -100,7 +100,7 @@
       </a>
     </div>
     <div class="cursus card">
-      <a href="#">
+      <a href="https://en.wikipedia.org/wiki/Astrophysics">
         <h3>Astrofysica</h3>
         <ul>
           <li><strong>Grondslagen van astrofysica</strong></li>
@@ -110,7 +110,7 @@
       </a>
     </div>
     <div class="cursus card">
-      <a href="#">
+      <a href="https://en.wikipedia.org/wiki/Planetary_science">
         <h3>Planetologie</h3>
         <ul>
           <li><strong>Studie van planeten en hun samenstelling</strong></li>
