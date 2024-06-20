@@ -66,9 +66,8 @@
     <script src="scripts/screens.js"></script>
     
     <footer class="footer">
-      <div class="rechten">
-      <p>Alle rechten voorbehouden</p>
-      <p>© 2024</p>
+    <div class="rechten">
+      <p>Alle rechten voorbehouden © 2024</p>
       </div>
 
       <div class="footer-column">

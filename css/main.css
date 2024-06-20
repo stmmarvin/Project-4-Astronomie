@@ -1372,13 +1372,14 @@ img.round {
 
 .img {
   border-radius: 4px;
-  padding: 5px;
-  margin: 5%;
-  height: 35em;
+  height: 100%;
   transition: transform 0.2s;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 5%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .img:hover {
   transform: scale(1.1);
