@@ -8,4 +8,3 @@ $dbName = 'astronomie';
 $dbUser = 'root';
 //Password of the user
 $dbPass = '';
-?>

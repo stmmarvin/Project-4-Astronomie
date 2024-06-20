@@ -44,6 +44,7 @@
   <h1>Registreren</h1>
   <div class="Register">
     <form method="POST" action="create.php">
+        <input type="hidden" name="form_type" value="register">
         <label for="username">Gebruikersnaam</label>
         <input type="text" name="username" id="username" placeholder="Vul hier naam in." required>
         <label for="email">Email</label>
