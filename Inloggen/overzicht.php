@@ -118,9 +118,11 @@ $tableRows = "";
                 </tr>
                 <?php echo $tableRows; ?>
             </table>
+            <a href="../index.php">Terug</a>
         </div>
     </section>
     </main>
+   
 
     <footer class="footer">
     <div class="rechten">
