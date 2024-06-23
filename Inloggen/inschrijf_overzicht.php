@@ -37,7 +37,6 @@ $statement->execute();
  */
 $result = $statement->fetchAll(PDO::FETCH_OBJ);
 
-// var_dump($result);
 /**
  * Maak een variabele aan waarin de rijen komen voor de tabel beneden
  */
@@ -49,10 +48,11 @@ $tableRows = "";
 
 foreach ($result as $row) {
   $date = date('Y-m-d H:i:s', strtotime($row->Date));
+  $password = 'hidden';
   $tableRows .= "<tr>
                         <td>$row->Username</td>
                         <td>$row->Email</td>
-                        <td>$row->Password</td>
+                        <td>$password</td>
                         <td>$date</td>
                     </tr>";
 }
