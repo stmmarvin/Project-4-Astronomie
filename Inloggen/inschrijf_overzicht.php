@@ -13,10 +13,11 @@ $pdo = new PDO($dsn, $dbUser, $dbPass);
 
 $sql = "SELECT
                 Username,
-                Emailadress,
+                Email,
+                Password,
                 Date
          FROM User
-         ORDER BY date";
+         ORDER BY date DESC";
 
 
 /**
@@ -50,7 +51,8 @@ foreach ($result as $row) {
   $date = date('Y-m-d H:i:s', strtotime($row->Date));
   $tableRows .= "<tr>
                         <td>$row->Username</td>
-                        <td>$row->Emailadress</td>
+                        <td>$row->Email</td>
+                        <td>$row->Password</td>
                         <td>$date</td>
                     </tr>";
 }
@@ -111,6 +113,7 @@ foreach ($result as $row) {
           <tr>
             <th>Username</th>
             <th>Email</th>
+            <th>Password</th>
             <th>Date</th>
           </tr>
           <?php echo $tableRows; ?>

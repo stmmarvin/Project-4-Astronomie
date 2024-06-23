@@ -40,7 +40,7 @@ function swap_screen(screen) {
             option5.innerHTML = "";
             break;
         case 3:
-            event_img.src = "img/Amundsen-Scott-comms-room-from-wikimedia-commons";
+            event_img.src = "";
             title.innerHTML = "Antartictische afflictie"
             event_text.innerHTML = "Waarom zou je in je kamer zijn? Je werkt nu in het <a href='https://en.wikipedia.org/wiki/Amundsen%E2%80%93Scott_South_Pole_Station'>Amundsen-Scott radio antarctische onderzoek station</a>. Je bent niet thuis omdat je op de zuidpool bent. Je kijkt uit het raam en ziet alleen maar wit. Het is licht buiten. Het is twaalf uur s'nachts.";
             option1.innerHTML = "Rek uit.";

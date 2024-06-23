@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 22 jun 2024 om 19:38
+-- Gegenereerd op: 23 jun 2024 om 19:26
 -- Serverversie: 8.2.0
 -- PHP-versie: 8.2.13
 
@@ -38,17 +38,6 @@ CREATE TABLE IF NOT EXISTS `contact` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Gegevens worden geëxporteerd voor tabel `contact`
---
-
-INSERT INTO `contact` (`id`, `Firstname`, `Lastname`, `PhoneNumber`, `Email`, `Question`) VALUES
-(29, 'Marvin', 'Akpabot', 127, 'marvinakpabot@gmail.com', 'rest'),
-(30, 'Marvin', 'Akpabot', 127, 'marvinakpabot@gmail.com', 'test'),
-(31, 'test', 'test', 127, 'marvinakpabot@gmail.com', 'test'),
-(32, 'test', 'max', 127, 'a@live.com', 'test'),
-(33, 'test', 'ak[pa', 127, 'E@dhgfghfhm.m', 'hghg');
-
 -- --------------------------------------------------------
 
 --
@@ -59,13 +48,12 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
   `id` tinyint UNSIGNED NOT NULL AUTO_INCREMENT,
   `Username` varchar(20) NOT NULL,
-  `Emailadress` varchar(100) NOT NULL,
+  `Email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `Password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

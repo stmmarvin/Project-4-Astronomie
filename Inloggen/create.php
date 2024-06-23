@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
 
-        $sql = "SELECT * FROM User WHERE Username = :username OR Emailadress = :email";
+        $sql = "SELECT * FROM User WHERE Username = :username OR Email = :email";
         $statement = $pdo->prepare($sql);
         $statement->bindParam(':username', $_POST['username'], PDO::PARAM_STR);
         $statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
@@ -25,8 +25,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header('Refresh: 2; url=register.php');
         } else {
             $hashedPassword = password_hash($_POST['password'], PASSWORD_BCRYPT);
-            $sql = "INSERT INTO User (Username, Emailadress, Password) 
-                    VALUES (:username, :email, :password)";
+            $sql = "INSERT INTO User (Username, Email, Password, Date) 
+            VALUES (:username, :email, :password, NOW())";
             $statement = $pdo->prepare($sql);
             $statement->bindParam(':username', $_POST['username'], PDO::PARAM_STR);
             $statement->bindParam(':email', $_POST['email'], PDO::PARAM_STR);
