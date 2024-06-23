@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 06 jun 2024 om 08:49
+-- Gegenereerd op: 22 jun 2024 om 19:38
 -- Serverversie: 8.2.0
 -- PHP-versie: 8.2.13
 
@@ -27,9 +27,6 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `contact`
 --
 
-create database if not exists `astronomie`;
-use astronomie;
-
 DROP TABLE IF EXISTS `contact`;
 CREATE TABLE IF NOT EXISTS `contact` (
   `id` tinyint NOT NULL AUTO_INCREMENT,
@@ -39,14 +36,18 @@ CREATE TABLE IF NOT EXISTS `contact` (
   `Email` varchar(100) NOT NULL,
   `Question` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `contact`
 --
 
 INSERT INTO `contact` (`id`, `Firstname`, `Lastname`, `PhoneNumber`, `Email`, `Question`) VALUES
-(26, 'Marvin', 'Akpabot', 127, 'marvinakpabot@gmail.com', 'test');
+(29, 'Marvin', 'Akpabot', 127, 'marvinakpabot@gmail.com', 'rest'),
+(30, 'Marvin', 'Akpabot', 127, 'marvinakpabot@gmail.com', 'test'),
+(31, 'test', 'test', 127, 'marvinakpabot@gmail.com', 'test'),
+(32, 'test', 'max', 127, 'a@live.com', 'test'),
+(33, 'test', 'ak[pa', 127, 'E@dhgfghfhm.m', 'hghg');
 
 -- --------------------------------------------------------
 
@@ -60,9 +61,11 @@ CREATE TABLE IF NOT EXISTS `user` (
   `Username` varchar(20) NOT NULL,
   `Emailadress` varchar(100) NOT NULL,
   `Password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-COMMIT;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -3,7 +3,6 @@ include ('../config/config.php');
 $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
 $pdo = new PDO($dsn, $dbUser, $dbPass);
 $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-var_dump($_POST);
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($_POST['form_type'] == 'register') {
         if (
@@ -23,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($statement->rowCount() > 0) {
             echo "De gebruikersnaam of het e-mailadres bestaat al";
+            header('Refresh: 2; url=register.php');
         } else {
             $hashedPassword = password_hash($_POST['password'], PASSWORD_BCRYPT);
             $sql = "INSERT INTO User (Username, Emailadress, Password) 
@@ -60,6 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         } else {
             echo "Gebruikersnaam bestaat niet";
+            header('Refresh: 2; url=inlog.php');
         }
     }
 }
